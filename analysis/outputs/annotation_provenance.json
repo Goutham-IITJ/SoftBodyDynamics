@@ -1,0 +1,5 @@
+{
+  "config_sha256": "d44de416d68ec37ce321696405773d0b3269202e5373a3f6d84fe8b741a77b72",
+  "script_sha256": "f3b4890a3b453a08886ffcf8ae6253beff5100f59235767c98834c438e4060be",
+  "method": "Manual event brackets and conservative candidate hold windows; no direct hand-force observation."
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "model_sha256": "c145150ca08a3ecc317dbf30f1e8277197cdf1697ab5eaf3e1c350b01d6a9a8f",
+  "equilibria": 51,
+  "nodes": 27,
+  "tetrahedra": 48,
+  "max_free_residual_N": 1.6465995233971853e-14,
+  "min_J": 0.48419936164965655,
+  "max_force_error_N": 1.8557981817934888e-08,
+  "max_top_bottom_balance_N": 6.589173651150304e-14,
+  "unloaded_reference_error_m": 6.938893903907228e-18,
+  "protected_files_unchanged": 401,
+  "encoding": {
+    "codec": "OpenCV mp4v / MPEG-4 Part 2; GIF is browser fallback",
+    "encoded_frames": 452,
+    "fps_presentation_only": 10,
+    "presentation_seconds": 45.2,
+    "unique_scenes": 57
+  },
+  "runtime_seconds": 56.23629649999202,
+  "no_fresh_experiment_available": true,
+  "no_physical_recovery_timescale": true
+}

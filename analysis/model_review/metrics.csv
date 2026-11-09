@@ -1,0 +1,13 @@
+model,split,rmse_mm,mae_mm
+linear,held_out_intermediate_load,1.3658851716154041,1.2956696160159336
+linear,initial_fit,2.4346037658254662,2.1892336140733364
+linear,repeatability,2.5409527299449146,2.3963555128681366
+local_interpolation,held_out_intermediate_load,0.4899186591863252,0.4322991419977207
+local_interpolation,initial_fit,0.0,0.0
+local_interpolation,repeatability,0.30231452995469904,0.2202148815620033
+power,held_out_intermediate_load,0.975846750998833,0.874868180506648
+power,initial_fit,0.0,0.0
+power,repeatability,0.30231452995469904,0.2202148815620033
+quadratic,held_out_intermediate_load,0.9465680909442838,0.8420858641622839
+quadratic,initial_fit,0.11865926704411674,0.11600243088220163
+quadratic,repeatability,0.3775317657082719,0.3231243296770019

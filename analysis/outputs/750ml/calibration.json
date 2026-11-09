@@ -1,0 +1,43 @@
+{
+  "pixels_per_mm_original": 18.51596638655462,
+  "pixels_per_mm_working": 9.25798319327731,
+  "tick_count": 35,
+  "tick_fit_rms_px": 2.8996336234186573,
+  "local_1mm_spacing_min_px": 17.0,
+  "local_1mm_spacing_max_px": 20.0,
+  "vertical_y_to_mm_polynomial": [
+    4.974927493647712e-06,
+    0.050495244374237906,
+    -1.7561216037932739
+  ],
+  "vertical_calibration_rms_mm": 0.01912553893335035,
+  "tick_y_min_px": 35,
+  "tick_y_max_px": 664,
+  "scale_systematic_fraction_assumed": 0.1,
+  "assumptions": "Ticks are 1 mm; ruler and observed face approximately coplanar. Quadratic y-to-mm calibration accounts for nonuniform vertical tick spacing; below the lowest tick it extrapolates. Horizontal scale is a ruler-equivalent estimate. The configured systematic sensitivity allowance is an assumption, not a calibration certificate.",
+  "baseline_measurements": {
+    "height_mm": 28.309030132794515,
+    "yellow_thickness_mm": 17.960394241092466,
+    "green_thickness_mm": 10.247904099183245,
+    "plate_center_y_px": 227.0,
+    "plate_angle_deg": 0.0735906302252597,
+    "plate_left_tip_x_px": 190.0,
+    "bottom_y_px": 740.0,
+    "interface_y_px": 558.0,
+    "silhouette_width_mm": 68.58945266406464,
+    "height_left_mm": 27.51017995118255,
+    "height_center_mm": 28.309030132794515,
+    "height_right_mm": 28.613772942913975,
+    "height_noise_sd_mm": 0.035933712175844186
+  },
+  "dimension_check": {
+    "height_measured_mm": 28.309030132794515,
+    "height_user_approx_mm": 27,
+    "length_measured_mm": 68.58945266406464,
+    "length_user_mm": 73,
+    "yellow_measured_mm": 17.960394241092466,
+    "yellow_user_approx_mm": 20,
+    "green_measured_mm": 10.247904099183245,
+    "green_user_approx_mm": 7
+  }
+}

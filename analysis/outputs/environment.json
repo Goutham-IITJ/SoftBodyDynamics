@@ -1,0 +1,9 @@
+{
+  "python": "3.10.7",
+  "opencv": "5.0.0",
+  "numpy": "2.2.6",
+  "scipy": "1.14.1",
+  "matplotlib": "3.9.0",
+  "config_sha256": "0e6b1d5453672f2c2a39153b9ce0f98e3e6c37fa223106ede75b3266be8a4b19",
+  "script_sha256": "f2c1e3b574963a8b0fd61abe81a0c3417404242cd28185ce981a114d068bf67a"
+}

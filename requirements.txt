@@ -1,0 +1,7 @@
+# Demonstration/evaluation runtime. Tested on Python 3.10.7; no extra installs in development.
+numpy==2.2.6
+scipy==1.14.1
+matplotlib==3.9.0
+Pillow==10.3.0
+opencv-python>=4.10,<6
+# Older extraction/model-review scripts also use pandas; not needed for frozen demo.

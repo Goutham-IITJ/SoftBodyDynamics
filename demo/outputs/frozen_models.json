@@ -1,0 +1,62 @@
+{
+  "primary": {
+    "scenario": "primary",
+    "mu_Pa": 6999.814990181902,
+    "alpha": 10.0,
+    "beta": 0.0,
+    "geometry_m": {
+      "length": 0.073,
+      "width": 0.05,
+      "yellow_height": 0.02,
+      "backing_height": 0.007,
+      "platen_length": 0.085,
+      "platen_width": 0.05
+    },
+    "subdivisions": [
+      2,
+      2,
+      2
+    ],
+    "inner_force_tolerance_N": 5e-08,
+    "maximum_compression_fraction": 0.65,
+    "gravity_m_s2": 9.81,
+    "nominal_demonstration_tare_g": 75,
+    "parameters_sha256": "ea2e929209e2291efa49f757b9477cf50e756b9be31dbcaf9584559796aeb0f1",
+    "core_sha256": {
+      "analysis/material/hyperfoam.py": "3b309f73c8edfd79fde391162acd59b3f7025016a128b7d72561caef3618e7ce",
+      "analysis/fem/tetra.py": "ec986dbeac692ddf698e5f52f603f7ec2451d5dc1cadcd0c4e53e66dccd78833",
+      "analysis/fem_solver/solver.py": "5ea8dc847ee5fe49be2322cf64c02dbc25ab486c9eb08d222194db86609aee76",
+      "analysis/sponge/geometry.py": "be600c9e37db0674daa74c7832e0467a01e391869440a76942bedbf86b37d0ee"
+    }
+  },
+  "alpha20": {
+    "scenario": "alpha20",
+    "mu_Pa": 13361.887156060082,
+    "alpha": 20.0,
+    "beta": 0.0,
+    "geometry_m": {
+      "length": 0.073,
+      "width": 0.05,
+      "yellow_height": 0.02,
+      "backing_height": 0.007,
+      "platen_length": 0.085,
+      "platen_width": 0.05
+    },
+    "subdivisions": [
+      2,
+      2,
+      2
+    ],
+    "inner_force_tolerance_N": 5e-08,
+    "maximum_compression_fraction": 0.65,
+    "gravity_m_s2": 9.81,
+    "nominal_demonstration_tare_g": 75,
+    "parameters_sha256": "ea2e929209e2291efa49f757b9477cf50e756b9be31dbcaf9584559796aeb0f1",
+    "core_sha256": {
+      "analysis/material/hyperfoam.py": "3b309f73c8edfd79fde391162acd59b3f7025016a128b7d72561caef3618e7ce",
+      "analysis/fem/tetra.py": "ec986dbeac692ddf698e5f52f603f7ec2451d5dc1cadcd0c4e53e66dccd78833",
+      "analysis/fem_solver/solver.py": "5ea8dc847ee5fe49be2322cf64c02dbc25ab486c9eb08d222194db86609aee76",
+      "analysis/sponge/geometry.py": "be600c9e37db0674daa74c7832e0467a01e391869440a76942bedbf86b37d0ee"
+    }
+  }
+}

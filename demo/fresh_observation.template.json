@@ -1,0 +1,7 @@
+{
+  "experiment_id": "REPLACE_WITH_PREDICTION_EXPERIMENT_ID",
+  "observed_settled_compression_mm": null,
+  "loading_condition": "centered_full_face_stationary",
+  "initial_state_notes": "REPLACE: baseline, rest duration, prior cycles, centering and tilt",
+  "measurement_notes": "REPLACE: settling window, optical calibration and uncertainty; do not fill until after prediction is saved"
+}

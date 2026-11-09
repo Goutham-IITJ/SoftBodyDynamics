@@ -1,0 +1,11 @@
+video,cycle,split,event,start_s,end_s,start_frame,end_frame,source,hands_off_verified
+1000ml,1,initial_fit,contact,4.0,6.5,240,390,manual visual annotation; conservative bracket/window,False
+1000ml,1,initial_fit,hold,12.0,14.0,720,840,manual visual annotation; conservative bracket/window,False
+1000ml,1,initial_fit,lifting,14.5,15.5,869,926,manual visual annotation; conservative bracket/window,False
+1000ml,1,initial_fit,separation,17.163,17.313,1025,1034,manual visual annotation; conservative bracket/window,False
+1000ml,1,initial_fit,conservative_free_recovery,17.313,21.0,1034,1256,manual visual annotation; conservative bracket/window,False
+1000ml,2,repeatability,contact,21.0,23.0,1256,1376,manual visual annotation; conservative bracket/window,False
+1000ml,2,repeatability,hold,27.0,30.0,1616,1796,manual visual annotation; conservative bracket/window,False
+1000ml,2,repeatability,lifting,30.0,31.0,1796,1856,manual visual annotation; conservative bracket/window,False
+1000ml,2,repeatability,separation,31.744,31.877,1901,1908,manual visual annotation; conservative bracket/window,False
+1000ml,2,repeatability,conservative_free_recovery,31.877,34.29332222222222,1908,2047,manual visual annotation; conservative bracket/window,False

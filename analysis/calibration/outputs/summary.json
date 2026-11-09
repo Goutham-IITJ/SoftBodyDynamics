@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "primary_mu_Pa": 6999.814990181902,
+  "calibration_RMSE_mm": 0.8001797294304233,
+  "primary_750_mm": 7.48843941360137,
+  "max_free_residual_N": 1.0781810444842794e-07,
+  "max_direct_free_residual_N": 4.9572916031815315e-08,
+  "max_force_error_N": 5.535427582969987e-08,
+  "max_force_balance_N": 1.4417407179223574e-07,
+  "min_final_J": 0.424094663622653,
+  "min_recorded_J": 0.424094663622653,
+  "max_mesh_or_scaling_displacement_difference_mm": 9.154984756398754e-08,
+  "audited_states": 180,
+  "history_rows": 463,
+  "sensitivity_refits": 23,
+  "sensitivity_records": 31,
+  "local_jacobian_rank": 2,
+  "local_singular_values_m": [
+    0.0012955103985396686,
+    0.00014873139422768455
+  ],
+  "local_null_vector_scaled_coordinates": [
+    -0.9810594352260413,
+    -0.16815783667402895,
+    -0.09615262096828908
+  ],
+  "protected_files_unchanged": 337,
+  "frozen_fits_sha256": "043d0fc64a35513e2b863394aeea5ab0d687f6c3c98007531258020bf5ffc3b8",
+  "numpy": "2.2.6",
+  "scipy": "1.14.1"
+}

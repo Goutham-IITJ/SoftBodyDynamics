@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "geometry_SI": {
+    "length": 0.073,
+    "width": 0.05,
+    "yellow_height": 0.02,
+    "backing_height": 0.007,
+    "platen_length": 0.085,
+    "platen_width": 0.05
+  },
+  "nominal_contact_area_m2": 0.00365,
+  "yellow_volume_m3": 7.3e-05,
+  "synthetic_materials": [
+    {
+      "mu_Pa": 2000,
+      "alpha": 10,
+      "beta": 0
+    },
+    {
+      "mu_Pa": 2000,
+      "alpha": 10,
+      "beta": 0.125
+    }
+  ],
+  "mesh_resolutions": [
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      2,
+      2
+    ]
+  ],
+  "equilibria": 28,
+  "translation_checks": 6,
+  "max_free_residual_N": 9.711087068960557e-09,
+  "max_force_balance_N": 5.6508734310568284e-09,
+  "min_J": 0.5999999999999999,
+  "min_history_J": 0.5999999999999999,
+  "max_analytic_position_error_m": 1.2722328884828826e-09,
+  "max_unload_position_error_m": 8.709895998881834e-11,
+  "max_translation_energy_difference_J": 3.5561831257524545e-17,
+  "max_translation_reaction_difference_N": 4.4675335068877734e-10,
+  "max_translation_node_difference_m": 5.125295037424408e-11,
+  "max_mesh_reaction_difference_N": 1.847696795564957e-08,
+  "max_mesh_compression_difference_m": 5.999068602990931e-11,
+  "protected_files_unchanged": 275,
+  "assumptions": [
+    "rigid backing; no interlayer shear",
+    "massless rigid platen; full-face frictionless bilateral planes",
+    "no finite-footprint collision",
+    "synthetic parameters; no calibration",
+    "quasi-static unloading; no recovery timescale"
+  ]
+}

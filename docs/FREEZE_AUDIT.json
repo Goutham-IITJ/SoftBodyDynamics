@@ -1,0 +1,118 @@
+{
+  "audit_UTC": "2026-11-09T11:16:20.394749+00:00",
+  "status": "PASS",
+  "scope": "Documentation-only organization; no baseline code/data/configuration/result/media changes",
+  "baseline_manifest_files": 446,
+  "unchanged_preexisting_files": 445,
+  "modified_preexisting_files": [
+    "README.md"
+  ],
+  "files_added_by_this_task": [
+    ".gitignore",
+    "docs/BASELINE.md",
+    "docs/BASELINE_MANIFEST.json",
+    "docs/FREEZE_AUDIT.json",
+    "docs/README.md",
+    "docs/REPOSITORY_AUDIT.md",
+    "docs/REPRODUCIBILITY.md",
+    "docs/SIMULATOR_ROADMAP.md",
+    "docs/SUBMISSION_CHECKLIST.md",
+    "docs/SUBMISSION_MANIFEST.json",
+    "docs/check_baseline.py",
+    "experiments/README.md",
+    "experiments/localized_loading/README.md"
+  ],
+  "concurrent_media_arrivals": {
+    "Videos/fingertip.mp4": {
+      "bytes": 45712866,
+      "sha256": "63ff166d3182b7f41aeed1feb4256b8e551cd04e88e35ed1a4e133f94c3bdbe7"
+    },
+    "Videos/half area.mp4": {
+      "bytes": 47762345,
+      "sha256": "4fd7b4c842010140a71b38a7da26a42175ddfbe04d2e5df6ef155acc3f3e23fe"
+    }
+  },
+  "git_status_before": "?? .gitattributes\n?? Assignment/\n?? Papers/\n?? README.md\n?? Videos/\n?? analysis/\n?? demo/\n?? requirements.txt\n",
+  "git_status_after": " M README.md\n?? .gitattributes\n?? .gitignore\n?? Assignment/\n?? Papers/\n?? Videos/\n?? analysis/README.md\n?? analysis/REPORT.md\n?? analysis/calibration/REPORT.md\n?? analysis/calibration/outputs/\n?? analysis/calibration/run_calibration.py\n?? analysis/calibration/test_calibration.py\n?? analysis/fem/verification/\n?? analysis/fem_solver/verification/\n?? analysis/fem_solver/verify_solver.py\n?? analysis/material/hyperfoam.py\n?? analysis/material/test_hyperfoam.py\n?? analysis/material/verification/\n?? analysis/model_review.py\n?? analysis/model_review/\n?? analysis/model_selection.py\n?? analysis/model_selection/\n?? analysis/outputs/\n?? analysis/review_frames.py\n?? analysis/sponge/\n?? analysis/summarize.py\n?? analysis/validate.py\n?? demo/FRESH_VALIDATION.md\n?? demo/check.py\n?? demo/evaluate.py\n?? demo/fresh_observation.template.json\n?? demo/frozen_models.json\n?? demo/model.py\n?? demo/outputs/\n?? docs/BASELINE.md\n?? docs/FREEZE_AUDIT.json\n?? docs/README.md\n?? docs/REPOSITORY_AUDIT.md\n?? docs/REPRODUCIBILITY.md\n?? docs/SIMULATOR_ROADMAP.md\n?? docs/SUBMISSION_CHECKLIST.md\n?? docs/SUBMISSION_MANIFEST.json\n?? docs/check_baseline.py\n?? experiments/\n?? requirements.txt\n",
+  "git_HEAD_after": "5d56d8ea587a880aff693ddbc74ac15c4c03c875",
+  "git_recent_commits": [
+    "5d56d8e material report",
+    "bb36461 solver and report",
+    "fc00611 analysis"
+  ],
+  "git_tracked_files_after": [
+    "README.md",
+    "analysis/annotate.py",
+    "analysis/calibration/calibrate.py",
+    "analysis/config.json",
+    "analysis/extract.py",
+    "analysis/fem/REPORT.md",
+    "analysis/fem/patch_test.py",
+    "analysis/fem/test_tetra.py",
+    "analysis/fem/tetra.py",
+    "analysis/fem_solver/REPORT.md",
+    "analysis/fem_solver/solver.py",
+    "analysis/fem_solver/test_solver.py",
+    "analysis/material/REPORT.md",
+    "demo/TECHNICAL_SUMMARY.md",
+    "demo/render.py",
+    "demo/run_demo.py",
+    "demo/test_demo.py",
+    "docs/BASELINE_MANIFEST.json"
+  ],
+  "agent_created_commits_tags_branches_pushes_or_emails": false,
+  "suggested_user_tag": "baseline-v1-fullface-fem",
+  "tests": {
+    "command": "python -B demo/check.py",
+    "passed": 36,
+    "runtime_seconds": 85.194
+  },
+  "commands_verified": {
+    "force_query_N": 6.5,
+    "predicted_mm": 5.103504445816268,
+    "evaluator_help": [
+      "--help",
+      "predict --help",
+      "score --help"
+    ],
+    "safe_imports": [
+      "demo.run_demo:run()",
+      "analysis.calibration.run_calibration:run()"
+    ],
+    "fixed_output_regeneration_executed": false
+  },
+  "local_link_checks": {
+    "local_document_and_media_targets": 159,
+    "local_viewer_targets": 17
+  },
+  "baseline_model_mu_Pa": 6999.814990181902,
+  "requirements_unchanged": true,
+  "environment": {
+    "python": "3.10.7",
+    "packages": {
+      "numpy": "2.2.6",
+      "scipy": "1.14.1",
+      "matplotlib": "3.9.0",
+      "Pillow": "10.3.0",
+      "opencv-python": "5.0.0.93",
+      "pandas": "2.2.2"
+    }
+  },
+  "cache_files_preserved": [
+    "analysis/__pycache__/extract.cpython-310.pyc"
+  ],
+  "original_research_assets_ignored": false,
+  "initial_payload_bytes_including_cache": 345609863,
+  "initial_payload_file_count_including_cache": 447,
+  "final_payload_bytes_including_cache": 439293504,
+  "final_payload_file_count_including_cache": 462,
+  "git_administration_bytes_at_scan": 130166,
+  "outstanding": [
+    "Genuine prospective experiment not established",
+    "Physical recovery timing unresolved",
+    "Paper-discussion readiness not verified",
+    "Partial Git commits / many untracked files",
+    "Publication/access/result link not verified",
+    "Submission communication not sent"
+  ]
+}

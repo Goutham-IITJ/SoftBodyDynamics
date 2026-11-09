@@ -1,0 +1,7 @@
+# Preserve the byte-level provenance/frozen-model hashes across platform checkouts.
+# -text disables newline conversion; it does not disable ordinary text diffs.
+analysis/** -text
+demo/** -text
+Videos/** -text
+Assignment/** -text
+Papers/** -text

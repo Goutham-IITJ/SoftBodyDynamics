@@ -1,0 +1,11 @@
+video,cycle,split,event,start_s,end_s,start_frame,end_frame,source,hands_off_verified
+750ml,1,held_out_intermediate_load,contact,4.0,5.2,239,311,manual visual annotation; conservative bracket/window,False
+750ml,1,held_out_intermediate_load,hold,13.2,14.2,791,851,manual visual annotation; conservative bracket/window,False
+750ml,1,held_out_intermediate_load,lifting,14.2,15.0,851,899,manual visual annotation; conservative bracket/window,False
+750ml,1,held_out_intermediate_load,separation,16.28,16.38,975,981,manual visual annotation; conservative bracket/window,False
+750ml,1,held_out_intermediate_load,conservative_free_recovery,16.38,18.5,981,1109,manual visual annotation; conservative bracket/window,False
+750ml,2,held_out_intermediate_load,contact,18.5,20.5,1109,1229,manual visual annotation; conservative bracket/window,False
+750ml,2,held_out_intermediate_load,hold,25.0,27.5,1499,1649,manual visual annotation; conservative bracket/window,False
+750ml,2,held_out_intermediate_load,lifting,28.0,28.6,1679,1715,manual visual annotation; conservative bracket/window,False
+750ml,2,held_out_intermediate_load,separation,29.328,29.444,1759,1765,manual visual annotation; conservative bracket/window,False
+750ml,2,held_out_intermediate_load,conservative_free_recovery,29.444,31.39382222222222,1765,1882,manual visual annotation; conservative bracket/window,False

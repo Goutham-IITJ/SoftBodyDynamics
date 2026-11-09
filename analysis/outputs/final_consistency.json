@@ -1,0 +1,18 @@
+{
+  "contact_sheet_tiles_checked": 192,
+  "representative_images_indexed": 133,
+  "contact_sheet_timestamps_match_measurements": true,
+  "phase_frame_boundaries_match_measurements": true,
+  "measurement_csv_sha256": {
+    "outputs\\1000ml\\measurements.csv": "d0eeddfa02a2243c23a9bdd558ff86a98dfd702141aa986d1738469239fff39e",
+    "outputs\\500ml\\measurements.csv": "6833fc41e3c23fa4c3053c26596c795b4554927234f5e1545b05d0a10c068761",
+    "outputs\\750ml\\measurements.csv": "58d411ba8a4f4d2de9266df1298ac503c87d50e9d66e512008923d43547b12da"
+  },
+  "script_sha256": {
+    "annotate.py": "f3b4890a3b453a08886ffcf8ae6253beff5100f59235767c98834c438e4060be",
+    "extract.py": "f2c1e3b574963a8b0fd61abe81a0c3417404242cd28185ce981a114d068bf67a",
+    "review_frames.py": "df950481699ac2265d7f722c565376a3eb6ca3a4f38c4f6ed4273b22ba699b11",
+    "summarize.py": "8667f81ebe8417a23facd4f12c8b0d6c5ec27551001671dbc7f4dc3deae4d446",
+    "validate.py": "9d19e992d61fd0e7cb1beaf995d628ceb8ce33e0ef3c1a9882f9a505c946a26a"
+  }
+}

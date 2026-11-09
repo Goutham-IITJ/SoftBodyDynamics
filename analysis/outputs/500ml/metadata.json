@@ -1,0 +1,20 @@
+{
+  "source": "Videos/500ml.mp4",
+  "sha256_before": "207106739648fe740da6273e79666caeb935850076051af02c5727456e197b56",
+  "file_bytes": 51964252,
+  "width": 1920,
+  "height": 1080,
+  "reported_fps": 59.96344716091214,
+  "reported_frames": 1238,
+  "decoded_frames": 1238,
+  "first_timestamp_s": 0.0,
+  "last_timestamp_s": 20.629255555555556,
+  "duration_estimate_s": 20.64592222222222,
+  "median_interval_s": 0.01666666666666572,
+  "min_interval_s": 0.0165666666666624,
+  "max_interval_s": 0.033333333333333215,
+  "nonmonotonic_intervals": 0,
+  "intervals_over_25ms": 1,
+  "sha256_after": "207106739648fe740da6273e79666caeb935850076051af02c5727456e197b56",
+  "registration_failed_frames": 0
+}

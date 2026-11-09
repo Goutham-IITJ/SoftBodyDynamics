@@ -1,0 +1,14 @@
+{
+  "test_methods_passed": {
+    "material": 7,
+    "fem_element": 7,
+    "global_solver": 6
+  },
+  "protected_files_unchanged": true,
+  "current_source_sha256": {
+    "solver.py": "01088c425f7dc61663858866eefd7542f4966f0b5b79522652998b90cf7c5d77",
+    "test_solver.py": "7d3f720d5a1cfa4221402e4ca4671b8e68e782c2a861a58a23c3de5d6c136fc1",
+    "verify_solver.py": "295f0bd66c14943e527fc7768d7f6811026df0711aa39ce3e1e41b0983b16505"
+  },
+  "note": "Solver tests rerun after extending nonaffine starts to all three scenarios; equilibrium sweep unchanged."
+}

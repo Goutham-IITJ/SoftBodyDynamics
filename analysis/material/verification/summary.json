@@ -1,0 +1,22 @@
+{
+  "input_sha256": {
+    "C:\\Users\\Goutham A.S\\Documents\\GitHub\\SoftBodyDynamics\\analysis\\config.json": "d44de416d68ec37ce321696405773d0b3269202e5373a3f6d84fe8b741a77b72",
+    "C:\\Users\\Goutham A.S\\Documents\\GitHub\\SoftBodyDynamics\\analysis\\outputs\\1000ml\\measurements.csv": "d0eeddfa02a2243c23a9bdd558ff86a98dfd702141aa986d1738469239fff39e",
+    "C:\\Users\\Goutham A.S\\Documents\\GitHub\\SoftBodyDynamics\\analysis\\outputs\\500ml\\measurements.csv": "6833fc41e3c23fa4c3053c26596c795b4554927234f5e1545b05d0a10c068761",
+    "C:\\Users\\Goutham A.S\\Documents\\GitHub\\SoftBodyDynamics\\analysis\\outputs\\750ml\\measurements.csv": "58d411ba8a4f4d2de9266df1298ac503c87d50e9d66e512008923d43547b12da"
+  },
+  "inputs_unchanged": true,
+  "python": "3.10.7",
+  "numpy": "2.2.6",
+  "unit_test_methods": 7,
+  "gradient_states": 60,
+  "gradient_step_sweep_evaluations": 240,
+  "max_gradient_relative_error_h1e6": 8.278998164288938e-10,
+  "max_objectivity_energy_relative_error": 1.4911228132073484e-14,
+  "max_objectivity_stress_relative_error": 1.0927587543669424e-14,
+  "minimum_uniaxial_tangent_N_mm": 0.5103658866528287,
+  "reference": "https://docs.software.vt.edu/abaqusv2026/English/SIMACAEMATRefMap/simamat-c-hyperfoam.htm",
+  "height_assumed_m": 0.027,
+  "area_assumed_m2": 0.00365,
+  "fit_loss": "sum(((mu*unit_force(lambda)-F)/F)**2); lambda=1-x/H; fitting cycles only"
+}

@@ -1,0 +1,50 @@
+{
+  "primary": {
+    "alpha": 10,
+    "beta": 0,
+    "fit_parameters": [
+      "mu_Pa"
+    ]
+  },
+  "sensitivity_scenarios": [
+    [
+      "alpha20",
+      20.0,
+      0.0
+    ],
+    [
+      "beta0125",
+      10.0,
+      0.125
+    ]
+  ],
+  "loss": "equal-weight sum of squared displacement residuals in metres",
+  "tare_g": 75,
+  "water_density_g_ml": 1,
+  "g_m_s2": 9.81,
+  "yellow_height_m": 0.02,
+  "backing_height_m": 0.007,
+  "fitting_cycles": [
+    "500ml/1",
+    "1000ml/1"
+  ],
+  "held_out_from_present_fit": [
+    "750ml/1",
+    "750ml/2"
+  ],
+  "max_compression_fraction": 0.65,
+  "reference_inner_force_tolerance_N": 5e-08,
+  "fit_mesh": [
+    1,
+    1,
+    1
+  ],
+  "verification_mesh": [
+    2,
+    2,
+    2
+  ],
+  "no_selection_using_750": true,
+  "validation_is_prospective": false,
+  "source_csv_sha256": "be745a8c04ff6812739d8683c5b62798d6175b117977b84f298efa5a375cf9ca"
+}

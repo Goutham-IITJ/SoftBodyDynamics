@@ -1,0 +1,4 @@
+model,amplitude_at_8N_mm,exponent,fitted_parameters,stiffness_N_per_mm,square_coefficient_mm_per_N2
+A_linear,5.866118457552593,1.0,1,1.3637638001837564,
+C_power,6.204782032762054,2.0682245884757586,2,,
+C_square,6.241720981134107,2.0,1,,0.09752689033022043

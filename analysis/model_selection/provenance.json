@@ -1,0 +1,17 @@
+{
+  "inputs_unchanged": true,
+  "input_sha256": {
+    "config.json": "d44de416d68ec37ce321696405773d0b3269202e5373a3f6d84fe8b741a77b72",
+    "outputs\\cycle_summary.csv": "be745a8c04ff6812739d8683c5b62798d6175b117977b84f298efa5a375cf9ca",
+    "outputs\\1000ml\\measurements.csv": "d0eeddfa02a2243c23a9bdd558ff86a98dfd702141aa986d1738469239fff39e",
+    "outputs\\500ml\\measurements.csv": "6833fc41e3c23fa4c3053c26596c795b4554927234f5e1545b05d0a10c068761",
+    "outputs\\750ml\\measurements.csv": "58d411ba8a4f4d2de9266df1298ac503c87d50e9d66e512008923d43547b12da",
+    "outputs\\1000ml\\markers.csv": "d794404622483503909ad83960d9464e2b7c7038e4a8fd7cd499627f9ee8f3ea",
+    "outputs\\500ml\\markers.csv": "05f28b66fc3c4dbfbb7749d126228f492b33a20569854d8b7ec53d764273d948",
+    "outputs\\750ml\\markers.csv": "9d6d4d25a9023380b2ee917911fa00247fcadeb3f6c713630804218b086719af"
+  },
+  "script_sha256": "5a46113da94c05e5716ca0a29725d4ed2806aab4a0b585283990690484b47814",
+  "fit_split": "initial_fit only",
+  "reference_force_N": 8.0,
+  "loss": "sum(((prediction-observation)/(.3+.1*abs(observation)))**2); each cycle one datum; allowances not Gaussian sigma"
+}
