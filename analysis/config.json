@@ -1,0 +1,38 @@
+{
+  "description": "Phase 2 image measurements only. Coordinates are ORIGINAL 1920x1080 pixels. Event brackets are manually reviewed, conservative presentation-time intervals; not force measurements.",
+  "gravity_m_s2": 9.81,
+  "bottle_tare_g": [50, 75, 100],
+  "specimen_mm": {"length": 73, "depth": 50, "yellow": 20, "green": 7},
+  "baseline_s": [0.2, 2.0],
+  "analysis_scale": 0.5,
+  "scale_systematic_fraction_assumed": 0.10,
+  "videos": {
+    "500ml": {
+      "path": "Videos/500ml.mp4", "water_g": 500,
+      "ruler_tick_roi": [1585, 15, 1640, 680],
+      "marker_seeds": [[240,250],[850,250],[1490,250],[240,400],[850,415],[1505,415],[250,555],[855,560],[1515,560]],
+      "cycles": [
+        {"id": 1, "split": "initial_fit", "contact": [4.0,5.2], "hold": [11.3,12.0], "lifting": [12.0,12.6], "separation": [13.098,13.214]},
+        {"id": 2, "split": "repeatability", "contact": [14.5,15.6], "hold": [16.5,18.0], "lifting": [18.0,18.5], "separation": [18.730,18.813]}
+      ]
+    },
+    "750ml": {
+      "path": "Videos/750ml.mp4", "water_g": 750,
+      "ruler_tick_roi": [1585,15,1640,680],
+      "marker_seeds": [[245,250],[860,250],[1490,250],[245,400],[865,420],[1505,415],[250,555],[865,560],[1515,560]],
+      "cycles": [
+        {"id": 1, "split": "held_out_intermediate_load", "contact": [4.0,5.2], "hold": [13.2,14.2], "lifting": [14.2,15.0], "separation": [16.280,16.380]},
+        {"id": 2, "split": "held_out_intermediate_load", "contact": [18.5,20.5], "hold": [25.0,27.5], "lifting": [28.0,28.6], "separation": [29.328,29.444]}
+      ]
+    },
+    "1000ml": {
+      "path": "Videos/1000ml.mp4", "water_g": 1000,
+      "ruler_tick_roi": [1585,15,1640,680],
+      "marker_seeds": [[255,250],[855,250],[1505,255],[245,400],[860,415],[1505,420],[260,545],[865,550],[1510,550]],
+      "cycles": [
+        {"id": 1, "split": "initial_fit", "contact": [4.0,6.5], "hold": [12.0,14.0], "lifting": [14.5,15.5], "separation": [17.163,17.313]},
+        {"id": 2, "split": "repeatability", "contact": [21.0,23.0], "hold": [27.0,30.0], "lifting": [30.0,31.0], "separation": [31.744,31.877]}
+      ]
+    }
+  }
+}
