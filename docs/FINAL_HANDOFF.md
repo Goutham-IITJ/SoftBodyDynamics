@@ -1,7 +1,8 @@
 # Final Dirac Robotics submission handoff
 
-Repository destination: https://github.com/Goutham-IITJ/SoftBodyDynamics
-Branch: `main`. Publication status and the exact verified submission commit will be recorded after the release commit and normal push. The baseline tag `baseline-v1-fullface-fem` remains unchanged.
+Published repository: [Goutham-IITJ/SoftBodyDynamics](https://github.com/Goutham-IITJ/SoftBodyDynamics)
+
+Branch: `main`. Exact verified submission payload commit: [`14a9baa49be0b71701a3df6655a74dfb28758829`](https://github.com/Goutham-IITJ/SoftBodyDynamics/commit/14a9baa49be0b71701a3df6655a74dfb28758829). Normal push to `origin/main` succeeded. This publication receipt is recorded in a subsequent documentation-only commit; run `git rev-parse HEAD` for the final checkout revision. The baseline tag `baseline-v1-fullface-fem` remains unchanged.
 
 ## Project summary
 

@@ -8,8 +8,8 @@ Dear Dirac Robotics team,
 Please find my take-home project, SoftBodyDynamics, here:
 
 - Repository: https://github.com/Goutham-IITJ/SoftBodyDynamics
-- Existing 45.2-second result video: https://github.com/Goutham-IITJ/SoftBodyDynamics/blob/main/demo/outputs/demonstration.mp4
-- GIF fallback: https://github.com/Goutham-IITJ/SoftBodyDynamics/blob/main/demo/outputs/demonstration.gif
+- Existing 45.2-second result video: https://github.com/Goutham-IITJ/SoftBodyDynamics/blob/14a9baa49be0b71701a3df6655a74dfb28758829/demo/outputs/demonstration.mp4
+- GIF fallback: https://github.com/Goutham-IITJ/SoftBodyDynamics/blob/14a9baa49be0b71701a3df6655a74dfb28758829/demo/outputs/demonstration.gif
 - Optional hosted result: [add a separately hosted video/viewer URL if required]
 
 The repository includes the input videos, observation-derived measurements, fitted material scale, runnable full-face 3D FEM, numerical tests, retrospective real/simulation comparisons and reproduction instructions. The README provides quick-start commands and links to the detailed reports.
