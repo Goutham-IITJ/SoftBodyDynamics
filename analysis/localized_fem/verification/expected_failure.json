@@ -1,0 +1,17 @@
+{
+  "expected_failure": true,
+  "reason": "Continuation failed at factor 1: Iteration limit: residual 0.0441 N, min J 0.992",
+  "attempts": [
+    {
+      "load_factor": 1.0,
+      "status": "failed_retry",
+      "reason": "Iteration limit: residual 0.0441 N, min J 0.992"
+    }
+  ],
+  "runtime_s": 0.013404400000581518,
+  "max_iterations": 1,
+  "force_tolerance_N": 5e-08,
+  "nodes": 18,
+  "free_dofs": 42,
+  "tetrahedra": 24
+}

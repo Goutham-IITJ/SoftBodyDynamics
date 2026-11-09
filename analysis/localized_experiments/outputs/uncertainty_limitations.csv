@@ -1,0 +1,12 @@
+quantity,evidence,limitation
+vertical_metric,40 / 31 ruler ticks; fit RMS 0.024 / 0.030 mm,"Ruler-plane metric is not specimen-face calibration; assume separate +/-10% sensitivity only, not a guaranteed bound"
+boundary_localization,2 px sampling lattice; unoccluded threshold-range p95 0.41 / 0.28 mm,Practical floor 0.3 mm; use larger pointwise threshold allowance where needed; extremes exceed 2 mm
+registration,Median inlier RMS 0.80 / 0.53 px; fitted scale varies about 2%,Ruler/background plane motion cannot isolate camera parallax or material motion
+profile_coordinates,"Fixed image columns, 19 face fractions","Eulerian color/silhouette envelopes, not Lagrangian point displacement; edge-dominated 5% bins excluded from profile plots"
+finger_depth,Peak visible-tip proxies 238.5 / 218 / 246 px,"True surface hidden by fingertip; contact-point proxy only, no force or stiffness identification"
+contact_area,Projected half-card overlap about 0.49-0.51 of face width,Depth overlap and actual bearing/contact patch unmeasured; conditional area is not measured area
+card_angle,Manual projected front-edge angles about 1.4-2.1 degrees; endpoint picks +/-15px,Angle uncertainty is order 2 degrees; cannot establish 3D horizontality/tilt or exclude card bending
+bottle_force,User reports approximately 1000ml water; tare assumed 50-100g,"10.30-10.79N is conditional bookkeeping, not measured force or a guaranteed uncertainty interval"
+hands_off_and_hold,Candidate hold compression ranges 1.09 / 1.36mm,Bottle top/hand may be outside view; stationary appearance does not prove constant or hands-off loading
+green_backing,Apparent green thickness decreases roughly 1-1.25mm during deep loading,"Color boundary, perspective, fibres and nonuniform shear confounded; no backing modulus identified"
+recovery,Post-separation changes about 0.34/0.68mm for half-card and 0.05-0.13mm for finger,"Short windows, drift, uncertain release force and unknown final offset; no recovery timescale/damping estimated"

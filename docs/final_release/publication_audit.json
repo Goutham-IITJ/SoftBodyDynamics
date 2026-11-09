@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "file_count": 911,
+  "total_bytes": 532611056,
+  "regular_blob_over_100million_bytes": [],
+  "ignored_required_artifacts": [],
+  "videos": [
+    {
+      "path": "Videos/1000ml.mp4",
+      "bytes": 86245302
+    },
+    {
+      "path": "Videos/500ml.mp4",
+      "bytes": 51964252
+    },
+    {
+      "path": "Videos/750ml.mp4",
+      "bytes": 78948991
+    },
+    {
+      "path": "Videos/fingertip.mp4",
+      "bytes": 45712866
+    },
+    {
+      "path": "Videos/half area.mp4",
+      "bytes": 47762345
+    }
+  ],
+  "largest_files": [
+    {
+      "path": "Videos/1000ml.mp4",
+      "bytes": 86245302
+    },
+    {
+      "path": "Videos/750ml.mp4",
+      "bytes": 78948991
+    },
+    {
+      "path": "Videos/500ml.mp4",
+      "bytes": 51964252
+    },
+    {
+      "path": "Videos/half area.mp4",
+      "bytes": 47762345
+    },
+    {
+      "path": "Videos/fingertip.mp4",
+      "bytes": 45712866
+    },
+    {
+      "path": "Papers/3D Gaussian splatting.pdf",
+      "bytes": 35829709
+    },
+    {
+      "path": "Papers/2611.04492v1.pdf",
+      "bytes": 16066422
+    },
+    {
+      "path": "demo/outputs/demonstration.gif",
+      "bytes": 7990784
+    },
+    {
+      "path": "demo/outputs/demonstration.mp4",
+      "bytes": 5208225
+    },
+    {
+      "path": "analysis/outputs/1000ml/markers.csv",
+      "bytes": 3273105
+    }
+  ],
+  "demo": {
+    "path": "demo/outputs/demonstration.mp4",
+    "frames": 452.0,
+    "fps": 10.0,
+    "duration_s": 45.2
+  },
+  "required_files_present": [
+    "demo/outputs/demonstration.mp4",
+    "demo/outputs/demonstration.gif",
+    "demo/outputs/index.html",
+    "demo/outputs/comparison_750ml.png",
+    "analysis/calibration/outputs/parameters.csv",
+    "requirements.txt",
+    "docs/REPRODUCIBILITY.md"
+  ],
+  "privacy_note": "Deleted ID-card photo absent and ignored. Reviewed representative half-area/fingertip frames; no legible private ID details found. No high-confidence secret/private-file scan hits; no claim of exhaustive OCR of every frame."
+}

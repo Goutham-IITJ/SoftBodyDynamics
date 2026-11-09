@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "baseline_tag": "baseline-v1-fullface-fem",
+  "baseline_commit": "6aaf8b4ff77974603e64f8ebab6cb68c4ae9be31",
+  "baseline_files_unchanged": 461,
+  "total_new_video_frames": 893,
+  "total_profile_attempts": 16967,
+  "new_test_methods_passed": 5,
+  "missing_fingertip_top_samples": 123,
+  "finger_occluded_samples": 1597,
+  "force_or_material_parameters_fitted": false,
+  "new_physics_implemented": false,
+  "video_sha256": {
+    "Videos/half area.mp4": "4fd7b4c842010140a71b38a7da26a42175ddfbe04d2e5df6ef155acc3f3e23fe",
+    "Videos/fingertip.mp4": "63ff166d3182b7f41aeed1feb4256b8e551cd04e88e35ed1a4e133f94c3bdbe7"
+  },
+  "analysis_files_before_this_metadata": 224,
+  "analysis_bytes_before_this_metadata": 80995287
+}

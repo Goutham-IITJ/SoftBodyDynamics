@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "re_evaluated_saved_equilibria": [
+    {
+      "case": "coarse_0p1",
+      "free_residual_N": 4.844561662942226e-08,
+      "force_balance_N": 6.220577115777255e-08,
+      "moment_balance_Nm": 2.0059478909471764e-09,
+      "min_J": 0.9963956183900791
+    },
+    {
+      "case": "coarse_0p3",
+      "free_residual_N": 1.7332579128380067e-08,
+      "force_balance_N": 1.6116910245206803e-08,
+      "moment_balance_Nm": 6.283121882478225e-10,
+      "min_J": 0.9888892326123558
+    },
+    {
+      "case": "coarse_0p6",
+      "free_residual_N": 4.328934471092022e-08,
+      "force_balance_N": 4.173893312354785e-08,
+      "moment_balance_Nm": 2.2887396478911415e-09,
+      "min_J": 0.9768007718076108
+    },
+    {
+      "case": "left_0p3",
+      "free_residual_N": 4.8505004642104745e-08,
+      "force_balance_N": 5.607542370517132e-08,
+      "moment_balance_Nm": 1.426628574831049e-09,
+      "min_J": 0.986182231252885
+    },
+    {
+      "case": "right_0p3",
+      "free_residual_N": 4.8538102009345295e-08,
+      "force_balance_N": 4.3674944754586985e-08,
+      "moment_balance_Nm": 1.928451629721467e-09,
+      "min_J": 0.9861822341720006
+    },
+    {
+      "case": "medium_0p3",
+      "free_residual_N": 4.002646904154593e-08,
+      "force_balance_N": 1.0611927746181091e-07,
+      "moment_balance_Nm": 1.2601178336306122e-09,
+      "min_J": 0.9706531134049906
+    },
+    {
+      "case": "fine_0p3",
+      "free_residual_N": 3.586453969120192e-08,
+      "force_balance_N": 2.211635275048071e-08,
+      "moment_balance_Nm": 1.4243909096177778e-08,
+      "min_J": 0.9532310137349324
+    }
+  ]
+}

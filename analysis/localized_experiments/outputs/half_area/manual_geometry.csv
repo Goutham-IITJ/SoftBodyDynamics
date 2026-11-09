@@ -1,0 +1,4 @@
+frame,foam_left_px,foam_right_px,card_left_px,card_left_y_px,card_right_px,card_right_y_px,apparent_front_overlap_fraction,overhang_ruler_equivalent_mm,projected_card_edge_angle_deg,manual_endpoint_allowance_px,conditional_area_mm2_if_full_50mm_depth,true_contact_area_identified
+0,350,1380,850,207,1610,225,0.5145631067961165,15.333333333333334,1.3567516559421375,15,1878.1553398058254,False
+125,365,1370,880,393,1620,420,0.48756218905472637,16.666666666666668,2.089594746682056,15,1779.6019900497513,False
+330,365,1370,855,416,1615,435,0.5124378109452736,16.333333333333332,1.4320961841646465,15,1870.3980099502487,False

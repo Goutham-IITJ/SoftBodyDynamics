@@ -1,0 +1,8 @@
+{
+  "reason": "Early Phase 7C pilot diagnostic used all bottom nodal residuals as reactions, including inactive contact residual roundoff. Corrected only tensile-total diagnostic to use actual exported reactions. Solved nodes, force/reaction vectors, histories and energy unchanged.",
+  "corrected_cases": [
+    "support_pilot",
+    "support_4",
+    "support_6"
+  ]
+}

@@ -1,0 +1,13 @@
+test_bad_inputs_and_failure (analysis.localized_fem.test_localized.LocalizedTests) ... ok
+test_balance_and_feasibility (analysis.localized_fem.test_localized.LocalizedTests) ... ok
+test_exact_integration_all_meshes (analysis.localized_fem.test_localized.LocalizedTests) ... ok
+test_free_top_and_mesh_volume (analysis.localized_fem.test_localized.LocalizedTests) ... ok
+test_nonaffine_total_potential_gradient (analysis.localized_fem.test_localized.LocalizedTests) ... ok
+test_placement (analysis.localized_fem.test_localized.LocalizedTests) ... ok
+test_symmetry_and_translation (analysis.localized_fem.test_localized.LocalizedTests) ... ok
+test_zero (analysis.localized_fem.test_localized.LocalizedTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 6.527s
+
+OK

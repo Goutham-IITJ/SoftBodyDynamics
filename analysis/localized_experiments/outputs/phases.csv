@@ -1,0 +1,30 @@
+experiment,event_or_phase,earliest_s,latest_s,first_frame_at_or_after_earliest,last_frame_at_or_before_latest,earliest_selected_pts_s,latest_selected_pts_s,evidence_note,force_measured
+half_area,reference,0.2,1.2,6,36,0.2,1.1998111111111112,Card present; bottle not supporting its full weight,False
+half_area,cycle1_possible_bottle_card_contact,1.6,1.9,49,57,1.6331111111111112,1.8996888888888888,Contact appearance only; transmitted force unknown,False
+half_area,cycle1_visible_load_onset,2.4,2.7,73,81,2.4329555555555555,2.6995333333333336,Foam depression becomes clear; not a known force step,False
+half_area,cycle1_candidate_late_hold,4.2,6.2,127,186,4.232755555555555,6.1991000000000005,"No hand visible in crop; top of bottle outside view, hands-off not certified",False
+half_area,cycle1_unloading_onset,6.4,6.6,193,198,6.432355555555556,6.5990777777777785,Lift/recovery begins; unknown transmitted force,False
+half_area,cycle1_bottle_separation,7.0,7.2,211,216,7.032266666666667,7.1989888888888895,Clear bottle-card gap by conservative later bound; card stays on foam,False
+half_area,cycle1_card_only_recovery,7.2,8.8,217,264,7.232311111111111,8.798677777777778,No bottle contact before conservative next-contact bound,False
+half_area,cycle2_possible_bottle_card_contact,8.8,9.0,265,270,8.832,8.998722222222222,"Appearance bracket, not measured force",False
+half_area,cycle2_visible_load_onset,9.1,9.3,274,279,9.132011111111112,9.298622222222225,Nonuniform depression increases,False
+half_area,cycle2_candidate_late_hold,10.0,12.3,301,369,10.031822222222225,12.29837777777778,Residual motion present; neither force nor hands-off status measured,False
+half_area,cycle2_unloading_onset,12.6,12.8,379,384,12.631511111111111,12.798222222222224,Unknown transmitted force during lift,False
+half_area,cycle2_bottle_separation,13.1,13.3,394,399,13.131522222222223,13.298155555555557,Bottle-card clearance visible; card stays on foam,False
+half_area,cycle2_card_only_recovery,13.3,15.031133333333335,400,450,13.331477777777778,14.997811111111112,Ends at final decoded frame,False
+fingertip,reference,0.2,1.2,6,36,0.2,1.1997777777777778,Bare yellow top; card is beside specimen,False
+fingertip,central_contact,1.6,1.8,49,54,1.633077777777778,1.799688888888889,Unknown finger force,False
+fingertip,central_loading_and_deep_press,1.8,5.2,55,156,1.8330111111111111,5.199222222222223,Depth changes; no verified constant-force hold,False
+fingertip,central_unloading,5.2,5.8,157,174,5.232544444444445,5.799133333333334,Finger still in contact; force history unknown,False
+fingertip,central_separation,5.8,6.0,175,180,5.832455555555556,5.999177777777778,Clear gap after conservative bound,False
+fingertip,central_free_recovery,6.0,6.5,181,195,6.032500000000001,6.499011111111112,Before earliest possible next contact,False
+fingertip,left_contact,6.5,6.8,196,204,6.532333333333334,6.799022222222223,Unknown finger force,False
+fingertip,left_loading_and_deep_press,6.8,8.7,205,261,6.832344444444445,8.698722222222223,Large local deformation and broad opposite-side rise,False
+fingertip,left_unloading,8.7,9.1,262,273,8.732044444444444,9.0987,Unknown changing contact force,False
+fingertip,left_separation,9.1,9.4,274,282,9.132022222222222,9.3986,Conservative clearance bracket,False
+fingertip,left_free_recovery,9.4,10.1,283,303,9.431922222222225,10.098588888888887,Before earliest possible right contact,False
+fingertip,right_contact,10.1,10.4,304,312,10.131911111111112,10.39848888888889,Unknown finger force,False
+fingertip,right_loading_and_deep_press,10.4,12.7,313,381,10.431811111111111,12.698166666666667,Depth/position vary; no constant-force hold,False
+fingertip,right_unloading,12.7,13.5,382,405,12.73148888888889,13.498166666666668,Unknown changing contact force,False
+fingertip,right_separation,13.5,13.7,406,411,13.5315,13.698166666666667,Clear gap by conservative bound,False
+fingertip,right_free_recovery,13.7,14.664644444444445,412,440,13.7315,14.664644444444445,Ends at last decoded frame,False

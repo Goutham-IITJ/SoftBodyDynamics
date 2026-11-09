@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "unchanged_preexisting_files": 444,
+  "authorized_preexisting_document_edit": "README.md",
+  "local_document_and_media_targets": 186,
+  "authorized_privacy_removal": "Videos/photo1.jpeg",
+  "local_viewer_targets": 17,
+  "organized_manifest_files_checked": 460,
+  "canonical_mu_Pa": 6999.814990181902,
+  "errors": []
+}

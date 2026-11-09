@@ -1,0 +1,24 @@
+{
+  "mode": "localized",
+  "force": 10.54575,
+  "output": "analysis\\localized_fem\\phase7c\\half_area_once",
+  "sequence": true,
+  "patch_length_mm": 36.5,
+  "patch_width_mm": 50.0,
+  "center_x_mm": 54.75,
+  "center_y_mm": 25.0,
+  "mesh": [
+    4,
+    4,
+    2
+  ],
+  "support": "unilateral",
+  "load_step": 0.125,
+  "time_limit_s": 180.0,
+  "material": {
+    "mu_Pa": 6999.814990181902,
+    "alpha": 10,
+    "beta": 0
+  },
+  "capability": "EXPERIMENTAL prescribed reference dead traction; NOT rigid-card contact"
+}

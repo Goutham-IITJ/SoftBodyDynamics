@@ -1,0 +1,22 @@
+{
+  "ruler_roi_original_px": [
+    1418,
+    10,
+    1442,
+    605
+  ],
+  "assumed_minor_tick_mm": 1,
+  "detected_ticks": 40,
+  "median_px_per_mm": 15.0,
+  "minimum_tick_gap_px": 14.0,
+  "maximum_tick_gap_px": 15.0,
+  "y_to_relative_mm_polynomial": [
+    6.907034747599025e-07,
+    0.06756541618373323,
+    -1.4550724450696126
+  ],
+  "fit_RMS_mm": 0.02385854232078728,
+  "tick_y_min_px": 21,
+  "tick_y_max_px": 595,
+  "caution": "Ruler-equivalent vertical metric only; face/ruler coplanarity and lens perspective unverified. Horizontal distances use mean vertical scale, not a calibrated planar homography."
+}

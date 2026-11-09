@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "support_pilot",
+      "min_gap_m": 0.0,
+      "max_gap_mm": 0.05838510041641931,
+      "min_actual_contact_reaction_N": 0.0,
+      "total_tensile_actual_reaction_N": -0.0,
+      "complementarity_max_Nm": 0.0,
+      "force_balance_N": 2.6251449392750148e-08
+    },
+    {
+      "case": "support_4",
+      "min_gap_m": 0.0,
+      "max_gap_mm": 0.0031642739766590128,
+      "min_actual_contact_reaction_N": 0.0,
+      "total_tensile_actual_reaction_N": -0.0,
+      "complementarity_max_Nm": 0.0,
+      "force_balance_N": 4.0594107612694497e-08
+    },
+    {
+      "case": "support_6",
+      "min_gap_m": 0.0,
+      "max_gap_mm": 0.043899265479124816,
+      "min_actual_contact_reaction_N": 0.0,
+      "total_tensile_actual_reaction_N": -0.0,
+      "complementarity_max_Nm": 0.0,
+      "force_balance_N": 3.2501459056640675e-08
+    },
+    {
+      "case": "cli_localized",
+      "min_gap_m": 0.0,
+      "max_gap_mm": 0.05838510041641931,
+      "min_actual_contact_reaction_N": 0.0,
+      "total_tensile_actual_reaction_N": -0.0,
+      "complementarity_max_Nm": 0.0,
+      "force_balance_N": 2.6251449392750148e-08
+    }
+  ]
+}

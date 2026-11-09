@@ -1,0 +1,219 @@
+[
+  {
+    "mesh": [
+      2,
+      2,
+      1
+    ],
+    "nodes": 18,
+    "tetrahedra": 24,
+    "free_dofs": 42,
+    "iterations": 181,
+    "runtime_s": 0.8359624000149779,
+    "force_N": 0.3,
+    "clipped_area_m2": 0.0006000000000000004,
+    "pressure_Pa": 499.99999999999966,
+    "max_downward_mm": 0.22198685831501322,
+    "loaded_mean_downward_mm": 0.18250803958193204,
+    "unloaded_mean_downward_mm": 0.10901939616048689,
+    "energy_J": 2.7711045466229027e-05,
+    "potential_J": -2.7041366408350574e-05,
+    "support_reaction_N": 0.2999999891919269,
+    "free_residual_N": 1.7332579128380067e-08,
+    "force_balance_N": 1.6116910245206803e-08,
+    "moment_balance_Nm": 6.283121882478225e-10,
+    "min_J": 0.9888892326123558,
+    "max_J": 0.9977588859145741,
+    "min_bottom_nodal_reaction_N": 0.009429545497141326,
+    "termination": "converged_free_force_residual",
+    "tensile_bottom_reaction_total_N": -0.0,
+    "centroid_xy_m": [
+      0.0365,
+      0.024999999999999998
+    ],
+    "force_tolerance_N": 5e-08,
+    "cell_spacing_mm": [
+      36.5,
+      25.0,
+      20.0
+    ],
+    "patch_cell_spans_xy": [
+      0.5479452054794521,
+      1.2
+    ],
+    "top_vertices_inside_patch": 1,
+    "intersected_top_triangles": 8,
+    "peak_reference_xyz_mm": [
+      36.5,
+      25.0,
+      27.0
+    ],
+    "peak_distance_to_patch_edge_mm": 10.000000000000002,
+    "max_deformation_gradient_condition": 1.012252194702268
+  },
+  {
+    "mesh": [
+      4,
+      4,
+      2
+    ],
+    "nodes": 75,
+    "tetrahedra": 192,
+    "free_dofs": 197,
+    "iterations": 430,
+    "runtime_s": 12.027100200008135,
+    "force_N": 0.3,
+    "clipped_area_m2": 0.0006000000000000007,
+    "pressure_Pa": 499.9999999999994,
+    "max_downward_mm": 0.43891874522136376,
+    "loaded_mean_downward_mm": 0.2930190317443363,
+    "unloaded_mean_downward_mm": 0.08983884883661296,
+    "energy_J": 4.4937735409973797e-05,
+    "potential_J": -4.2967974113327094e-05,
+    "support_reaction_N": 0.29999989388072246,
+    "free_residual_N": 4.002646904154593e-08,
+    "force_balance_N": 1.0611927746181091e-07,
+    "moment_balance_Nm": 1.2601178336306122e-09,
+    "min_J": 0.9706531134049906,
+    "max_J": 1.0004104854370353,
+    "min_bottom_nodal_reaction_N": -0.0001807706340799681,
+    "termination": "converged_free_force_residual",
+    "tensile_bottom_reaction_total_N": 0.0007230057022233794,
+    "centroid_xy_m": [
+      0.03649999999999999,
+      0.02499999999999999
+    ],
+    "force_tolerance_N": 5e-08,
+    "cell_spacing_mm": [
+      18.25,
+      12.5,
+      10.0
+    ],
+    "patch_cell_spans_xy": [
+      1.0958904109589043,
+      2.4
+    ],
+    "top_vertices_inside_patch": 3,
+    "intersected_top_triangles": 16,
+    "peak_reference_xyz_mm": [
+      36.5,
+      25.0,
+      27.0
+    ],
+    "peak_distance_to_patch_edge_mm": 10.000000000000002,
+    "max_deformation_gradient_condition": 1.0297104089900875,
+    "max_downward_mm_change_percent": 97.72285105207024,
+    "loaded_mean_downward_mm_change_percent": 60.55130087175877,
+    "unloaded_mean_downward_mm_change_percent": -17.593701670882812
+  },
+  {
+    "mesh": [
+      6,
+      6,
+      3
+    ],
+    "nodes": 196,
+    "tetrahedra": 648,
+    "free_dofs": 536,
+    "iterations": 580,
+    "runtime_s": 53.150851900019916,
+    "force_N": 0.3,
+    "clipped_area_m2": 0.0006000000000000004,
+    "pressure_Pa": 499.99999999999966,
+    "max_downward_mm": 0.5639964027434469,
+    "loaded_mean_downward_mm": 0.37080135900551475,
+    "unloaded_mean_downward_mm": 0.07649632954157143,
+    "energy_J": 5.7212652637276856e-05,
+    "potential_J": -5.402775506437756e-05,
+    "support_reaction_N": 0.2999999778836472,
+    "free_residual_N": 3.586453969120192e-08,
+    "force_balance_N": 2.211635275048071e-08,
+    "moment_balance_Nm": 1.4243909096177778e-08,
+    "min_J": 0.9532310137349324,
+    "max_J": 1.001466903327162,
+    "min_bottom_nodal_reaction_N": -0.0007932294350526855,
+    "termination": "converged_free_force_residual",
+    "tensile_bottom_reaction_total_N": 0.008186647456958494,
+    "centroid_xy_m": [
+      0.0365,
+      0.024999999999999998
+    ],
+    "force_tolerance_N": 5e-08,
+    "cell_spacing_mm": [
+      12.166666666666666,
+      8.333333333333334,
+      6.666666666666667
+    ],
+    "patch_cell_spans_xy": [
+      1.6438356164383563,
+      3.6
+    ],
+    "top_vertices_inside_patch": 3,
+    "intersected_top_triangles": 16,
+    "peak_reference_xyz_mm": [
+      36.5,
+      25.0,
+      27.0
+    ],
+    "peak_distance_to_patch_edge_mm": 10.000000000000002,
+    "max_deformation_gradient_condition": 1.0407251634654981,
+    "max_downward_mm_change_percent": 28.49676822506215,
+    "loaded_mean_downward_mm_change_percent": 26.545145138915327,
+    "unloaded_mean_downward_mm_change_percent": -14.851614271357306
+  },
+  {
+    "mesh": [
+      8,
+      8,
+      4
+    ],
+    "nodes": 405,
+    "tetrahedra": 1536,
+    "free_dofs": 1131,
+    "iterations": 730,
+    "runtime_s": 187.4799163999851,
+    "force_N": 0.3,
+    "clipped_area_m2": 0.0006,
+    "pressure_Pa": 500.0,
+    "max_downward_mm": 0.602424942745823,
+    "loaded_mean_downward_mm": 0.4131628125100011,
+    "unloaded_mean_downward_mm": 0.06933070911006402,
+    "energy_J": 6.376364396852704e-05,
+    "potential_J": -6.018519978447329e-05,
+    "support_reaction_N": 0.30000021173104013,
+    "free_residual_N": 4.051231308040075e-08,
+    "force_balance_N": 2.1173104022733768e-07,
+    "moment_balance_Nm": 2.641980704299945e-08,
+    "min_J": 0.9449572088297098,
+    "max_J": 1.0021479411367062,
+    "min_bottom_nodal_reaction_N": -0.0007944585172649737,
+    "termination": "converged_free_force_residual",
+    "tensile_bottom_reaction_total_N": 0.012571050166115694,
+    "centroid_xy_m": [
+      0.036499999999999984,
+      0.025
+    ],
+    "force_tolerance_N": 5e-08,
+    "cell_spacing_mm": [
+      9.125,
+      6.25,
+      5.0
+    ],
+    "patch_cell_spans_xy": [
+      2.1917808219178085,
+      4.8
+    ],
+    "top_vertices_inside_patch": 15,
+    "intersected_top_triangles": 48,
+    "peak_reference_xyz_mm": [
+      36.5,
+      25.0,
+      27.0
+    ],
+    "peak_distance_to_patch_edge_mm": 10.000000000000002,
+    "max_deformation_gradient_condition": 1.0386002841344977,
+    "max_downward_mm_change_percent": 6.813614380419497,
+    "loaded_mean_downward_mm_change_percent": 11.424298340787997,
+    "unloaded_mean_downward_mm_change_percent": -9.367273533840992
+  }
+]

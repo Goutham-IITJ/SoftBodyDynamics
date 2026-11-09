@@ -1,0 +1,21 @@
+{
+  "force": 0.1,
+  "patch_length_mm": 20.0,
+  "patch_width_mm": 30.0,
+  "center_x_mm": 36.5,
+  "center_y_mm": 25.0,
+  "mesh": [
+    2,
+    2,
+    1
+  ],
+  "distribution": "uniform-reference",
+  "load_step": 0.25,
+  "output": "analysis\\localized_fem\\cli_example",
+  "material": {
+    "mu_Pa": 6999.814990181902,
+    "alpha": 10.0,
+    "beta": 0.0
+  },
+  "support": "bilateral fixed normal; minimum horizontal anchors"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "report_media_links": 2,
+  "preexisting_files_rechecked": 677,
+  "tracked_files_equal_baseline": true,
+  "localized_tests": 9,
+  "frozen_regression_tests": 36,
+  "phase7a_tests": 5,
+  "baseline_checker": "PASS",
+  "saved_equilibria_re_evaluated": 7,
+  "official_experimental_comparison": "not run"
+}

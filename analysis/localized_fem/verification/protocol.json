@@ -1,0 +1,30 @@
+{
+  "patch_m": [
+    0.0365,
+    0.025,
+    0.02,
+    0.03
+  ],
+  "force_N": 0.3,
+  "meshes": [
+    [
+      2,
+      2,
+      1
+    ],
+    [
+      4,
+      4,
+      2
+    ],
+    [
+      6,
+      6,
+      3
+    ]
+  ],
+  "selection": "Synthetic central rectangle and sub-newton loads; no experimental response used",
+  "force_tolerance_N": 5e-08,
+  "load_step": 0.25,
+  "max_iterations_per_step": 600
+}

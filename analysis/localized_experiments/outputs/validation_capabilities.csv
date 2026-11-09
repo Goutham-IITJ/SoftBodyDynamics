@@ -1,0 +1,7 @@
+quantity,supported,limitation
+local_indentation_depth,partial: visible contact/contour proxy only,Unknown hidden center surface and depth-plane motion
+vertical_deformation_profile,half-area: useful front-face envelope; finger: partial outside occlusion,Not a 3D top surface or tracked material displacement
+spatial_deformation_decay,partial qualitative/1D image evidence,Cannot validate radial 3D decay or fit a constitutive length scale
+overall_load_reaction,not independently measured,Half-card gravity load conditional; finger force entirely unknown
+contact_geometry,partial projected location/span,"True area, pressure and out-of-plane tilt unmeasured"
+recovery_shape,qualitative return and residual profiles supported,No validated physical recovery speed or damping

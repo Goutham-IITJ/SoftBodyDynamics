@@ -1,0 +1,25 @@
+{
+  "localized_tests": 18,
+  "localized_tests_pass": true,
+  "fullface_regression_tests": 36,
+  "fullface_regression_pass": true,
+  "historical_phase7a_data_tests_pass": 4,
+  "historical_phase7a_readme_snapshot_failure": 1,
+  "current_package_integrity": "PASS",
+  "tracked_baseline_files_unchanged_excluding_authorized_readme": 460,
+  "half_area_attempts": 1,
+  "half_area_prediction": "FAILED; no nominal solved state exported",
+  "media": [
+    {
+      "example": "cli_localized",
+      "gif_frames": 9,
+      "actual_solved_states": 5
+    },
+    {
+      "example": "cli_fullface",
+      "gif_frames": 9,
+      "actual_solved_states": 5
+    }
+  ],
+  "settings_refitted": false
+}

@@ -1,0 +1,29 @@
+{
+  "nodes": 18,
+  "tetrahedra": 24,
+  "free_dofs": 42,
+  "iterations": 108,
+  "runtime_s": 0.377776699984679,
+  "force_N": 0.1,
+  "clipped_area_m2": 0.0006000000000000004,
+  "pressure_Pa": 166.66666666666657,
+  "max_downward_mm": 0.07206323133512188,
+  "loaded_mean_downward_mm": 0.0593604255291873,
+  "unloaded_mean_downward_mm": 0.035636252399082455,
+  "energy_J": 2.97981450356127e-06,
+  "potential_J": -2.9562280493574608e-06,
+  "support_reaction_N": 0.10000003110375638,
+  "free_residual_N": 4.844561662942226e-08,
+  "force_balance_N": 6.220577115777255e-08,
+  "moment_balance_Nm": 2.0059478909471764e-09,
+  "min_J": 0.9963956183900791,
+  "max_J": 0.9992587719405147,
+  "min_bottom_nodal_reaction_N": 0.003143947925529035,
+  "termination": "converged_free_force_residual",
+  "tensile_bottom_reaction_total_N": -0.0,
+  "centroid_xy_m": [
+    0.0365,
+    0.024999999999999998
+  ],
+  "force_tolerance_N": 5e-08
+}

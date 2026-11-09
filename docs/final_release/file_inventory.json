@@ -1,0 +1,3646 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 246
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 478
+  },
+  {
+    "path": "Assignment/Dirac-Research-TakeHome.pdf",
+    "bytes": 45822
+  },
+  {
+    "path": "Papers/2611.04492v1.pdf",
+    "bytes": 16066422
+  },
+  {
+    "path": "Papers/3D Gaussian splatting.pdf",
+    "bytes": 35829709
+  },
+  {
+    "path": "README.md",
+    "bytes": 8022
+  },
+  {
+    "path": "Videos/1000ml.mp4",
+    "bytes": 86245302
+  },
+  {
+    "path": "Videos/500ml.mp4",
+    "bytes": 51964252
+  },
+  {
+    "path": "Videos/750ml.mp4",
+    "bytes": 78948991
+  },
+  {
+    "path": "Videos/fingertip.mp4",
+    "bytes": 45712866
+  },
+  {
+    "path": "Videos/half area.mp4",
+    "bytes": 47762345
+  },
+  {
+    "path": "analysis/README.md",
+    "bytes": 9067
+  },
+  {
+    "path": "analysis/REPORT.md",
+    "bytes": 13080
+  },
+  {
+    "path": "analysis/annotate.py",
+    "bytes": 3314
+  },
+  {
+    "path": "analysis/calibration/REPORT.md",
+    "bytes": 18915
+  },
+  {
+    "path": "analysis/calibration/calibrate.py",
+    "bytes": 5366
+  },
+  {
+    "path": "analysis/calibration/outputs/alpha20_1x1x1_F10.54575_nodes.csv",
+    "bytes": 358
+  },
+  {
+    "path": "analysis/calibration/outputs/alpha20_1x1x1_F5.64075_nodes.csv",
+    "bytes": 362
+  },
+  {
+    "path": "analysis/calibration/outputs/alpha20_1x1x1_F6.50000_nodes.csv",
+    "bytes": 362
+  },
+  {
+    "path": "analysis/calibration/outputs/alpha20_1x1x1_F8.09325_nodes.csv",
+    "bytes": 362
+  },
+  {
+    "path": "analysis/calibration/outputs/alpha20_1x1x1_F9.50000_nodes.csv",
+    "bytes": 362
+  },
+  {
+    "path": "analysis/calibration/outputs/alpha20_2x2x2_F10.54575_nodes.csv",
+    "bytes": 1298
+  },
+  {
+    "path": "analysis/calibration/outputs/alpha20_2x2x2_F5.64075_nodes.csv",
+    "bytes": 1298
+  },
+  {
+    "path": "analysis/calibration/outputs/alpha20_2x2x2_F6.50000_nodes.csv",
+    "bytes": 1289
+  },
+  {
+    "path": "analysis/calibration/outputs/alpha20_2x2x2_F8.09325_nodes.csv",
+    "bytes": 1298
+  },
+  {
+    "path": "analysis/calibration/outputs/alpha20_2x2x2_F9.50000_nodes.csv",
+    "bytes": 1298
+  },
+  {
+    "path": "analysis/calibration/outputs/alpha20_fine_fit_trace.csv",
+    "bytes": 2476
+  },
+  {
+    "path": "analysis/calibration/outputs/alpha20_fit_trace.csv",
+    "bytes": 2478
+  },
+  {
+    "path": "analysis/calibration/outputs/beta0125_1x1x1_F10.54575_nodes.csv",
+    "bytes": 575
+  },
+  {
+    "path": "analysis/calibration/outputs/beta0125_1x1x1_F5.64075_nodes.csv",
+    "bytes": 571
+  },
+  {
+    "path": "analysis/calibration/outputs/beta0125_1x1x1_F6.50000_nodes.csv",
+    "bytes": 571
+  },
+  {
+    "path": "analysis/calibration/outputs/beta0125_1x1x1_F8.09325_nodes.csv",
+    "bytes": 575
+  },
+  {
+    "path": "analysis/calibration/outputs/beta0125_1x1x1_F9.50000_nodes.csv",
+    "bytes": 575
+  },
+  {
+    "path": "analysis/calibration/outputs/beta0125_2x2x2_F10.54575_nodes.csv",
+    "bytes": 2091
+  },
+  {
+    "path": "analysis/calibration/outputs/beta0125_2x2x2_F5.64075_nodes.csv",
+    "bytes": 2086
+  },
+  {
+    "path": "analysis/calibration/outputs/beta0125_2x2x2_F6.50000_nodes.csv",
+    "bytes": 2083
+  },
+  {
+    "path": "analysis/calibration/outputs/beta0125_2x2x2_F8.09325_nodes.csv",
+    "bytes": 2097
+  },
+  {
+    "path": "analysis/calibration/outputs/beta0125_2x2x2_F9.50000_nodes.csv",
+    "bytes": 2099
+  },
+  {
+    "path": "analysis/calibration/outputs/beta0125_fine_fit_trace.csv",
+    "bytes": 3255
+  },
+  {
+    "path": "analysis/calibration/outputs/beta0125_fit_trace.csv",
+    "bytes": 2946
+  },
+  {
+    "path": "analysis/calibration/outputs/constitutive_sensitivity.png",
+    "bytes": 66468
+  },
+  {
+    "path": "analysis/calibration/outputs/domain_checks.csv",
+    "bytes": 719
+  },
+  {
+    "path": "analysis/calibration/outputs/empirical_baseline_curve.csv",
+    "bytes": 3759
+  },
+  {
+    "path": "analysis/calibration/outputs/fem_curve.csv",
+    "bytes": 2614
+  },
+  {
+    "path": "analysis/calibration/outputs/force_compression.png",
+    "bytes": 183859
+  },
+  {
+    "path": "analysis/calibration/outputs/force_conversion.csv",
+    "bytes": 169
+  },
+  {
+    "path": "analysis/calibration/outputs/frozen_fits.json",
+    "bytes": 1249
+  },
+  {
+    "path": "analysis/calibration/outputs/input_sensitivity.png",
+    "bytes": 81872
+  },
+  {
+    "path": "analysis/calibration/outputs/iteration_checks.csv",
+    "bytes": 43877
+  },
+  {
+    "path": "analysis/calibration/outputs/local_identifiability.csv",
+    "bytes": 209
+  },
+  {
+    "path": "analysis/calibration/outputs/mesh_checks.csv",
+    "bytes": 2463
+  },
+  {
+    "path": "analysis/calibration/outputs/mesh_refits.csv",
+    "bytes": 406
+  },
+  {
+    "path": "analysis/calibration/outputs/metrics.csv",
+    "bytes": 823
+  },
+  {
+    "path": "analysis/calibration/outputs/numerical_checks.csv",
+    "bytes": 46336
+  },
+  {
+    "path": "analysis/calibration/outputs/parameters.csv",
+    "bytes": 816
+  },
+  {
+    "path": "analysis/calibration/outputs/predictions.csv",
+    "bytes": 3095
+  },
+  {
+    "path": "analysis/calibration/outputs/preserved_sha256.json",
+    "bytes": 40642
+  },
+  {
+    "path": "analysis/calibration/outputs/primary_1x1x1_F10.54575_nodes.csv",
+    "bytes": 362
+  },
+  {
+    "path": "analysis/calibration/outputs/primary_1x1x1_F5.64075_nodes.csv",
+    "bytes": 358
+  },
+  {
+    "path": "analysis/calibration/outputs/primary_1x1x1_F6.50000_nodes.csv",
+    "bytes": 362
+  },
+  {
+    "path": "analysis/calibration/outputs/primary_1x1x1_F8.09325_nodes.csv",
+    "bytes": 362
+  },
+  {
+    "path": "analysis/calibration/outputs/primary_1x1x1_F9.50000_nodes.csv",
+    "bytes": 358
+  },
+  {
+    "path": "analysis/calibration/outputs/primary_2x2x2_F10.54575_nodes.csv",
+    "bytes": 1298
+  },
+  {
+    "path": "analysis/calibration/outputs/primary_2x2x2_F5.64075_nodes.csv",
+    "bytes": 1289
+  },
+  {
+    "path": "analysis/calibration/outputs/primary_2x2x2_F6.50000_nodes.csv",
+    "bytes": 1298
+  },
+  {
+    "path": "analysis/calibration/outputs/primary_2x2x2_F8.09325_nodes.csv",
+    "bytes": 1298
+  },
+  {
+    "path": "analysis/calibration/outputs/primary_2x2x2_F9.50000_nodes.csv",
+    "bytes": 1298
+  },
+  {
+    "path": "analysis/calibration/outputs/primary_fine_fit_trace.csv",
+    "bytes": 2001
+  },
+  {
+    "path": "analysis/calibration/outputs/primary_fit_trace.csv",
+    "bytes": 45674
+  },
+  {
+    "path": "analysis/calibration/outputs/protocol.json",
+    "bytes": 940
+  },
+  {
+    "path": "analysis/calibration/outputs/sensitivity.csv",
+    "bytes": 7974
+  },
+  {
+    "path": "analysis/calibration/outputs/single_endpoint_scales.csv",
+    "bytes": 386
+  },
+  {
+    "path": "analysis/calibration/outputs/summary.json",
+    "bytes": 1042
+  },
+  {
+    "path": "analysis/calibration/run_calibration.py",
+    "bytes": 20772
+  },
+  {
+    "path": "analysis/calibration/test_calibration.py",
+    "bytes": 3319
+  },
+  {
+    "path": "analysis/config.json",
+    "bytes": 2118
+  },
+  {
+    "path": "analysis/extract.py",
+    "bytes": 32198
+  },
+  {
+    "path": "analysis/fem/REPORT.md",
+    "bytes": 11289
+  },
+  {
+    "path": "analysis/fem/patch_test.py",
+    "bytes": 10928
+  },
+  {
+    "path": "analysis/fem/test_tetra.py",
+    "bytes": 6187
+  },
+  {
+    "path": "analysis/fem/tetra.py",
+    "bytes": 5900
+  },
+  {
+    "path": "analysis/fem/verification/boundary_reactions.csv",
+    "bytes": 17313
+  },
+  {
+    "path": "analysis/fem/verification/element_balance.csv",
+    "bytes": 1672
+  },
+  {
+    "path": "analysis/fem/verification/nodal_gradients.csv",
+    "bytes": 9207
+  },
+  {
+    "path": "analysis/fem/verification/patch_tests.csv",
+    "bytes": 7875
+  },
+  {
+    "path": "analysis/fem/verification/summary.json",
+    "bytes": 7269
+  },
+  {
+    "path": "analysis/fem/verification/synthetic_patch_meshes.png",
+    "bytes": 300041
+  },
+  {
+    "path": "analysis/fem/verification/verification.png",
+    "bytes": 106834
+  },
+  {
+    "path": "analysis/fem_solver/REPORT.md",
+    "bytes": 14059
+  },
+  {
+    "path": "analysis/fem_solver/solver.py",
+    "bytes": 12363
+  },
+  {
+    "path": "analysis/fem_solver/test_solver.py",
+    "bytes": 4719
+  },
+  {
+    "path": "analysis/fem_solver/verification/constraints.csv",
+    "bytes": 3132
+  },
+  {
+    "path": "analysis/fem_solver/verification/continuation_attempts.csv",
+    "bytes": 13007
+  },
+  {
+    "path": "analysis/fem_solver/verification/deformed_nodes.csv",
+    "bytes": 5646
+  },
+  {
+    "path": "analysis/fem_solver/verification/element_jacobians.csv",
+    "bytes": 61149
+  },
+  {
+    "path": "analysis/fem_solver/verification/equilibria.csv",
+    "bytes": 24032
+  },
+  {
+    "path": "analysis/fem_solver/verification/equilibrium_checks.png",
+    "bytes": 166293
+  },
+  {
+    "path": "analysis/fem_solver/verification/final_checks.json",
+    "bytes": 566
+  },
+  {
+    "path": "analysis/fem_solver/verification/force_root_history.csv",
+    "bytes": 36424
+  },
+  {
+    "path": "analysis/fem_solver/verification/iterations.csv",
+    "bytes": 89808
+  },
+  {
+    "path": "analysis/fem_solver/verification/mesh_comparison.csv",
+    "bytes": 2227
+  },
+  {
+    "path": "analysis/fem_solver/verification/summary.json",
+    "bytes": 9746
+  },
+  {
+    "path": "analysis/fem_solver/verify_solver.py",
+    "bytes": 9661
+  },
+  {
+    "path": "analysis/localized_experiments/REPORT.md",
+    "bytes": 21072
+  },
+  {
+    "path": "analysis/localized_experiments/analyze.py",
+    "bytes": 18258
+  },
+  {
+    "path": "analysis/localized_experiments/inspect_videos.py",
+    "bytes": 3342
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/analysis_configuration.json",
+    "bytes": 3267
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/baseline_provenance.json",
+    "bytes": 56000
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/event_review_manifest.csv",
+    "bytes": 7007
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/final_validation.json",
+    "bytes": 760
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/calibration.json",
+    "bytes": 631
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/calibration.png",
+    "bytes": 120629
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/calibration_evidence.jpg",
+    "bytes": 313017
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/central_contact.jpg",
+    "bytes": 432801
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/central_release.jpg",
+    "bytes": 551924
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/deformation_profiles.png",
+    "bytes": 167248
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00000.jpg",
+    "bytes": 343248
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00015.jpg",
+    "bytes": 358511
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00031.jpg",
+    "bytes": 368673
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00046.jpg",
+    "bytes": 377971
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00061.jpg",
+    "bytes": 373359
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00076.jpg",
+    "bytes": 381090
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00091.jpg",
+    "bytes": 361864
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00106.jpg",
+    "bytes": 383037
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00121.jpg",
+    "bytes": 366098
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00136.jpg",
+    "bytes": 384402
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00151.jpg",
+    "bytes": 366316
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00166.jpg",
+    "bytes": 372366
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00181.jpg",
+    "bytes": 357349
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00196.jpg",
+    "bytes": 370561
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00211.jpg",
+    "bytes": 358241
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00226.jpg",
+    "bytes": 376773
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00241.jpg",
+    "bytes": 368178
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00256.jpg",
+    "bytes": 380445
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00271.jpg",
+    "bytes": 349420
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00286.jpg",
+    "bytes": 372689
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00301.jpg",
+    "bytes": 371640
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00316.jpg",
+    "bytes": 381109
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00331.jpg",
+    "bytes": 366745
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00346.jpg",
+    "bytes": 379580
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00361.jpg",
+    "bytes": 366103
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00376.jpg",
+    "bytes": 381670
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00391.jpg",
+    "bytes": 360273
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00406.jpg",
+    "bytes": 331440
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00421.jpg",
+    "bytes": 364713
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/frame_00436.jpg",
+    "bytes": 356498
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/left_contact.jpg",
+    "bytes": 475612
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/left_release.jpg",
+    "bytes": 781847
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/measurements.csv",
+    "bytes": 141373
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/overview.jpg",
+    "bytes": 1604457
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/peak_central_00151_annotated.jpg",
+    "bytes": 322741
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/peak_central_00151_original.jpg",
+    "bytes": 325652
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/peak_left_00245_annotated.jpg",
+    "bytes": 334550
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/peak_left_00245_original.jpg",
+    "bytes": 338454
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/peak_right_00367_annotated.jpg",
+    "bytes": 338651
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/peak_right_00367_original.jpg",
+    "bytes": 339550
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/profiles.csv",
+    "bytes": 1462164
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/reference_profile.csv",
+    "bytes": 1215
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/right_contact.jpg",
+    "bytes": 556185
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/right_release.jpg",
+    "bytes": 775194
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/ruler_ticks.csv",
+    "bytes": 987
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00000_annotated.jpg",
+    "bytes": 361713
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00000_original.jpg",
+    "bytes": 343248
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00048_annotated.jpg",
+    "bytes": 369993
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00048_original.jpg",
+    "bytes": 380220
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00055_annotated.jpg",
+    "bytes": 380407
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00055_original.jpg",
+    "bytes": 372310
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00070_annotated.jpg",
+    "bytes": 395419
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00070_original.jpg",
+    "bytes": 383121
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00100_annotated.jpg",
+    "bytes": 382246
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00100_original.jpg",
+    "bytes": 374103
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00130_annotated.jpg",
+    "bytes": 403762
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00130_original.jpg",
+    "bytes": 385160
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00150_annotated.jpg",
+    "bytes": 424782
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00150_original.jpg",
+    "bytes": 408207
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00164_annotated.jpg",
+    "bytes": 379452
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00164_original.jpg",
+    "bytes": 375556
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00170_annotated.jpg",
+    "bytes": 386083
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00170_original.jpg",
+    "bytes": 379677
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00178_annotated.jpg",
+    "bytes": 372521
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00178_original.jpg",
+    "bytes": 369550
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00195_annotated.jpg",
+    "bytes": 369522
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00195_original.jpg",
+    "bytes": 368054
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00207_annotated.jpg",
+    "bytes": 380123
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00207_original.jpg",
+    "bytes": 363577
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00225_annotated.jpg",
+    "bytes": 373103
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00225_original.jpg",
+    "bytes": 369766
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00245_annotated.jpg",
+    "bytes": 387449
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00245_original.jpg",
+    "bytes": 382201
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00265_annotated.jpg",
+    "bytes": 372168
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00265_original.jpg",
+    "bytes": 363122
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00280_annotated.jpg",
+    "bytes": 359993
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00280_original.jpg",
+    "bytes": 360603
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00290_annotated.jpg",
+    "bytes": 370429
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00290_original.jpg",
+    "bytes": 370816
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00300_annotated.jpg",
+    "bytes": 413718
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00300_original.jpg",
+    "bytes": 413120
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00309_annotated.jpg",
+    "bytes": 384277
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00309_original.jpg",
+    "bytes": 378191
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00335_annotated.jpg",
+    "bytes": 387055
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00335_original.jpg",
+    "bytes": 376426
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00365_annotated.jpg",
+    "bytes": 385652
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00365_original.jpg",
+    "bytes": 379822
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00390_annotated.jpg",
+    "bytes": 421551
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00390_original.jpg",
+    "bytes": 408567
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00400_annotated.jpg",
+    "bytes": 388013
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00400_original.jpg",
+    "bytes": 379536
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00410_annotated.jpg",
+    "bytes": 365961
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00410_original.jpg",
+    "bytes": 362761
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00430_annotated.jpg",
+    "bytes": 377793
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00430_original.jpg",
+    "bytes": 386351
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00440_annotated.jpg",
+    "bytes": 306377
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_00440_original.jpg",
+    "bytes": 268833
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_contact_sheet.jpg",
+    "bytes": 1391241
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/selected_manifest.csv",
+    "bytes": 2094
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/temporal_observations.png",
+    "bytes": 244981
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip/timestamps.csv",
+    "bytes": 9829
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/fingertip_peaks.csv",
+    "bytes": 481
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/calibration.json",
+    "bytes": 632
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/calibration.png",
+    "bytes": 129350
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/calibration_evidence.jpg",
+    "bytes": 347015
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/cycle1_contact.jpg",
+    "bytes": 878071
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/cycle1_release.jpg",
+    "bytes": 802776
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/cycle2_contact.jpg",
+    "bytes": 977304
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/cycle2_release.jpg",
+    "bytes": 1062588
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/deformation_profiles.png",
+    "bytes": 115397
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00000.jpg",
+    "bytes": 378883
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00015.jpg",
+    "bytes": 404798
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00031.jpg",
+    "bytes": 403667
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00046.jpg",
+    "bytes": 415759
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00061.jpg",
+    "bytes": 401006
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00076.jpg",
+    "bytes": 403953
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00091.jpg",
+    "bytes": 383682
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00106.jpg",
+    "bytes": 393832
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00121.jpg",
+    "bytes": 392688
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00136.jpg",
+    "bytes": 392465
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00151.jpg",
+    "bytes": 384871
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00166.jpg",
+    "bytes": 394201
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00181.jpg",
+    "bytes": 379854
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00196.jpg",
+    "bytes": 391013
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00211.jpg",
+    "bytes": 402353
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00226.jpg",
+    "bytes": 404794
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00241.jpg",
+    "bytes": 397541
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00256.jpg",
+    "bytes": 413478
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00271.jpg",
+    "bytes": 404216
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00286.jpg",
+    "bytes": 391084
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00301.jpg",
+    "bytes": 383313
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00316.jpg",
+    "bytes": 391025
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00331.jpg",
+    "bytes": 383543
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00346.jpg",
+    "bytes": 392672
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00361.jpg",
+    "bytes": 384438
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00376.jpg",
+    "bytes": 390664
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00391.jpg",
+    "bytes": 391365
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00406.jpg",
+    "bytes": 402012
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00421.jpg",
+    "bytes": 387962
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00436.jpg",
+    "bytes": 372775
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/frame_00451.jpg",
+    "bytes": 319321
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/geometry_00000.jpg",
+    "bytes": 370364
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/geometry_00125.jpg",
+    "bytes": 384413
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/geometry_00330.jpg",
+    "bytes": 386117
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/manual_geometry.csv",
+    "bytes": 627
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/measurements.csv",
+    "bytes": 126569
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/overview.jpg",
+    "bytes": 1859887
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/profiles.csv",
+    "bytes": 1490505
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/reference_profile.csv",
+    "bytes": 1216
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/ruler_ticks.csv",
+    "bytes": 1271
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00000_annotated.jpg",
+    "bytes": 398697
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00000_original.jpg",
+    "bytes": 378883
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00055_annotated.jpg",
+    "bytes": 388126
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00055_original.jpg",
+    "bytes": 388754
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00065_annotated.jpg",
+    "bytes": 408815
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00065_original.jpg",
+    "bytes": 407679
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00080_annotated.jpg",
+    "bytes": 394771
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00080_original.jpg",
+    "bytes": 393700
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00095_annotated.jpg",
+    "bytes": 395613
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00095_original.jpg",
+    "bytes": 393490
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00125_annotated.jpg",
+    "bytes": 404954
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00125_original.jpg",
+    "bytes": 393415
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00155_annotated.jpg",
+    "bytes": 401679
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00155_original.jpg",
+    "bytes": 392771
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00185_annotated.jpg",
+    "bytes": 399336
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00185_original.jpg",
+    "bytes": 387169
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00200_annotated.jpg",
+    "bytes": 402560
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00200_original.jpg",
+    "bytes": 393793
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00210_annotated.jpg",
+    "bytes": 410884
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00210_original.jpg",
+    "bytes": 397074
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00225_annotated.jpg",
+    "bytes": 413893
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00225_original.jpg",
+    "bytes": 405717
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00245_annotated.jpg",
+    "bytes": 414165
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00245_original.jpg",
+    "bytes": 404452
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00270_annotated.jpg",
+    "bytes": 421675
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00270_original.jpg",
+    "bytes": 409312
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00300_annotated.jpg",
+    "bytes": 406258
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00300_original.jpg",
+    "bytes": 393686
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00330_annotated.jpg",
+    "bytes": 407840
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00330_original.jpg",
+    "bytes": 395214
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00360_annotated.jpg",
+    "bytes": 408905
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00360_original.jpg",
+    "bytes": 395565
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00380_annotated.jpg",
+    "bytes": 396149
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00380_original.jpg",
+    "bytes": 387109
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00390_annotated.jpg",
+    "bytes": 409334
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00390_original.jpg",
+    "bytes": 396851
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00400_annotated.jpg",
+    "bytes": 385313
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00400_original.jpg",
+    "bytes": 387159
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00425_annotated.jpg",
+    "bytes": 404721
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00425_original.jpg",
+    "bytes": 393304
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00451_annotated.jpg",
+    "bytes": 347445
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_00451_original.jpg",
+    "bytes": 319321
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_contact_sheet.jpg",
+    "bytes": 1232805
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/selected_manifest.csv",
+    "bytes": 1671
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/temporal_observations.png",
+    "bytes": 219937
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/half_area/timestamps.csv",
+    "bytes": 10112
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/hold_quality.csv",
+    "bytes": 503
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/inventory.csv",
+    "bytes": 578
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/load_assumptions.csv",
+    "bytes": 378
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/measurement_quality.csv",
+    "bytes": 628
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/overview_manifest.csv",
+    "bytes": 3525
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/phases.csv",
+    "bytes": 4030
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/preservation_check.json",
+    "bytes": 118
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/recovery_observations.csv",
+    "bytes": 809
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/reference_geometry.csv",
+    "bytes": 320
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/spatial_decay.csv",
+    "bytes": 16956
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/uncertainty_limitations.csv",
+    "bytes": 2012
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/validation_capabilities.csv",
+    "bytes": 778
+  },
+  {
+    "path": "analysis/localized_experiments/outputs/window_summary.csv",
+    "bytes": 1881
+  },
+  {
+    "path": "analysis/localized_experiments/refine_sheets.py",
+    "bytes": 1645
+  },
+  {
+    "path": "analysis/localized_experiments/summarize.py",
+    "bytes": 15454
+  },
+  {
+    "path": "analysis/localized_experiments/test_analysis.py",
+    "bytes": 2990
+  },
+  {
+    "path": "analysis/localized_fem/PHASE7C_REPORT.md",
+    "bytes": 14467
+  },
+  {
+    "path": "analysis/localized_fem/REPORT.md",
+    "bytes": 15284
+  },
+  {
+    "path": "analysis/localized_fem/audit_outputs.py",
+    "bytes": 2558
+  },
+  {
+    "path": "analysis/localized_fem/check_package.py",
+    "bytes": 3290
+  },
+  {
+    "path": "analysis/localized_fem/cli_example/boundary_triangles.csv",
+    "bytes": 274
+  },
+  {
+    "path": "analysis/localized_fem/cli_example/continuation.csv",
+    "bytes": 93
+  },
+  {
+    "path": "analysis/localized_fem/cli_example/deformed.png",
+    "bytes": 325302
+  },
+  {
+    "path": "analysis/localized_fem/cli_example/diagnostics.json",
+    "bytes": 945
+  },
+  {
+    "path": "analysis/localized_fem/cli_example/history.csv",
+    "bytes": 11190
+  },
+  {
+    "path": "analysis/localized_fem/cli_example/inputs.json",
+    "bytes": 443
+  },
+  {
+    "path": "analysis/localized_fem/cli_example/nodes.csv",
+    "bytes": 4583
+  },
+  {
+    "path": "analysis/localized_fem/cli_example/reactions.csv",
+    "bytes": 1385
+  },
+  {
+    "path": "analysis/localized_fem/cli_example/tetrahedra.csv",
+    "bytes": 261
+  },
+  {
+    "path": "analysis/localized_fem/compare_once.py",
+    "bytes": 2313
+  },
+  {
+    "path": "analysis/localized_fem/diagnose.py",
+    "bytes": 3412
+  },
+  {
+    "path": "analysis/localized_fem/minimize.py",
+    "bytes": 2728
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/baseline.log",
+    "bytes": 353
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_fullface/boundary_triangles.csv",
+    "bytes": 436
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_fullface/deformed.png",
+    "bytes": 124111
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_fullface/diagnostics.json",
+    "bytes": 578
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_fullface/inputs.json",
+    "bytes": 263
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_fullface/nodes.csv",
+    "bytes": 6831
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_fullface/reactions.csv",
+    "bytes": 2069
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_fullface/sequence/frame_000.png",
+    "bytes": 114390
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_fullface/sequence/frame_001.png",
+    "bytes": 117576
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_fullface/sequence/frame_002.png",
+    "bytes": 118410
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_fullface/sequence/frame_003.png",
+    "bytes": 125209
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_fullface/sequence/frame_004.png",
+    "bytes": 124111
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_fullface/sequence/frame_005.png",
+    "bytes": 125209
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_fullface/sequence/frame_006.png",
+    "bytes": 118410
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_fullface/sequence/frame_007.png",
+    "bytes": 117576
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_fullface/sequence/frame_008.png",
+    "bytes": 114390
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_fullface/sequence/frames.json",
+    "bytes": 1244
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_fullface/sequence/loading_unloading.gif",
+    "bytes": 288049
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_fullface/sequence/solved_states.npz",
+    "bytes": 844
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_fullface/tetrahedra.csv",
+    "bytes": 581
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/bottom_contact.csv",
+    "bytes": 946
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/boundary_triangles.csv",
+    "bytes": 274
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/continuation.csv",
+    "bytes": 93
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/deformed.png",
+    "bytes": 329965
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/diagnostics.json",
+    "bytes": 1261
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/history.csv",
+    "bytes": 32221
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/inputs.json",
+    "bytes": 534
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/nodes.csv",
+    "bytes": 4585
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/reactions.csv",
+    "bytes": 1386
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/sequence/frame_000.png",
+    "bytes": 329384
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/sequence/frame_001.png",
+    "bytes": 331088
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/sequence/frame_002.png",
+    "bytes": 329977
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/sequence/frame_003.png",
+    "bytes": 332168
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/sequence/frame_004.png",
+    "bytes": 329965
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/sequence/frame_005.png",
+    "bytes": 332168
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/sequence/frame_006.png",
+    "bytes": 329977
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/sequence/frame_007.png",
+    "bytes": 331088
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/sequence/frame_008.png",
+    "bytes": 329384
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/sequence/frames.json",
+    "bytes": 1272
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/sequence/loading_unloading.gif",
+    "bytes": 584238
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/sequence/solved_states.npz",
+    "bytes": 1858
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/support_iterations.json",
+    "bytes": 1237
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/cli_localized/tetrahedra.csv",
+    "bytes": 261
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/documentation_delta.json",
+    "bytes": 341
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/export_correction.json",
+    "bytes": 376
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/final_regression.log",
+    "bytes": 141
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/final_summary.json",
+    "bytes": 707
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/frozen_evaluation_protocol.json",
+    "bytes": 1737
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/half_area_comparison.csv",
+    "bytes": 233
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/half_area_comparison.json",
+    "bytes": 3266
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/half_area_once/failure.json",
+    "bytes": 3964
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/half_area_once/inputs.json",
+    "bytes": 541
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/historical_phase7a_readme_delta.log",
+    "bytes": 951
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/localized_tests.log",
+    "bytes": 1679
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/mesh_diagnosis.json",
+    "bytes": 6593
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/package_check.json",
+    "bytes": 906
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/phase7a_tests.log",
+    "bytes": 108
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/preservation_before.json",
+    "bytes": 100665
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/refine_8/boundary_triangles.csv",
+    "bytes": 6158
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/refine_8/continuation.csv",
+    "bytes": 93
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/refine_8/deformed.png",
+    "bytes": 603178
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/refine_8/diagnostics.json",
+    "bytes": 936
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/refine_8/history.csv",
+    "bytes": 73424
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/refine_8/nodes.csv",
+    "bytes": 102135
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/refine_8/reactions.csv",
+    "bytes": 30820
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/refine_8/tetrahedra.csv",
+    "bytes": 24749
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/refinement_diagnosis.png",
+    "bytes": 103009
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/regression.log",
+    "bytes": 141
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_4/boundary_triangles.csv",
+    "bytes": 1234
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_4/continuation.csv",
+    "bytes": 93
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_4/deformed.png",
+    "bytes": 431773
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_4/diagnostics.json",
+    "bytes": 1237
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_4/history.csv",
+    "bytes": 53566
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_4/nodes.csv",
+    "bytes": 18955
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_4/reactions.csv",
+    "bytes": 5718
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_4/support_iterations.json",
+    "bytes": 1309
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_4/tetrahedra.csv",
+    "bytes": 2449
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_6/boundary_triangles.csv",
+    "bytes": 3256
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_6/continuation.csv",
+    "bytes": 93
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_6/deformed.png",
+    "bytes": 520920
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_6/diagnostics.json",
+    "bytes": 1230
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_6/history.csv",
+    "bytes": 95120
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_6/nodes.csv",
+    "bytes": 49445
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_6/reactions.csv",
+    "bytes": 14913
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_6/support_iterations.json",
+    "bytes": 1527
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_6/tetrahedra.csv",
+    "bytes": 9609
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_audit.json",
+    "bytes": 1216
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_pilot/boundary_triangles.csv",
+    "bytes": 274
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_pilot/continuation.csv",
+    "bytes": 93
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_pilot/deformed.png",
+    "bytes": 325114
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_pilot/diagnostics.json",
+    "bytes": 1236
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_pilot/history.csv",
+    "bytes": 32221
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_pilot/nodes.csv",
+    "bytes": 4585
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_pilot/reactions.csv",
+    "bytes": 1386
+  },
+  {
+    "path": "analysis/localized_fem/phase7c/support_pilot/tetrahedra.csv",
+    "bytes": 261
+  },
+  {
+    "path": "analysis/localized_fem/simulate.py",
+    "bytes": 6485
+  },
+  {
+    "path": "analysis/localized_fem/simulator.py",
+    "bytes": 8833
+  },
+  {
+    "path": "analysis/localized_fem/solver.py",
+    "bytes": 7728
+  },
+  {
+    "path": "analysis/localized_fem/support.py",
+    "bytes": 4272
+  },
+  {
+    "path": "analysis/localized_fem/test_cli.py",
+    "bytes": 3132
+  },
+  {
+    "path": "analysis/localized_fem/test_localized.py",
+    "bytes": 5980
+  },
+  {
+    "path": "analysis/localized_fem/test_support.py",
+    "bytes": 3192
+  },
+  {
+    "path": "analysis/localized_fem/traction.py",
+    "bytes": 4267
+  },
+  {
+    "path": "analysis/localized_fem/verification/baseline.log",
+    "bytes": 353
+  },
+  {
+    "path": "analysis/localized_fem/verification/cases.csv",
+    "bytes": 3442
+  },
+  {
+    "path": "analysis/localized_fem/verification/cases.json",
+    "bytes": 7637
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p1/boundary_triangles.csv",
+    "bytes": 274
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p1/continuation.csv",
+    "bytes": 93
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p1/deformed.png",
+    "bytes": 325302
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p1/diagnostics.json",
+    "bytes": 947
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p1/history.csv",
+    "bytes": 11190
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p1/nodes.csv",
+    "bytes": 4583
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p1/reactions.csv",
+    "bytes": 1385
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p1/tetrahedra.csv",
+    "bytes": 261
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p3/boundary_triangles.csv",
+    "bytes": 274
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p3/continuation.csv",
+    "bytes": 93
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p3/deformed.png",
+    "bytes": 324904
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p3/diagnostics.json",
+    "bytes": 948
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p3/history.csv",
+    "bytes": 18438
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p3/nodes.csv",
+    "bytes": 4583
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p3/reactions.csv",
+    "bytes": 1385
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p3/tetrahedra.csv",
+    "bytes": 261
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p6/boundary_triangles.csv",
+    "bytes": 274
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p6/continuation.csv",
+    "bytes": 93
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p6/deformed.png",
+    "bytes": 328722
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p6/diagnostics.json",
+    "bytes": 944
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p6/history.csv",
+    "bytes": 20151
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p6/nodes.csv",
+    "bytes": 4583
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p6/reactions.csv",
+    "bytes": 1385
+  },
+  {
+    "path": "analysis/localized_fem/verification/coarse_0p6/tetrahedra.csv",
+    "bytes": 261
+  },
+  {
+    "path": "analysis/localized_fem/verification/expected_failure.json",
+    "bytes": 445
+  },
+  {
+    "path": "analysis/localized_fem/verification/experimental_analysis.log",
+    "bytes": 108
+  },
+  {
+    "path": "analysis/localized_fem/verification/final_checks.json",
+    "bytes": 336
+  },
+  {
+    "path": "analysis/localized_fem/verification/fine_0p3/boundary_triangles.csv",
+    "bytes": 3256
+  },
+  {
+    "path": "analysis/localized_fem/verification/fine_0p3/continuation.csv",
+    "bytes": 93
+  },
+  {
+    "path": "analysis/localized_fem/verification/fine_0p3/deformed.png",
+    "bytes": 520472
+  },
+  {
+    "path": "analysis/localized_fem/verification/fine_0p3/diagnostics.json",
+    "bytes": 965
+  },
+  {
+    "path": "analysis/localized_fem/verification/fine_0p3/history.csv",
+    "bytes": 58432
+  },
+  {
+    "path": "analysis/localized_fem/verification/fine_0p3/nodes.csv",
+    "bytes": 49456
+  },
+  {
+    "path": "analysis/localized_fem/verification/fine_0p3/reactions.csv",
+    "bytes": 14927
+  },
+  {
+    "path": "analysis/localized_fem/verification/fine_0p3/tetrahedra.csv",
+    "bytes": 9609
+  },
+  {
+    "path": "analysis/localized_fem/verification/integration.csv",
+    "bytes": 879
+  },
+  {
+    "path": "analysis/localized_fem/verification/integrity.json",
+    "bytes": 93
+  },
+  {
+    "path": "analysis/localized_fem/verification/left_0p3/boundary_triangles.csv",
+    "bytes": 274
+  },
+  {
+    "path": "analysis/localized_fem/verification/left_0p3/continuation.csv",
+    "bytes": 93
+  },
+  {
+    "path": "analysis/localized_fem/verification/left_0p3/deformed.png",
+    "bytes": 326396
+  },
+  {
+    "path": "analysis/localized_fem/verification/left_0p3/diagnostics.json",
+    "bytes": 976
+  },
+  {
+    "path": "analysis/localized_fem/verification/left_0p3/history.csv",
+    "bytes": 22830
+  },
+  {
+    "path": "analysis/localized_fem/verification/left_0p3/nodes.csv",
+    "bytes": 4585
+  },
+  {
+    "path": "analysis/localized_fem/verification/left_0p3/reactions.csv",
+    "bytes": 1389
+  },
+  {
+    "path": "analysis/localized_fem/verification/left_0p3/tetrahedra.csv",
+    "bytes": 261
+  },
+  {
+    "path": "analysis/localized_fem/verification/localized.log",
+    "bytes": 823
+  },
+  {
+    "path": "analysis/localized_fem/verification/localized_final.log",
+    "bytes": 928
+  },
+  {
+    "path": "analysis/localized_fem/verification/medium_0p3/boundary_triangles.csv",
+    "bytes": 1234
+  },
+  {
+    "path": "analysis/localized_fem/verification/medium_0p3/continuation.csv",
+    "bytes": 93
+  },
+  {
+    "path": "analysis/localized_fem/verification/medium_0p3/deformed.png",
+    "bytes": 431401
+  },
+  {
+    "path": "analysis/localized_fem/verification/medium_0p3/diagnostics.json",
+    "bytes": 980
+  },
+  {
+    "path": "analysis/localized_fem/verification/medium_0p3/history.csv",
+    "bytes": 43378
+  },
+  {
+    "path": "analysis/localized_fem/verification/medium_0p3/nodes.csv",
+    "bytes": 18954
+  },
+  {
+    "path": "analysis/localized_fem/verification/medium_0p3/reactions.csv",
+    "bytes": 5720
+  },
+  {
+    "path": "analysis/localized_fem/verification/medium_0p3/tetrahedra.csv",
+    "bytes": 2449
+  },
+  {
+    "path": "analysis/localized_fem/verification/protected_before.json",
+    "bytes": 88604
+  },
+  {
+    "path": "analysis/localized_fem/verification/protocol.json",
+    "bytes": 431
+  },
+  {
+    "path": "analysis/localized_fem/verification/refinement.png",
+    "bytes": 192782
+  },
+  {
+    "path": "analysis/localized_fem/verification/regression.log",
+    "bytes": 141
+  },
+  {
+    "path": "analysis/localized_fem/verification/right_0p3/boundary_triangles.csv",
+    "bytes": 274
+  },
+  {
+    "path": "analysis/localized_fem/verification/right_0p3/continuation.csv",
+    "bytes": 93
+  },
+  {
+    "path": "analysis/localized_fem/verification/right_0p3/deformed.png",
+    "bytes": 328675
+  },
+  {
+    "path": "analysis/localized_fem/verification/right_0p3/diagnostics.json",
+    "bytes": 925
+  },
+  {
+    "path": "analysis/localized_fem/verification/right_0p3/history.csv",
+    "bytes": 22863
+  },
+  {
+    "path": "analysis/localized_fem/verification/right_0p3/nodes.csv",
+    "bytes": 4584
+  },
+  {
+    "path": "analysis/localized_fem/verification/right_0p3/reactions.csv",
+    "bytes": 1388
+  },
+  {
+    "path": "analysis/localized_fem/verification/right_0p3/tetrahedra.csv",
+    "bytes": 261
+  },
+  {
+    "path": "analysis/localized_fem/verification/saved_equilibrium_audit.json",
+    "bytes": 1669
+  },
+  {
+    "path": "analysis/localized_fem/verification/summary.json",
+    "bytes": 104
+  },
+  {
+    "path": "analysis/localized_fem/verification/test_results.json",
+    "bytes": 394
+  },
+  {
+    "path": "analysis/localized_fem/verify_localized.py",
+    "bytes": 6261
+  },
+  {
+    "path": "analysis/material/REPORT.md",
+    "bytes": 11974
+  },
+  {
+    "path": "analysis/material/hyperfoam.py",
+    "bytes": 4312
+  },
+  {
+    "path": "analysis/material/test_hyperfoam.py",
+    "bytes": 14357
+  },
+  {
+    "path": "analysis/material/verification/compression_response.csv",
+    "bytes": 74458
+  },
+  {
+    "path": "analysis/material/verification/compression_response.png",
+    "bytes": 261468
+  },
+  {
+    "path": "analysis/material/verification/fits.csv",
+    "bytes": 942
+  },
+  {
+    "path": "analysis/material/verification/gradient_checks.csv",
+    "bytes": 9923
+  },
+  {
+    "path": "analysis/material/verification/identifiability.png",
+    "bytes": 62332
+  },
+  {
+    "path": "analysis/material/verification/objectivity_checks.csv",
+    "bytes": 3375
+  },
+  {
+    "path": "analysis/material/verification/observations.csv",
+    "bytes": 465
+  },
+  {
+    "path": "analysis/material/verification/parameter_sensitivity.csv",
+    "bytes": 24188
+  },
+  {
+    "path": "analysis/material/verification/predictions.csv",
+    "bytes": 10325
+  },
+  {
+    "path": "analysis/material/verification/shape_profile.csv",
+    "bytes": 41532
+  },
+  {
+    "path": "analysis/material/verification/summary.json",
+    "bytes": 1413
+  },
+  {
+    "path": "analysis/model_review.py",
+    "bytes": 5826
+  },
+  {
+    "path": "analysis/model_review/REPORT.md",
+    "bytes": 14548
+  },
+  {
+    "path": "analysis/model_review/comparison.png",
+    "bytes": 157821
+  },
+  {
+    "path": "analysis/model_review/correlated_calibration_sensitivity.csv",
+    "bytes": 13618
+  },
+  {
+    "path": "analysis/model_review/cycle_residuals.csv",
+    "bytes": 2868
+  },
+  {
+    "path": "analysis/model_review/endpoint_repeat_tare_sensitivity.csv",
+    "bytes": 2100
+  },
+  {
+    "path": "analysis/model_review/localization_sensitivity.csv",
+    "bytes": 1453
+  },
+  {
+    "path": "analysis/model_review/metrics.csv",
+    "bytes": 779
+  },
+  {
+    "path": "analysis/model_review/provenance.json",
+    "bytes": 3547
+  },
+  {
+    "path": "analysis/model_review/quadratic_tangent_stiffness.csv",
+    "bytes": 187
+  },
+  {
+    "path": "analysis/model_review/repeatability.csv",
+    "bytes": 679
+  },
+  {
+    "path": "analysis/model_selection.py",
+    "bytes": 10640
+  },
+  {
+    "path": "analysis/model_selection/REPORT.md",
+    "bytes": 15431
+  },
+  {
+    "path": "analysis/model_selection/calibration_sensitivity.csv",
+    "bytes": 105311
+  },
+  {
+    "path": "analysis/model_selection/force_compression.png",
+    "bytes": 138670
+  },
+  {
+    "path": "analysis/model_selection/linear_interval_feasibility.csv",
+    "bytes": 1586
+  },
+  {
+    "path": "analysis/model_selection/metrics.csv",
+    "bytes": 815
+  },
+  {
+    "path": "analysis/model_selection/observations.csv",
+    "bytes": 695
+  },
+  {
+    "path": "analysis/model_selection/parameters.csv",
+    "bytes": 260
+  },
+  {
+    "path": "analysis/model_selection/predictions.csv",
+    "bytes": 3034
+  },
+  {
+    "path": "analysis/model_selection/predictions_residuals.png",
+    "bytes": 76368
+  },
+  {
+    "path": "analysis/model_selection/provenance.json",
+    "bytes": 1170
+  },
+  {
+    "path": "analysis/model_selection/recovery_identifiability.png",
+    "bytes": 57239
+  },
+  {
+    "path": "analysis/model_selection/recovery_profile.csv",
+    "bytes": 29842
+  },
+  {
+    "path": "analysis/model_selection/tare_sensitivity.csv",
+    "bytes": 11350
+  },
+  {
+    "path": "analysis/model_selection/tare_sensitivity.png",
+    "bytes": 120978
+  },
+  {
+    "path": "analysis/outputs/1000ml/bottle_motion.png",
+    "bytes": 111851
+  },
+  {
+    "path": "analysis/outputs/1000ml/calibration.json",
+    "bytes": 1753
+  },
+  {
+    "path": "analysis/outputs/1000ml/calibration.png",
+    "bytes": 134022
+  },
+  {
+    "path": "analysis/outputs/1000ml/calibration_frame.jpg",
+    "bytes": 315858
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_00000_background.jpg",
+    "bytes": 141752
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_00000_original.jpg",
+    "bytes": 359983
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_00000_overlay.jpg",
+    "bytes": 145875
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_00270_overlay.jpg",
+    "bytes": 144915
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_00360_overlay.jpg",
+    "bytes": 133105
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_00390_overlay.jpg",
+    "bytes": 129824
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_00600_overlay.jpg",
+    "bytes": 125694
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_00840_background.jpg",
+    "bytes": 123332
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_00840_original.jpg",
+    "bytes": 362275
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_00840_overlay.jpg",
+    "bytes": 126594
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_00869_overlay.jpg",
+    "bytes": 123345
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_00926_overlay.jpg",
+    "bytes": 130698
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01013_overlay.jpg",
+    "bytes": 139293
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01019_overlay.jpg",
+    "bytes": 136837
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01025_overlay.jpg",
+    "bytes": 132071
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01031_overlay.jpg",
+    "bytes": 136802
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01034_overlay.jpg",
+    "bytes": 137768
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01037_overlay.jpg",
+    "bytes": 136981
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01043_overlay.jpg",
+    "bytes": 134365
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01049_overlay.jpg",
+    "bytes": 134749
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01055_overlay.jpg",
+    "bytes": 134808
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01061_overlay.jpg",
+    "bytes": 134589
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01067_overlay.jpg",
+    "bytes": 135112
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01073_overlay.jpg",
+    "bytes": 134655
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01076_overlay.jpg",
+    "bytes": 135317
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01256_overlay.jpg",
+    "bytes": 141575
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01316_overlay.jpg",
+    "bytes": 135962
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01376_overlay.jpg",
+    "bytes": 123885
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01556_overlay.jpg",
+    "bytes": 123382
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01796_background.jpg",
+    "bytes": 115344
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01796_original.jpg",
+    "bytes": 343132
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01796_overlay.jpg",
+    "bytes": 119898
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01856_overlay.jpg",
+    "bytes": 123246
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01889_overlay.jpg",
+    "bytes": 135242
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01895_overlay.jpg",
+    "bytes": 135506
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01901_overlay.jpg",
+    "bytes": 135218
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01907_overlay.jpg",
+    "bytes": 135140
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01908_overlay.jpg",
+    "bytes": 135183
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01913_overlay.jpg",
+    "bytes": 132884
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01919_overlay.jpg",
+    "bytes": 132604
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01925_overlay.jpg",
+    "bytes": 132470
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01931_overlay.jpg",
+    "bytes": 132448
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01936_overlay.jpg",
+    "bytes": 132825
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01940_overlay.jpg",
+    "bytes": 133010
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01946_overlay.jpg",
+    "bytes": 133405
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01970_background.jpg",
+    "bytes": 134469
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01970_original.jpg",
+    "bytes": 383198
+  },
+  {
+    "path": "analysis/outputs/1000ml/frame_01970_overlay.jpg",
+    "bytes": 135030
+  },
+  {
+    "path": "analysis/outputs/1000ml/lateral.png",
+    "bytes": 295305
+  },
+  {
+    "path": "analysis/outputs/1000ml/markers.csv",
+    "bytes": 3273105
+  },
+  {
+    "path": "analysis/outputs/1000ml/measurements.csv",
+    "bytes": 2372415
+  },
+  {
+    "path": "analysis/outputs/1000ml/metadata.json",
+    "bytes": 709
+  },
+  {
+    "path": "analysis/outputs/1000ml/overview_overlays.jpg",
+    "bytes": 812123
+  },
+  {
+    "path": "analysis/outputs/1000ml/phases.csv",
+    "bytes": 1252
+  },
+  {
+    "path": "analysis/outputs/1000ml/registration.png",
+    "bytes": 252996
+  },
+  {
+    "path": "analysis/outputs/1000ml/ruler_ticks.csv",
+    "bytes": 978
+  },
+  {
+    "path": "analysis/outputs/1000ml/timestamp_gaps.csv",
+    "bytes": 603
+  },
+  {
+    "path": "analysis/outputs/1000ml/trajectories.png",
+    "bytes": 301074
+  },
+  {
+    "path": "analysis/outputs/500ml/bottle_motion.png",
+    "bytes": 116175
+  },
+  {
+    "path": "analysis/outputs/500ml/calibration.json",
+    "bytes": 1755
+  },
+  {
+    "path": "analysis/outputs/500ml/calibration.png",
+    "bytes": 130332
+  },
+  {
+    "path": "analysis/outputs/500ml/calibration_frame.jpg",
+    "bytes": 313649
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00000_background.jpg",
+    "bytes": 140206
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00000_original.jpg",
+    "bytes": 354272
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00000_overlay.jpg",
+    "bytes": 144657
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00241_overlay.jpg",
+    "bytes": 143097
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00313_overlay.jpg",
+    "bytes": 142199
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00361_overlay.jpg",
+    "bytes": 140105
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00601_overlay.jpg",
+    "bytes": 138115
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00721_overlay.jpg",
+    "bytes": 137933
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00757_overlay.jpg",
+    "bytes": 138905
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00775_overlay.jpg",
+    "bytes": 139852
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00781_overlay.jpg",
+    "bytes": 140039
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00787_overlay.jpg",
+    "bytes": 140560
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00793_overlay.jpg",
+    "bytes": 141837
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00794_overlay.jpg",
+    "bytes": 141256
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00799_overlay.jpg",
+    "bytes": 139341
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00805_overlay.jpg",
+    "bytes": 139803
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00811_overlay.jpg",
+    "bytes": 139729
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00817_overlay.jpg",
+    "bytes": 139913
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00823_overlay.jpg",
+    "bytes": 139992
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00829_overlay.jpg",
+    "bytes": 139836
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00834_overlay.jpg",
+    "bytes": 140048
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00840_background.jpg",
+    "bytes": 142296
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00840_original.jpg",
+    "bytes": 393038
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00840_overlay.jpg",
+    "bytes": 139719
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00870_overlay.jpg",
+    "bytes": 143669
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_00936_overlay.jpg",
+    "bytes": 140639
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_01080_overlay.jpg",
+    "bytes": 139364
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_01110_overlay.jpg",
+    "bytes": 139946
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_01112_overlay.jpg",
+    "bytes": 139598
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_01118_overlay.jpg",
+    "bytes": 140676
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_01124_overlay.jpg",
+    "bytes": 140991
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_01128_overlay.jpg",
+    "bytes": 141747
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_01130_overlay.jpg",
+    "bytes": 142329
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_01136_overlay.jpg",
+    "bytes": 139774
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_01142_overlay.jpg",
+    "bytes": 139683
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_01148_overlay.jpg",
+    "bytes": 139894
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_01154_overlay.jpg",
+    "bytes": 139883
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_01160_overlay.jpg",
+    "bytes": 138196
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_01166_overlay.jpg",
+    "bytes": 138480
+  },
+  {
+    "path": "analysis/outputs/500ml/frame_01172_overlay.jpg",
+    "bytes": 139197
+  },
+  {
+    "path": "analysis/outputs/500ml/lateral.png",
+    "bytes": 332548
+  },
+  {
+    "path": "analysis/outputs/500ml/markers.csv",
+    "bytes": 1956913
+  },
+  {
+    "path": "analysis/outputs/500ml/measurements.csv",
+    "bytes": 1411436
+  },
+  {
+    "path": "analysis/outputs/500ml/metadata.json",
+    "bytes": 711
+  },
+  {
+    "path": "analysis/outputs/500ml/overview_overlays.jpg",
+    "bytes": 1525517
+  },
+  {
+    "path": "analysis/outputs/500ml/phases.csv",
+    "bytes": 1234
+  },
+  {
+    "path": "analysis/outputs/500ml/registration.png",
+    "bytes": 244574
+  },
+  {
+    "path": "analysis/outputs/500ml/ruler_ticks.csv",
+    "bytes": 980
+  },
+  {
+    "path": "analysis/outputs/500ml/timestamp_gaps.csv",
+    "bytes": 134
+  },
+  {
+    "path": "analysis/outputs/500ml/trajectories.png",
+    "bytes": 324802
+  },
+  {
+    "path": "analysis/outputs/750ml/bottle_motion.png",
+    "bytes": 121765
+  },
+  {
+    "path": "analysis/outputs/750ml/calibration.json",
+    "bytes": 1758
+  },
+  {
+    "path": "analysis/outputs/750ml/calibration.png",
+    "bytes": 131842
+  },
+  {
+    "path": "analysis/outputs/750ml/calibration_frame.jpg",
+    "bytes": 318016
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_00000_background.jpg",
+    "bytes": 142437
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_00000_original.jpg",
+    "bytes": 362207
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_00000_overlay.jpg",
+    "bytes": 146445
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_00239_overlay.jpg",
+    "bytes": 146880
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_00311_overlay.jpg",
+    "bytes": 142902
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_00359_overlay.jpg",
+    "bytes": 137164
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_00599_overlay.jpg",
+    "bytes": 135453
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_00839_background.jpg",
+    "bytes": 133923
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_00839_original.jpg",
+    "bytes": 393591
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_00839_overlay.jpg",
+    "bytes": 133153
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_00851_overlay.jpg",
+    "bytes": 132314
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_00899_overlay.jpg",
+    "bytes": 134278
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_00963_overlay.jpg",
+    "bytes": 139034
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_00969_overlay.jpg",
+    "bytes": 142046
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_00975_overlay.jpg",
+    "bytes": 143332
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_00981_overlay.jpg",
+    "bytes": 142778
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_00987_overlay.jpg",
+    "bytes": 139029
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_00993_overlay.jpg",
+    "bytes": 138603
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_00999_overlay.jpg",
+    "bytes": 138452
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01005_overlay.jpg",
+    "bytes": 138869
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01011_overlay.jpg",
+    "bytes": 136823
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01017_overlay.jpg",
+    "bytes": 139376
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01023_overlay.jpg",
+    "bytes": 139128
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01079_overlay.jpg",
+    "bytes": 139918
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01109_overlay.jpg",
+    "bytes": 139823
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01229_overlay.jpg",
+    "bytes": 135806
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01319_overlay.jpg",
+    "bytes": 133471
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01559_overlay.jpg",
+    "bytes": 131754
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01679_overlay.jpg",
+    "bytes": 132312
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01715_overlay.jpg",
+    "bytes": 134130
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01747_overlay.jpg",
+    "bytes": 139920
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01753_overlay.jpg",
+    "bytes": 139730
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01759_overlay.jpg",
+    "bytes": 140852
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01765_overlay.jpg",
+    "bytes": 140616
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01766_overlay.jpg",
+    "bytes": 140493
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01771_overlay.jpg",
+    "bytes": 137277
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01777_overlay.jpg",
+    "bytes": 138083
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01783_overlay.jpg",
+    "bytes": 137448
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01789_overlay.jpg",
+    "bytes": 138415
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01795_overlay.jpg",
+    "bytes": 136207
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01799_background.jpg",
+    "bytes": 140829
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01799_original.jpg",
+    "bytes": 401573
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01799_overlay.jpg",
+    "bytes": 138089
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01801_overlay.jpg",
+    "bytes": 138284
+  },
+  {
+    "path": "analysis/outputs/750ml/frame_01807_overlay.jpg",
+    "bytes": 138142
+  },
+  {
+    "path": "analysis/outputs/750ml/lateral.png",
+    "bytes": 378634
+  },
+  {
+    "path": "analysis/outputs/750ml/markers.csv",
+    "bytes": 3181645
+  },
+  {
+    "path": "analysis/outputs/750ml/measurements.csv",
+    "bytes": 2207377
+  },
+  {
+    "path": "analysis/outputs/750ml/metadata.json",
+    "bytes": 713
+  },
+  {
+    "path": "analysis/outputs/750ml/overview_overlays.jpg",
+    "bytes": 1644041
+  },
+  {
+    "path": "analysis/outputs/750ml/phases.csv",
+    "bytes": 1376
+  },
+  {
+    "path": "analysis/outputs/750ml/registration.png",
+    "bytes": 264227
+  },
+  {
+    "path": "analysis/outputs/750ml/ruler_ticks.csv",
+    "bytes": 984
+  },
+  {
+    "path": "analysis/outputs/750ml/timestamp_gaps.csv",
+    "bytes": 199
+  },
+  {
+    "path": "analysis/outputs/750ml/trajectories.png",
+    "bytes": 316384
+  },
+  {
+    "path": "analysis/outputs/annotation_provenance.json",
+    "bytes": 292
+  },
+  {
+    "path": "analysis/outputs/config_used.json",
+    "bytes": 5006
+  },
+  {
+    "path": "analysis/outputs/cycle_summary.csv",
+    "bytes": 2844
+  },
+  {
+    "path": "analysis/outputs/environment.json",
+    "bytes": 293
+  },
+  {
+    "path": "analysis/outputs/final_consistency.json",
+    "bytes": 1029
+  },
+  {
+    "path": "analysis/outputs/force_pressure_table.csv",
+    "bytes": 660
+  },
+  {
+    "path": "analysis/outputs/free_recovery.png",
+    "bytes": 292023
+  },
+  {
+    "path": "analysis/outputs/load_comparison.png",
+    "bytes": 185132
+  },
+  {
+    "path": "analysis/outputs/manual_review/1000ml_cycle1_contact.jpg",
+    "bytes": 954521
+  },
+  {
+    "path": "analysis/outputs/manual_review/1000ml_cycle1_separation.jpg",
+    "bytes": 950679
+  },
+  {
+    "path": "analysis/outputs/manual_review/1000ml_cycle2_contact.jpg",
+    "bytes": 873575
+  },
+  {
+    "path": "analysis/outputs/manual_review/1000ml_cycle2_separation.jpg",
+    "bytes": 931945
+  },
+  {
+    "path": "analysis/outputs/manual_review/500ml_cycle1_contact.jpg",
+    "bytes": 1020671
+  },
+  {
+    "path": "analysis/outputs/manual_review/500ml_cycle1_separation.jpg",
+    "bytes": 981818
+  },
+  {
+    "path": "analysis/outputs/manual_review/500ml_cycle2_contact.jpg",
+    "bytes": 983521
+  },
+  {
+    "path": "analysis/outputs/manual_review/500ml_cycle2_separation.jpg",
+    "bytes": 988711
+  },
+  {
+    "path": "analysis/outputs/manual_review/750ml_cycle1_contact.jpg",
+    "bytes": 1010049
+  },
+  {
+    "path": "analysis/outputs/manual_review/750ml_cycle1_separation.jpg",
+    "bytes": 1006262
+  },
+  {
+    "path": "analysis/outputs/manual_review/750ml_cycle2_contact.jpg",
+    "bytes": 963903
+  },
+  {
+    "path": "analysis/outputs/manual_review/750ml_cycle2_separation.jpg",
+    "bytes": 986755
+  },
+  {
+    "path": "analysis/outputs/manual_review/frame_manifest.csv",
+    "bytes": 11386
+  },
+  {
+    "path": "analysis/outputs/measurement_quality.csv",
+    "bytes": 1675
+  },
+  {
+    "path": "analysis/outputs/representative_frame_manifest.csv",
+    "bytes": 6945
+  },
+  {
+    "path": "analysis/outputs/segmentation_sensitivity.csv",
+    "bytes": 2013
+  },
+  {
+    "path": "analysis/outputs/validation_checks.csv",
+    "bytes": 497
+  },
+  {
+    "path": "analysis/outputs/video_metadata.csv",
+    "bytes": 525
+  },
+  {
+    "path": "analysis/review_frames.py",
+    "bytes": 2046
+  },
+  {
+    "path": "analysis/sponge/REPORT.md",
+    "bytes": 11178
+  },
+  {
+    "path": "analysis/sponge/geometry.py",
+    "bytes": 4113
+  },
+  {
+    "path": "analysis/sponge/test_sponge.py",
+    "bytes": 5579
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0.125_boundary.csv",
+    "bytes": 125
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0.125_continuation.csv",
+    "bytes": 1073
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0.125_d4mm_nodes.csv",
+    "bytes": 509
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0.125_d8mm_nodes.csv",
+    "bytes": 513
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0.125_force1N_nodes.csv",
+    "bytes": 573
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0.125_force2N_nodes.csv",
+    "bytes": 566
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0.125_outer_root_history.csv",
+    "bytes": 3897
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0.125_reference_nodes.csv",
+    "bytes": 302
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0.125_tetrahedra.csv",
+    "bytes": 87
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0.125_unload0N_nodes.csv",
+    "bytes": 513
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0.125_unload1N_nodes.csv",
+    "bytes": 573
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0_boundary.csv",
+    "bytes": 125
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0_continuation.csv",
+    "bytes": 1344
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0_d4mm_nodes.csv",
+    "bytes": 302
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0_d8mm_nodes.csv",
+    "bytes": 302
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0_force1N_nodes.csv",
+    "bytes": 358
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0_force2N_nodes.csv",
+    "bytes": 362
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0_outer_root_history.csv",
+    "bytes": 4627
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0_reference_nodes.csv",
+    "bytes": 302
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0_tetrahedra.csv",
+    "bytes": 87
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0_unload0N_nodes.csv",
+    "bytes": 302
+  },
+  {
+    "path": "analysis/sponge/verification/1x1x1_beta0_unload1N_nodes.csv",
+    "bytes": 358
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0.125_boundary.csv",
+    "bytes": 575
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0.125_continuation.csv",
+    "bytes": 1078
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0.125_d4mm_nodes.csv",
+    "bytes": 1953
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0.125_d8mm_nodes.csv",
+    "bytes": 1956
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0.125_force1N_nodes.csv",
+    "bytes": 2080
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0.125_force2N_nodes.csv",
+    "bytes": 2086
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0.125_outer_root_history.csv",
+    "bytes": 3895
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0.125_reference_nodes.csv",
+    "bytes": 1028
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0.125_tetrahedra.csv",
+    "bytes": 723
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0.125_unload0N_nodes.csv",
+    "bytes": 1957
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0.125_unload1N_nodes.csv",
+    "bytes": 2080
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0_boundary.csv",
+    "bytes": 575
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0_continuation.csv",
+    "bytes": 1344
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0_d4mm_nodes.csv",
+    "bytes": 1163
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0_d8mm_nodes.csv",
+    "bytes": 1163
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0_force1N_nodes.csv",
+    "bytes": 1280
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0_force2N_nodes.csv",
+    "bytes": 1298
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0_outer_root_history.csv",
+    "bytes": 4721
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0_reference_nodes.csv",
+    "bytes": 1028
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0_tetrahedra.csv",
+    "bytes": 723
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0_unload0N_nodes.csv",
+    "bytes": 1154
+  },
+  {
+    "path": "analysis/sponge/verification/2x2x2_beta0_unload1N_nodes.csv",
+    "bytes": 1280
+  },
+  {
+    "path": "analysis/sponge/verification/compressed_platen_vertices.csv",
+    "bytes": 128
+  },
+  {
+    "path": "analysis/sponge/verification/equilibria.csv",
+    "bytes": 7589
+  },
+  {
+    "path": "analysis/sponge/verification/iteration_history.csv",
+    "bytes": 85261
+  },
+  {
+    "path": "analysis/sponge/verification/mesh_checks.csv",
+    "bytes": 339
+  },
+  {
+    "path": "analysis/sponge/verification/mesh_comparisons.csv",
+    "bytes": 1025
+  },
+  {
+    "path": "analysis/sponge/verification/preserved_analysis_sha256.json",
+    "bytes": 30219
+  },
+  {
+    "path": "analysis/sponge/verification/rigid_backing_vertices.csv",
+    "bytes": 158
+  },
+  {
+    "path": "analysis/sponge/verification/sponge_equilibria.png",
+    "bytes": 386569
+  },
+  {
+    "path": "analysis/sponge/verification/summary.json",
+    "bytes": 1551
+  },
+  {
+    "path": "analysis/sponge/verification/translation_checks.csv",
+    "bytes": 651
+  },
+  {
+    "path": "analysis/sponge/verify_sponge.py",
+    "bytes": 12014
+  },
+  {
+    "path": "analysis/summarize.py",
+    "bytes": 7773
+  },
+  {
+    "path": "analysis/validate.py",
+    "bytes": 4884
+  },
+  {
+    "path": "demo/FRESH_VALIDATION.md",
+    "bytes": 3665
+  },
+  {
+    "path": "demo/TECHNICAL_SUMMARY.md",
+    "bytes": 10695
+  },
+  {
+    "path": "demo/check.py",
+    "bytes": 535
+  },
+  {
+    "path": "demo/evaluate.py",
+    "bytes": 4672
+  },
+  {
+    "path": "demo/fresh_observation.template.json",
+    "bytes": 390
+  },
+  {
+    "path": "demo/frozen_models.json",
+    "bytes": 2150
+  },
+  {
+    "path": "demo/model.py",
+    "bytes": 3107
+  },
+  {
+    "path": "demo/outputs/animation_contact_sheet.jpg",
+    "bytes": 264426
+  },
+  {
+    "path": "demo/outputs/assignment_page-1.png",
+    "bytes": 192937
+  },
+  {
+    "path": "demo/outputs/assignment_page-2.png",
+    "bytes": 112466
+  },
+  {
+    "path": "demo/outputs/comparison.csv",
+    "bytes": 601
+  },
+  {
+    "path": "demo/outputs/comparison_1000ml.png",
+    "bytes": 359670
+  },
+  {
+    "path": "demo/outputs/comparison_500ml.png",
+    "bytes": 406379
+  },
+  {
+    "path": "demo/outputs/comparison_750ml.png",
+    "bytes": 388407
+  },
+  {
+    "path": "demo/outputs/demonstration.gif",
+    "bytes": 7990784
+  },
+  {
+    "path": "demo/outputs/demonstration.mp4",
+    "bytes": 5208225
+  },
+  {
+    "path": "demo/outputs/environment.json",
+    "bytes": 260
+  },
+  {
+    "path": "demo/outputs/equilibria.csv",
+    "bytes": 12521
+  },
+  {
+    "path": "demo/outputs/fem_1000ml.png",
+    "bytes": 146965
+  },
+  {
+    "path": "demo/outputs/fem_500ml.png",
+    "bytes": 148395
+  },
+  {
+    "path": "demo/outputs/fem_750ml.png",
+    "bytes": 147365
+  },
+  {
+    "path": "demo/outputs/fem_reference.png",
+    "bytes": 149093
+  },
+  {
+    "path": "demo/outputs/fem_unloaded.png",
+    "bytes": 148232
+  },
+  {
+    "path": "demo/outputs/force_compression.png",
+    "bytes": 183859
+  },
+  {
+    "path": "demo/outputs/frozen_models.json",
+    "bytes": 2150
+  },
+  {
+    "path": "demo/outputs/index.html",
+    "bytes": 4778
+  },
+  {
+    "path": "demo/outputs/package_manifest.json",
+    "bytes": 4797
+  },
+  {
+    "path": "demo/outputs/preserved_sha256.json",
+    "bytes": 48835
+  },
+  {
+    "path": "demo/outputs/real_1000ml_cycle1.jpg",
+    "bytes": 224585
+  },
+  {
+    "path": "demo/outputs/real_1000ml_cycle2.jpg",
+    "bytes": 213998
+  },
+  {
+    "path": "demo/outputs/real_500ml_cycle1.jpg",
+    "bytes": 277058
+  },
+  {
+    "path": "demo/outputs/real_500ml_cycle2.jpg",
+    "bytes": 273713
+  },
+  {
+    "path": "demo/outputs/real_750ml_cycle1.jpg",
+    "bytes": 260099
+  },
+  {
+    "path": "demo/outputs/real_750ml_cycle2.jpg",
+    "bytes": 257344
+  },
+  {
+    "path": "demo/outputs/real_frame_manifest.csv",
+    "bytes": 703
+  },
+  {
+    "path": "demo/outputs/solved_fem_states.npz",
+    "bytes": 6143
+  },
+  {
+    "path": "demo/outputs/solved_nodes.csv",
+    "bytes": 45044
+  },
+  {
+    "path": "demo/outputs/summary.json",
+    "bytes": 790
+  },
+  {
+    "path": "demo/outputs/video_frame_manifest.csv",
+    "bytes": 1550
+  },
+  {
+    "path": "demo/render.py",
+    "bytes": 4772
+  },
+  {
+    "path": "demo/run_demo.py",
+    "bytes": 16123
+  },
+  {
+    "path": "demo/test_demo.py",
+    "bytes": 3949
+  },
+  {
+    "path": "docs/BASELINE.md",
+    "bytes": 7486
+  },
+  {
+    "path": "docs/BASELINE_MANIFEST.json",
+    "bytes": 76437
+  },
+  {
+    "path": "docs/FINAL_HANDOFF.md",
+    "bytes": 455
+  },
+  {
+    "path": "docs/FREEZE_AUDIT.json",
+    "bytes": 5034
+  },
+  {
+    "path": "docs/PUBLICATION_CHECKPOINT.md",
+    "bytes": 2106
+  },
+  {
+    "path": "docs/README.md",
+    "bytes": 2694
+  },
+  {
+    "path": "docs/REPOSITORY_AUDIT.md",
+    "bytes": 10685
+  },
+  {
+    "path": "docs/REPRODUCIBILITY.md",
+    "bytes": 6166
+  },
+  {
+    "path": "docs/SIMULATOR_ROADMAP.md",
+    "bytes": 3235
+  },
+  {
+    "path": "docs/SUBMISSION_CHECKLIST.md",
+    "bytes": 4988
+  },
+  {
+    "path": "docs/SUBMISSION_EMAIL_DRAFT.md",
+    "bytes": 1529
+  },
+  {
+    "path": "docs/SUBMISSION_MANIFEST.json",
+    "bytes": 78392
+  },
+  {
+    "path": "docs/check_baseline.py",
+    "bytes": 4280
+  },
+  {
+    "path": "docs/final_release/CHECKLIST.md",
+    "bytes": 2151
+  },
+  {
+    "path": "docs/final_release/frozen_regression.log",
+    "bytes": 141
+  },
+  {
+    "path": "docs/final_release/fullface_example.log",
+    "bytes": 578
+  },
+  {
+    "path": "docs/final_release/fullface_example/boundary_triangles.csv",
+    "bytes": 436
+  },
+  {
+    "path": "docs/final_release/fullface_example/deformed.png",
+    "bytes": 124111
+  },
+  {
+    "path": "docs/final_release/fullface_example/diagnostics.json",
+    "bytes": 578
+  },
+  {
+    "path": "docs/final_release/fullface_example/inputs.json",
+    "bytes": 255
+  },
+  {
+    "path": "docs/final_release/fullface_example/nodes.csv",
+    "bytes": 6831
+  },
+  {
+    "path": "docs/final_release/fullface_example/reactions.csv",
+    "bytes": 2069
+  },
+  {
+    "path": "docs/final_release/fullface_example/sequence/frame_000.png",
+    "bytes": 124111
+  },
+  {
+    "path": "docs/final_release/fullface_example/sequence/frames.json",
+    "bytes": 302
+  },
+  {
+    "path": "docs/final_release/fullface_example/sequence/loading_unloading.gif",
+    "bytes": 51743
+  },
+  {
+    "path": "docs/final_release/fullface_example/sequence/solved_states.npz",
+    "bytes": 539
+  },
+  {
+    "path": "docs/final_release/fullface_example/tetrahedra.csv",
+    "bytes": 581
+  },
+  {
+    "path": "docs/final_release/localized_example.log",
+    "bytes": 1261
+  },
+  {
+    "path": "docs/final_release/localized_example/bottom_contact.csv",
+    "bytes": 946
+  },
+  {
+    "path": "docs/final_release/localized_example/boundary_triangles.csv",
+    "bytes": 274
+  },
+  {
+    "path": "docs/final_release/localized_example/continuation.csv",
+    "bytes": 93
+  },
+  {
+    "path": "docs/final_release/localized_example/deformed.png",
+    "bytes": 329965
+  },
+  {
+    "path": "docs/final_release/localized_example/diagnostics.json",
+    "bytes": 1261
+  },
+  {
+    "path": "docs/final_release/localized_example/history.csv",
+    "bytes": 32221
+  },
+  {
+    "path": "docs/final_release/localized_example/inputs.json",
+    "bytes": 526
+  },
+  {
+    "path": "docs/final_release/localized_example/nodes.csv",
+    "bytes": 4585
+  },
+  {
+    "path": "docs/final_release/localized_example/reactions.csv",
+    "bytes": 1386
+  },
+  {
+    "path": "docs/final_release/localized_example/support_iterations.json",
+    "bytes": 1237
+  },
+  {
+    "path": "docs/final_release/localized_example/tetrahedra.csv",
+    "bytes": 261
+  },
+  {
+    "path": "docs/final_release/localized_tests.log",
+    "bytes": 1679
+  },
+  {
+    "path": "docs/final_release/package_integrity.json",
+    "bytes": 1187
+  },
+  {
+    "path": "docs/final_release/readme_delta.json",
+    "bytes": 372
+  },
+  {
+    "path": "docs/final_release/test_results.json",
+    "bytes": 409
+  },
+  {
+    "path": "experiments/README.md",
+    "bytes": 2576
+  },
+  {
+    "path": "experiments/localized_loading/README.md",
+    "bytes": 2062
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 263
+  }
+]

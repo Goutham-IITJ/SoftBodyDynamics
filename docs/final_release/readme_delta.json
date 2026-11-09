@@ -1,0 +1,6 @@
+{
+  "reason": "Explicit FINAL SUBMISSION RELEASE request: reviewer-facing README, no physics/data/media change. Historical manifests and Phase 7C allowance remain intact.",
+  "previous_authorized_sha256": "01076fa6225451d35e1734e6a6df0a2d2cf4a4d177f06779f91d7a3b00fb8b05",
+  "final_readme_sha256": "f71a1f062a76d39ffe3f0a4b8c7286ce4df1b88c4519607270d874dd49d29b94",
+  "newline_policy": "normalize CRLF to LF for final README only"
+}

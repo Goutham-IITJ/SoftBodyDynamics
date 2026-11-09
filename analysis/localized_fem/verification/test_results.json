@@ -1,0 +1,22 @@
+[
+  {
+    "name": "localized",
+    "exit_code": 0,
+    "runtime_s": 9.218252999999095
+  },
+  {
+    "name": "regression",
+    "exit_code": 0,
+    "runtime_s": 29.391329600010067
+  },
+  {
+    "name": "baseline",
+    "exit_code": 0,
+    "runtime_s": 2.999870400002692
+  },
+  {
+    "name": "experimental_analysis",
+    "exit_code": 0,
+    "runtime_s": 5.598805299989181
+  }
+]

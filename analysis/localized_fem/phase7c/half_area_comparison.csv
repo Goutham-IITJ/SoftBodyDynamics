@@ -1,0 +1,3 @@
+window,observed_right_apparent_mm,observed_left_apparent_mm,predicted_right_mm,predicted_left_mm,profile_error_mm
+cycle1_late_hold,12.576699697250298,0.2683608487723923,,,
+cycle2_late_hold,12.920708574268058,0.1388689195728645,,,

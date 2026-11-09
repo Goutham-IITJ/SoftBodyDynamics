@@ -1,132 +1,78 @@
 # SoftBodyDynamics
 
-A reusable **quasi-static 3D physics simulator for full-face sponge compression**, calibrated from video observations. Applied force drives a hyperfoam tetrahedral FEM equilibrium solve; recorded marker trajectories do not drive its vertices. General fingertip, finite-patch and rigid-indenter contact are future work.
+An observation-calibrated, quasi-static 3D tetrahedral FEM model of a sponge under **full-face compression**. Video-derived compression at the first 500/1000 ml cycles fits the material scale **mu = 6999.814990181902 Pa**; force drives the solved mesh, rather than replaying recorded motion.
 
-## Review in six steps
+**[Watch the existing 45.2-second demo](demo/outputs/demonstration.mp4)** · [GIF fallback](demo/outputs/demonstration.gif) · [Real-versus-simulation comparison](demo/outputs/comparison_750ml.png) · [Comparison viewer](demo/outputs/index.html)
 
-1. **Watch:** [45.2-second demo video](demo/outputs/demonstration.mp4) or [GIF fallback](demo/outputs/demonstration.gif).
-2. **Compare:** [real-versus-FEM presentation](demo/outputs/index.html) and [force-compression plot](demo/outputs/force_compression.png).
-3. **Understand:** [technical summary](demo/TECHNICAL_SUMMARY.md) and [mathematical/stage report index](docs/README.md).
-4. **Query:** [run a new full-face force](#run-a-new-full-face-force-query) with the frozen model.
-5. **Reproduce:** [tests and provenance checks](#verify-without-regenerating-results), then [regeneration instructions](docs/REPRODUCIBILITY.md) for a separate working copy.
-6. **Assess:** [submission checklist](docs/SUBMISSION_CHECKLIST.md), [baseline identity](docs/BASELINE.md) and [repository audit](docs/REPOSITORY_AUDIT.md).
+From the repository root, with dependencies installed and **new output directories**:
 
-Download/clone before opening HTML locally: GitHub's file view displays its source rather than running the presentation. The MP4 uses MPEG-4 Part 2; use the GIF if your browser lacks that codec. A hosted result link has not been published.
+```powershell
+python -B -m analysis.localized_fem.simulator full-face --force 6.5 --output runs/fullface
+python -B -m analysis.localized_fem.simulator localized --force 0.3 --patch-length-mm 20 --patch-width-mm 30 --center-x-mm 18.25 --center-y-mm 25 --mesh 2 2 1 --output runs/localized
+```
 
-![Real specimen and frozen FEM at 750 ml](demo/outputs/comparison_750ml.png)
+The first command runs the **frozen primary simulator** (about 5.10350 mm compression). The second is an inexpensive **experimental traction-patch example**, not validated rigid-card/fingertip contact. Both export reference/solved vertices, elements, applied loads, reactions, convergence diagnostics and a static 3D image. Localized force is in N; patch lengths/coordinates are in mm. Use `--help` for options.
 
-## Assignment and experimental contribution
+**Limits:** the 500 ml calibration mismatch remains; evaluation is retrospective, not independent prospective validation. Damping/physical recovery time and fingertip force are unidentified. The nominal-force localized prediction failed, and localized mesh dependence remains unresolved.
 
-The [original assignment](Assignment/Dirac-Research-TakeHome.pdf) asks for a soft object filmed during deformation/release, an observation-informed 3D model, a fresh interaction and real/simulated comparison. It requests code/model, input videos, run instructions, a short demo or viewer, assumptions/limitations and tool credits. Two supplied papers are interview reading; no paper reproduction or written paper submission is required.
+![Real specimen versus frozen FEM at 750 ml](demo/outputs/comparison_750ml.png)
 
-This project contributes three original full-face bottle-loading videos, **5,169 sequentially decoded frames**, six settled-hold compression observations, and a traceable image-analysis pipeline. Ruler ticks calibrate image coordinates; background registration, visible top/bottom boundaries, plate pose and ink markers are recorded with quality flags and actual timestamps. Thickness change is measured relative to the card-on-sponge baseline. Measurements were not rescaled to force agreement with nominal dimensions. See the [extraction report](analysis/REPORT.md) and [dataset guide](experiments/README.md).
+## What is verified, fitted, and experimental?
 
-Mechanics-based FEM was selected to obtain force-driven spatial equilibrium, material energy/stress and reactions, rather than a geometric replay. It has not demonstrated better intermediate-load accuracy than the empirical interpolation baseline.
-
-## Frozen baseline and results
-
-The official configuration comes from the [Stage 5 parameter CSV](analysis/calibration/outputs/parameters.csv) and [existing frozen model snapshot](demo/frozen_models.json):
-
-| Property | Baseline |
+| Part | Evidence and scope |
 |---|---|
-| Constitutive law | One-term compressible hyperfoam |
-| Fitted scale mu | **6999.814990181902 Pa** |
-| Assumed alpha / beta | **10 / 0** |
-| Deformable yellow foam | 73 Ã— 50 Ã— **20 mm**, z = 7â€“27 mm |
-| Green backing | Rigid 7 mm; no invented stiffness |
-| Card/platen | Massless, horizontal, full-face frictionless normal constraint |
-| Response | Quasi-static force-controlled equilibrium; no identified damping |
+| Numerical mechanics | Verified hyperfoam energy/stress, Tet4 assembly and nonlinear equilibrium; 36 frozen regression tests |
+| Experimental calibration | First 500/1000 ml cycles fit only mu; alpha/beta and nominal geometry are assumed |
+| Retrospective evaluation | Both 750 ml cycles excluded from FEM fitting, but already inspected during earlier model selection; not untouched prospective validation |
+| Localized extension | Exact clipped reference traction and verified small-load unilateral bottom support; 18 localized/support/CLI tests; experimental spatial accuracy |
+| Recovery and fresh validation | Reversible equilibria shown in the demo; no identified damping or physical recovery timing, and no independent prediction-first experiment |
 
-Only first cycles at 500/1000 ml fit mu, minimizing equal-weight squared FEM displacement errors. Both 750 ml cycles are held out **from this FEM fitting**, but earlier model selection already inspected them. They are not untouched prospective validation. Alpha = 20 remains separately labeled sensitivity, not the official model.
+The primary model is **mu = 6999.814990181902 Pa, alpha = 10, beta = 0**, with **73 × 50 × 20 mm yellow deformable foam** above **7 mm rigid green backing**. Full-face loading uses a horizontal frictionless normal platen constraint. The frozen baseline tag is `baseline-v1-fullface-fem`; Phase 7 does not replace it or change its calibration.
 
-| Load | Assumed force, N | Measured cycles 1 / 2, mm | Primary FEM, mm |
-|---|---:|---:|---:|
-| 500 ml | 5.64075 | 3.012 / 2.585 | 3.923 |
-| 750 ml | 8.09325 | 7.662 / 6.798 | 7.488 |
-| 1000 ml | 10.54575 | 10.987 / 10.974 | 10.316 |
+| Nominal water load | Measured cycle 1 / 2 compression, mm | Primary full-face FEM, mm |
+|---|---:|---:|
+| 500 ml | 3.012 / 2.585 | 3.923 |
+| 750 ml | 7.662 / 6.798 | 7.488 |
+| 1000 ml | 10.987 / 10.974 | 10.316 |
 
-Forces assume water density 1 g/ml, shared **unmeasured 75 g bottle tare**, g = 9.81 m/sÂ² and stationary full support. Calibration RMSE is **0.800 mm**; the low-load mismatch exceeds its engineering allowance. Intermediate RMSE is **0.504 mm**, versus **0.490 mm** for empirical interpolation. Full uncertainty, repeatability and sensitivity results are in the [calibration report](analysis/calibration/REPORT.md).
-
-The model predicts equilibrium compression and a solved nodal/stress field conditional on this loading geometry. Global compression has been compared with observations; local stresses, lateral expansion and arbitrary contact have not been experimentally validated. The [baseline record](docs/BASELINE.md) identifies source/configuration/data/media hashes. Suggested future tag: `baseline-v1-fullface-fem`; no commit, tag, branch or push was created by this documentation task.
-
-## Install and view
-
-Tested environment: **Python 3.10.7**, NumPy 2.2.6, SciPy 1.14.1, Matplotlib 3.9.0, Pillow 10.3.0 and OpenCV 5.0.0 (distribution 5.0.0.93). Use Python 3.10 for the recorded baseline. Dependency metadata requires Python â‰¥3.10; other Python versions/clean installations have not been verified in this audit.
-
-```sh
-python -m venv .venv
-# Windows PowerShell: .\.venv\Scripts\Activate.ps1
-# Linux/macOS: source .venv/bin/activate
-python -m pip install -r requirements.txt
-```
-
-No installation is needed in the existing environment. [requirements.txt](requirements.txt) is the unchanged demo/evaluation/test dependency file. Historical extraction/model-review scripts additionally use pandas; the installed audited version is 2.2.2. See [reproducibility notes](docs/REPRODUCIBILITY.md) before regenerating any results.
-
-The bundled media need no Python to view. Open [demo/outputs/index.html](demo/outputs/index.html), or serve locally:
-
-```sh
-python -m http.server 8000 --bind 127.0.0.1
-```
-
-Then visit `http://127.0.0.1:8000/demo/outputs/index.html`. No external services, GPU, FFmpeg CLI or large 3D library are required by the demo.
+The **500 ml mismatch is unresolved**. Calibration RMSE is 0.800 mm; intermediate-load RMSE is 0.504 mm, versus 0.490 mm for empirical interpolation. Forces assume water density 1 g/ml, unmeasured 75 g bottle tare, g = 9.81 m/s² and stationary full support. Mu is an effective specimen coefficient conditional on these assumptions, not a uniquely identified intrinsic property. See the [calibration report](analysis/calibration/REPORT.md) and [parameter CSV](analysis/calibration/outputs/parameters.csv).
 
 ## Run a new full-face force query
 
-From the repository root, this existing API solves a **6.5 N computational query**, printing compression and numerical diagnostics without writing frozen outputs:
+Tested in the existing Python 3.10.7 environment. No GPU or external physics engine is required.
 
-```sh
-python -B -c "from demo.model import configuration, new_sponge, solve; s = solve(new_sponge(configuration()), 6.5); print(dict(force_N=6.5, compression_mm=1000*s.displacement, min_J=s.min_J, free_residual_N=s.free_residual))"
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
 ```
 
-Expected compression is approximately **5.10350 mm**. This is an unmeasured example query, not a new validation experiment. Change the force argument and printed force together. Use stationary centered full-face loading; the unchanged search limit is 13 mm yellow compression. No force clamping or general contact is provided.
+For macOS/Linux, activate with `source .venv/bin/activate`. The declared dependencies cover the simulator, renderers and tests; historical extraction additionally uses pandas. A clean installation on other platforms has not been verified. See [dependency and reproduction details](docs/REPRODUCIBILITY.md).
 
-For a real fresh experiment, [save a prediction before measuring](demo/FRESH_VALIDATION.md). The existing CLI accepts actual measured **total bottle mass**, condition and initial-state notes, then scores an observation separately:
-
-```sh
-python -B demo/evaluate.py --help
-```
-
-The protocol supplies `predict`/`score` commands and the observation template. Do not add assumed bottle tare to a directly measured total mass. Prediction records are exclusive-create and the evaluator never automatically refits.
-
-## Verify without regenerating results
-
-```sh
+```powershell
 python -B demo/check.py
-python -B docs/check_baseline.py
+python -B -m unittest analysis.localized_fem.test_localized analysis.localized_fem.test_support analysis.localized_fem.test_cli -v
+python -B -m analysis.localized_fem.check_package
 ```
 
-The first runs all **36 existing unit methods**, including verification of the saved solved nodes and real-frame labels. The second checks the documented byte-level baseline, unchanged model snapshot and local presentation/documentation targets. Neither regenerates media, calibration or experimental measurements.
+The authorized-delta package checker preserves historical manifests while explicitly accounting for the requested README revisions. The older whole-checkpoint checks still flag the README hash; this is not a changed model or measurement. The release audit records that delta separately. Existing demo/calibration generators write fixed historical output directories: **do not run them over the submitted results**. Reproduction guidance explains using a separate working copy.
 
-The existing generation commands are `python -B demo/run_demo.py` and `python -B analysis/calibration/run_calibration.py`. **They write fixed output directories and have no output override/dry-run option.** They were checked by safe import/source inspection, not executed during this freeze. Use only a separate working copy for regeneration; [the reproducibility guide](docs/REPRODUCIBILITY.md) lists exact entry points and write locations. The recorded demo runtime was about one minute, not a performance guarantee.
+The existing [demo GIF](demo/outputs/demonstration.gif) and [HTML comparison](demo/outputs/index.html) need no solver run. Download/clone before opening the HTML locally; GitHub displays its source. The MP4 uses MPEG-4 Part 2, so use the GIF if your browser cannot play it. Playback is a sequence of reversible equilibria, not physical recovery time. No new demo animation was generated for the final release.
 
-## Assumptions, limits and remaining work
+## Experimental localized loading
 
-- Mu is an effective specimen coefficient conditional on nominal geometry, reference, shape and support; it is not a uniquely identified intrinsic material property.
-- Green compliance and interlayer shear are neglected. Full-face bilateral planes are not finite-footprint collision/contact; there is no finger, tilted platen, friction or localized indentation capability.
-- Optical plane/scale uncertainty, differing apparent layer thicknesses, card motion and material history remain unresolved. All measured total compression is allocated to yellow under the rigid-backing assumption.
-- The animation traverses reversible equilibria. **Playback duration is not physical recovery time.** Damping, creep, hysteresis and time-accurate recovery are not identified. Beta = 0's zero homogeneous lateral expansion is an assumption, not a validated lateral observation.
-- Small residuals and affine mesh consistency establish numerical behavior, not arbitrary-load experimental accuracy. The primary low-load mismatch remains visible.
-- A genuinely fresh prediction-first trial, resolved recovery timing, paper-discussion preparation, publication/access arrangements and submission communication remain pending or unverified. See the [submission checklist](docs/SUBMISSION_CHECKLIST.md).
+The separate CLI uses downward **reference-area dead traction**, free top nodes and a unilateral frictionless bottom plane. It does not enforce a rigid card's planarity, tilt, evolving footprint or pressure redistribution. Its packaged 4/4/2 default is an affordable exploratory mesh; the quick command above deliberately uses the verified 2/2/1 modest-load example.
 
-## Project structure
+The final synthetic refinement changed peak displacement by **6.8%** and loaded-area mean by **11.4%**. The single frozen half-area attempt at **10.54575 N failed** at its final step; no admissible nominal prediction or experimental error score was exported. Unknown supported force, hidden depth contact, optical scale and backing behavior also limit comparison. Fingertip force is unknown: no validated force-depth law is claimed. See the [Phase 7C report](analysis/localized_fem/PHASE7C_REPORT.md), [Phase 7A observations](analysis/localized_experiments/REPORT.md), and existing [localized GIF](analysis/localized_fem/phase7c/cli_localized/sequence/loading_unloading.gif).
 
-| Location | Purpose |
-|---|---|
-| [Videos/](Videos/) | Original full-face clips and new unanalysed half-area/fingertip recordings |
-| [analysis/](analysis/) | Extraction, model review, material/FEM/solver/sponge/calibration reports and results |
-| [demo/](demo/) | Existing frozen-model solve/evaluation/rendering entry points and tests |
-| [demo/outputs/](demo/outputs/) | Preserved final MP4/GIF, HTML, real/FEM comparisons and solved coordinates |
-| [docs/](docs/) | Navigation, freeze identity, reproducibility and submission audits, roadmap |
-| [experiments/](experiments/) | Dataset separation and **planned-only** localized-loading recording location |
-| [Assignment/](Assignment/) / [Papers/](Papers/) | Original assignment and supplied reading |
+## Research evidence and submission notes
 
-No existing source, data or results were relocated. Two recordings appeared during this audit at [Videos/fingertip.mp4](Videos/fingertip.mp4) and [Videos/half area.mp4](<Videos/half area.mp4>). They remain in their arrival locations, are unreviewed/unanalysed, and are excluded from the full-face calibration. [experiments/localized_loading/](experiments/localized_loading/) catalogs these paths and reserves a separate destination for future recordings/results. The [roadmap](docs/SIMULATOR_ROADMAP.md) describes future simulator capabilities only.
+- [Original assignment](Assignment/Dirac-Research-TakeHome.pdf), [original input videos](Videos/), [experiment guide](experiments/README.md)
+- [Sequential extraction report](analysis/REPORT.md): 5,169 full-face frames, six settled-hold observations, calibration/quality records
+- [Technical summary](demo/TECHNICAL_SUMMARY.md), [report index](docs/README.md), [baseline identity](docs/BASELINE.md)
+- [Prediction-first protocol](demo/FRESH_VALIDATION.md): available, but no independent prospective result completed
+- [Historical submission checklist](docs/SUBMISSION_CHECKLIST.md), [final handoff](docs/FINAL_HANDOFF.md), [draft email](docs/SUBMISSION_EMAIL_DRAFT.md)
 
-## Credits and references
+Original videos, measurement CSVs, fitted parameters, prior verification outputs, comparison artifacts and demonstration media are preserved. The private ID-card photograph previously deleted by the user is excluded; its historical removal is documented in the [publication note](docs/PUBLICATION_CHECKPOINT.md). No paper reproduction is claimed; the two supplied papers remain interview reading.
 
-Prepared with OpenAI Codex assistance. Numerical/visual dependencies are NumPy, SciPy, Matplotlib, OpenCV and Pillow; historical measurement analysis also uses pandas. The implementation reuses this project's verified material, Tet4 and solver modules, with derivations credited in the [report index](docs/README.md). No AI imagery replaces experimental frames or FEM results.
-
-- [Abaqus hyperfoam convention](https://docs.software.vt.edu/abaqusv2026/English/SIMACAEMATRefMap/simamat-c-hyperfoam.htm), as documented in the preserved material report.
-- [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://arxiv.org/abs/2308.04079) and [Hybrid Particle-Voxel Dynamics for Multimodal 3D World Simulation](https://arxiv.org/abs/2611.04492): assignment reading; neither is claimed as code reproduced here.
-
-The current project payload is approximately 439 MB before Git history, including the two newly arrived recordings. [The repository audit](docs/REPOSITORY_AUDIT.md) records size, publication considerations and the Git changes observed during work. No video was deleted or converted to external storage. The user-authorized removal of a private ID-card photograph is documented in [the publication note](docs/PUBLICATION_CHECKPOINT.md).
+Prepared with **OpenAI Codex assistance**, reusing this project's verified material, Tet4 and solver modules. Numerical and visual tools: NumPy, SciPy, Matplotlib, OpenCV and Pillow; historical data analysis also uses pandas. The preserved material report documents the [Abaqus hyperfoam convention](https://docs.software.vt.edu/abaqusv2026/English/SIMACAEMATRefMap/simamat-c-hyperfoam.htm). Experimental footage and FEM outputs are not AI-generated imagery.

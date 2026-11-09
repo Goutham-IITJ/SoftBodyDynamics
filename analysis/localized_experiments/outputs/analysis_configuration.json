@@ -1,0 +1,179 @@
+{
+  "experiments": {
+    "half_area": {
+      "source": "Videos/half area.mp4",
+      "roi": [
+        300,
+        130,
+        1395,
+        670
+      ],
+      "ruler": [
+        1418,
+        10,
+        1442,
+        605
+      ],
+      "reference": [
+        0.2,
+        1.2
+      ],
+      "selected": [
+        0,
+        55,
+        65,
+        80,
+        95,
+        125,
+        155,
+        185,
+        200,
+        210,
+        225,
+        245,
+        270,
+        300,
+        330,
+        360,
+        380,
+        390,
+        400,
+        425,
+        451
+      ],
+      "windows": [
+        [
+          "cycle1_late_hold",
+          4.2,
+          6.2
+        ],
+        [
+          "between_cycles",
+          7.5,
+          8.3
+        ],
+        [
+          "cycle2_late_hold",
+          10.0,
+          12.3
+        ],
+        [
+          "final_recovery",
+          14.0,
+          15.0
+        ]
+      ]
+    },
+    "fingertip": {
+      "source": "Videos/fingertip.mp4",
+      "roi": [
+        350,
+        0,
+        1438,
+        530
+      ],
+      "ruler": [
+        1450,
+        0,
+        1472,
+        465
+      ],
+      "reference": [
+        0.2,
+        1.2
+      ],
+      "selected": [
+        0,
+        48,
+        55,
+        70,
+        100,
+        130,
+        150,
+        164,
+        170,
+        178,
+        195,
+        207,
+        225,
+        245,
+        265,
+        280,
+        290,
+        300,
+        309,
+        335,
+        365,
+        390,
+        400,
+        410,
+        430,
+        440
+      ],
+      "windows": [
+        [
+          "central_deep",
+          3.8,
+          5.0
+        ],
+        [
+          "central_recovery",
+          6.0,
+          6.5
+        ],
+        [
+          "left_deep",
+          7.8,
+          8.8
+        ],
+        [
+          "left_recovery",
+          9.7,
+          10.0
+        ],
+        [
+          "right_deep",
+          11.5,
+          12.6
+        ],
+        [
+          "final_recovery",
+          14.0,
+          14.6
+        ]
+      ]
+    }
+  },
+  "profile_u": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.39999999999999997,
+    0.44999999999999996,
+    0.49999999999999994,
+    0.5499999999999999,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.7999999999999999,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "coordinate_system": "Original 1920x1080 px; registered to first-frame ruler/background, y positive down; median reference 0.2-1.2s",
+  "processing_scale": 0.5,
+  "top_boundary": "visible yellow color envelope; not reconstructed hidden top",
+  "force_inversion": false,
+  "code_sha256": {
+    "inspect_videos.py": "e137b2c394dec4205092887048ff0631601e499afbde49e68c8c5b1de11250ef",
+    "analyze.py": "8f73ef45746ad1175d26fca19a845407d9930e8b1f09a3ff9ea9c49e3b688aab",
+    "refine_sheets.py": "609a607c737c0a4d590d8405b1ea859772de39f9499e718401f2590174883dc7",
+    "summarize.py": "268a7090e68facf2a0f545759cb01c5aeb2f86bffa4c21fb0b01e32eacbafab5",
+    "test_analysis.py": "f03574e7d365aaca8ca4613e01baeae84e6dc0f60090a793732514f3fb4770cb"
+  }
+}

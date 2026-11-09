@@ -1,0 +1,38 @@
+{
+  "status": "frozen before the one half-area evaluation",
+  "material": {
+    "mu_Pa": 6999.814990181902,
+    "alpha": 10,
+    "beta": 0
+  },
+  "mesh": [
+    4,
+    4,
+    2
+  ],
+  "support": "unilateral",
+  "force_tolerance_N": 5e-08,
+  "gap_tolerance_m": 1e-10,
+  "max_iterations_per_subproblem": 600,
+  "load_step": 0.125,
+  "min_load_step": 0.125,
+  "time_limit_s": 180,
+  "patch_mm": {
+    "center_x": 54.75,
+    "center_y": 25,
+    "length": 36.5,
+    "width": 50
+  },
+  "force_N": 10.54575,
+  "load_assumption": "1000 g nominal water plus unmeasured assumed 75 g tare, g=9.81; full supported weight. Not a measured force.",
+  "geometry_assumption": "Right half of nominal 73x50 mm reference top, full 50 mm depth assumed. Not measured true contact.",
+  "selection": "One extra 8/8/4 bilateral refinement and 4/4/2 plus 6/6/3 unilateral synthetic checks only. Default 4/4/2 selected for bounded runtime, not a converged or fitted prediction.",
+  "acceptance": "Report exploratory even if KKT converges; mesh accuracy and pressure/support uncertainty remain. Do not rerun after changing settings to improve agreement.",
+  "source_sha256": {
+    "analysis/localized_fem/solver.py": "be29fa337bada0b0068de23a4264fa658839257ffc9af9497cdcef006c6bac0e",
+    "analysis/localized_fem/minimize.py": "0871a79edf834a7cee4e53776a72fb1e153869d777c48a8b533df8f60ca517d9",
+    "analysis/localized_fem/support.py": "3618e8ce4318f1f8150942009d83a2cff8cbb611a4c7a7ff90d262956a6d92d8",
+    "analysis/localized_fem/traction.py": "7128b133fce4903e09d2be461d1a3967d69a384a32229667a5ab759628df7cdb",
+    "analysis/localized_fem/simulator.py": "519c3532982d4bf44a213594fdb98fe2481e09b76cd5ff5ffc95a5dc04748105"
+  }
+}

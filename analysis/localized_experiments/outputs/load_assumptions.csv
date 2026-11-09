@@ -1,0 +1,5 @@
+experiment,water_ml_reported_approx,water_density_assumed_g_ml,tare_assumed_g,conditional_supported_force_N,force_measured,total_bottle_mass_measured,pressure_distribution_known
+half_area,1000,1,50,10.3005,False,False,False
+half_area,1000,1,75,10.54575,False,False,False
+half_area,1000,1,100,10.790999999999999,False,False,False
+fingertip,nan,nan,nan,nan,False,False,False

@@ -1,0 +1,4 @@
+experiment,press,frame,time_s,visible_tip_proxy_depth_px,visible_tip_proxy_depth_mm,tip_u_reference,lower_finger_silhouette_width_px,depth_is_true_hidden_surface,force_N
+fingertip,central,151,5.032611111111112,238.4852071005917,16.07622969437946,0.5069033530571992,140.0,False,nan
+fingertip,left,245,8.165455555555557,218.0,14.588862838712233,0.1449704142011834,178.0,False,nan
+fingertip,right,367,12.231544444444443,246.0,16.549727684083415,0.6962524654832347,178.0,False,nan

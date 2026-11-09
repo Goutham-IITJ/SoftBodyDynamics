@@ -1,0 +1,22 @@
+[
+  {
+    "name": "frozen_regression",
+    "exit_code": 0,
+    "runtime_s": 36.8113924000063
+  },
+  {
+    "name": "localized_tests",
+    "exit_code": 0,
+    "runtime_s": 16.73930349998409
+  },
+  {
+    "name": "fullface_example",
+    "exit_code": 0,
+    "runtime_s": 3.987484499986749
+  },
+  {
+    "name": "localized_example",
+    "exit_code": 0,
+    "runtime_s": 4.896797399997013
+  }
+]

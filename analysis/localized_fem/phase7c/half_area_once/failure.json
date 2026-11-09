@@ -1,0 +1,166 @@
+{
+  "status": "failed",
+  "reason": "Continuation failed at factor 1: Iteration limit: residual 0.199 N, min J 0.00157",
+  "runtime_s": 55.984797199984314,
+  "attempts": [
+    {
+      "load_factor": 0.125,
+      "status": "converged",
+      "reason": ""
+    },
+    {
+      "load_factor": 0.25,
+      "status": "converged",
+      "reason": ""
+    },
+    {
+      "load_factor": 0.375,
+      "status": "converged",
+      "reason": ""
+    },
+    {
+      "load_factor": 0.5,
+      "status": "converged",
+      "reason": ""
+    },
+    {
+      "load_factor": 0.625,
+      "status": "converged",
+      "reason": ""
+    },
+    {
+      "load_factor": 0.75,
+      "status": "converged",
+      "reason": ""
+    },
+    {
+      "load_factor": 0.875,
+      "status": "converged",
+      "reason": ""
+    },
+    {
+      "load_factor": 1.0,
+      "status": "failed_retry",
+      "reason": "Iteration limit: residual 0.199 N, min J 0.00157"
+    }
+  ],
+  "support_iterations": [
+    {
+      "force_N": -0.0,
+      "outer": 0,
+      "active_nodes": 25,
+      "min_gap_m": 0.0,
+      "min_active_reaction_N": -1.8546258945538975e-16,
+      "penetrating_nodes": 0,
+      "tensile_nodes": 0
+    },
+    {
+      "force_N": 1.31821875,
+      "outer": 0,
+      "active_nodes": 25,
+      "min_gap_m": 0.0,
+      "min_active_reaction_N": -0.005251572184621583,
+      "penetrating_nodes": 0,
+      "tensile_nodes": 5
+    },
+    {
+      "force_N": 1.31821875,
+      "outer": 1,
+      "active_nodes": 20,
+      "min_gap_m": 0.0,
+      "min_active_reaction_N": -0.003417189595171938,
+      "penetrating_nodes": 0,
+      "tensile_nodes": 3
+    },
+    {
+      "force_N": 1.31821875,
+      "outer": 2,
+      "active_nodes": 17,
+      "min_gap_m": 0.0,
+      "min_active_reaction_N": -0.0017372997467676437,
+      "penetrating_nodes": 0,
+      "tensile_nodes": 2
+    },
+    {
+      "force_N": 1.31821875,
+      "outer": 3,
+      "active_nodes": 15,
+      "min_gap_m": 0.0,
+      "min_active_reaction_N": 0.028071059086214885,
+      "penetrating_nodes": 0,
+      "tensile_nodes": 0
+    },
+    {
+      "force_N": 2.6364375,
+      "outer": 0,
+      "active_nodes": 15,
+      "min_gap_m": 0.0,
+      "min_active_reaction_N": 0.04921386028371196,
+      "penetrating_nodes": 0,
+      "tensile_nodes": 0
+    },
+    {
+      "force_N": 3.95465625,
+      "outer": 0,
+      "active_nodes": 15,
+      "min_gap_m": 0.0,
+      "min_active_reaction_N": 0.04317904084898716,
+      "penetrating_nodes": 0,
+      "tensile_nodes": 0
+    },
+    {
+      "force_N": 5.272875,
+      "outer": 0,
+      "active_nodes": 15,
+      "min_gap_m": 0.0,
+      "min_active_reaction_N": 0.02613808230899673,
+      "penetrating_nodes": 0,
+      "tensile_nodes": 0
+    },
+    {
+      "force_N": 6.591093750000001,
+      "outer": 0,
+      "active_nodes": 15,
+      "min_gap_m": 0.0,
+      "min_active_reaction_N": 0.0069027584653555615,
+      "penetrating_nodes": 0,
+      "tensile_nodes": 0
+    },
+    {
+      "force_N": 7.9093125,
+      "outer": 0,
+      "active_nodes": 15,
+      "min_gap_m": 0.0,
+      "min_active_reaction_N": -0.009459996910027864,
+      "penetrating_nodes": 0,
+      "tensile_nodes": 2
+    },
+    {
+      "force_N": 7.9093125,
+      "outer": 1,
+      "active_nodes": 13,
+      "min_gap_m": 0.0,
+      "min_active_reaction_N": 0.05188771613781336,
+      "penetrating_nodes": 0,
+      "tensile_nodes": 0
+    },
+    {
+      "force_N": 9.22753125,
+      "outer": 0,
+      "active_nodes": 13,
+      "min_gap_m": 0.0,
+      "min_active_reaction_N": 0.017373991700786504,
+      "penetrating_nodes": 0,
+      "tensile_nodes": 0
+    },
+    {
+      "force_N": 10.54575,
+      "outer": 0,
+      "active_nodes": 13,
+      "min_gap_m": 0.0,
+      "min_active_reaction_N": -0.008046848361417475,
+      "penetrating_nodes": 0,
+      "tensile_nodes": 2
+    }
+  ]
+}

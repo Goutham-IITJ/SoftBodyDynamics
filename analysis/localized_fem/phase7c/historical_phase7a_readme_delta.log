@@ -1,0 +1,16 @@
+....F
+======================================================================
+FAIL: test_frozen_baseline_and_video_bytes_unchanged (test_analysis.LocalizedTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Goutham A.S\Documents\GitHub\SoftBodyDynamics\analysis\localized_experiments\test_analysis.py", line 48, in test_frozen_baseline_and_video_bytes_unchanged
+    for name,value in hashes.items():self.assertEqual(sha(ROOT/name),value,name)
+AssertionError: '01076fa6225451d35e1734e6a6df0a2d2cf4a4d177f06779f91d7a3b00fb8b05' != 'e356986fcc35d93130d8533ed2a84fdb7cfbaaa17563e3df6f89d929d155b78b'
+- 01076fa6225451d35e1734e6a6df0a2d2cf4a4d177f06779f91d7a3b00fb8b05
++ e356986fcc35d93130d8533ed2a84fdb7cfbaaa17563e3df6f89d929d155b78b
+ : README.md
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.396s
+
+FAILED (failures=1)

@@ -1,0 +1,3 @@
+window,start_s,end_s,first_frame,last_frame,right_compression_median_mm,right_compression_range_mm,right_compression_std_mm,right_compression_trend_mm_s,hands_visible_in_cropped_view,hands_off_independently_verified,constant_force_verified
+cycle1_late_hold,4.2,6.2,127,186,12.576699697250298,1.0894179850538155,0.2688861509625908,0.13971612346503634,False,False,False
+cycle2_late_hold,10.0,12.3,301,369,12.920708574268058,1.3606853140480109,0.27560344756841504,0.036673531780566614,False,False,False
