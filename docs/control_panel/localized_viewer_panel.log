@@ -1,0 +1,32 @@
+test_bad_inputs_and_failure (analysis.localized_fem.test_localized.LocalizedTests) ... ok
+test_balance_and_feasibility (analysis.localized_fem.test_localized.LocalizedTests) ... ok
+test_exact_integration_all_meshes (analysis.localized_fem.test_localized.LocalizedTests) ... ok
+test_free_top_and_mesh_volume (analysis.localized_fem.test_localized.LocalizedTests) ... ok
+test_nonaffine_total_potential_gradient (analysis.localized_fem.test_localized.LocalizedTests) ... ok
+test_placement (analysis.localized_fem.test_localized.LocalizedTests) ... ok
+test_symmetry_and_translation (analysis.localized_fem.test_localized.LocalizedTests) ... ok
+test_uniform_full_top_analytical_solution (analysis.localized_fem.test_localized.LocalizedTests) ... ok
+test_zero (analysis.localized_fem.test_localized.LocalizedTests) ... ok
+test_contact_reactivation (analysis.localized_fem.test_support.SupportTests) ... ok
+test_failure_explicit (analysis.localized_fem.test_support.SupportTests) ... ok
+test_full_top_and_zero (analysis.localized_fem.test_support.SupportTests) ... ok
+test_liftoff_and_energy (analysis.localized_fem.test_support.SupportTests) ... ok
+test_reflection_and_translation (analysis.localized_fem.test_support.SupportTests) ... ok
+test_help_and_invalid_inputs (analysis.localized_fem.test_cli.CliTests) ... ok
+test_saved_fullface_example (analysis.localized_fem.test_cli.CliTests) ... ok
+test_saved_localized_sequence_kkt (analysis.localized_fem.test_cli.CliTests) ... ok
+test_timeout_no_solution_export (analysis.localized_fem.test_cli.CliTests) ... ok
+test_canvas_logic_and_controls (analysis.localized_fem.test_view_results.ViewerTests) ... ok
+test_failed_run_has_no_viewer (analysis.localized_fem.test_view_results.ViewerTests) ... ok
+test_launcher_prints_where_to_view (analysis.localized_fem.test_view_results.ViewerTests) ... ok
+test_saved_coordinates_are_not_modified (analysis.localized_fem.test_view_results.ViewerTests) ... ok
+test_failure_and_busy_no_fake_result (analysis.localized_fem.test_control_panel.PanelTests) ... ok
+test_fullface_actual_solve_and_result (analysis.localized_fem.test_control_panel.PanelTests) ... ok
+test_invalid_requests_and_origin (analysis.localized_fem.test_control_panel.PanelTests) ... ok
+test_localized_actual_solve (analysis.localized_fem.test_control_panel.PanelTests) ... ok
+test_slider_and_solve_button_logic (analysis.localized_fem.test_control_panel.PanelTests) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 27.072s
+
+OK

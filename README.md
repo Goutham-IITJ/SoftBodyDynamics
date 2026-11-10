@@ -21,6 +21,20 @@ Using the virtual environment's Python directly avoids PowerShell activation-pol
 
 ## 2. Run the simulator and open the model
 
+### Adjust force in the simulator window
+
+After setup, start the local control panel once:
+
+```powershell
+.\.venv\Scripts\python.exe -B -m analysis.localized_fem.control_panel --open
+```
+
+If you already have the working dependencies installed in your existing Python, use `python -B -m analysis.localized_fem.control_panel --open` instead. Keep that terminal running. In the browser, choose **primary full-face** or **experimental localized**, adjust the force using the number box or slider, and click **Solve & show result**. The solver runs in Python and the new converged mesh appears in the same window; the slider alone does not deform the mesh. You can change the slider's maximum range. Equilibrium playback is optional and slower.
+
+Every solve gets a new folder under `runs/interactive/`; existing results are not overwritten. A failed solve is explicitly reported, and no failed or stale mesh is presented as a new result. The panel listens only on `127.0.0.1`; no hosting, new Python dependencies or account is needed. Press Ctrl+C in the terminal to stop it. The 20 N interface guard is not a validated material/load range. Localized large-force failures and mesh dependence remain; start with modest loads. [Control panel details](docs/control_panel/README.md).
+
+### Run a single case from the command line
+
 Run these **after setup, from the repository folder**. The launcher runs the existing FEM solver, saves results, prints their location and opens a local browser viewer. Use new output folder names; existing results are never overwritten.
 
 **Primary full-face model** — about 5.10 mm compression at 6.5 N:
@@ -88,7 +102,7 @@ The **500 ml mismatch is unresolved**. Calibration RMSE is 0.800 mm; intermediat
 
 ```powershell
 .\.venv\Scripts\python.exe -B demo/check.py
-.\.venv\Scripts\python.exe -B -m unittest analysis.localized_fem.test_localized analysis.localized_fem.test_support analysis.localized_fem.test_cli analysis.localized_fem.test_view_results -v
+.\.venv\Scripts\python.exe -B -m unittest analysis.localized_fem.test_localized analysis.localized_fem.test_support analysis.localized_fem.test_cli analysis.localized_fem.test_view_results analysis.localized_fem.test_control_panel -v
 .\.venv\Scripts\python.exe -B -m analysis.localized_fem.check_package
 ```
 

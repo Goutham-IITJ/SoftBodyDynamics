@@ -1,0 +1,17 @@
+[
+  {
+    "check": "frozen_regression",
+    "exit_code": 0,
+    "runtime_s": 28.51246520000859
+  },
+  {
+    "check": "localized_viewer_panel",
+    "exit_code": 0,
+    "runtime_s": 28.419390199996997
+  },
+  {
+    "check": "package_integrity",
+    "exit_code": 0,
+    "runtime_s": 41.88276659999974
+  }
+]

@@ -36,6 +36,11 @@ def main():
         delta=json.loads(usability_delta.read_text())
         if delta['previous_authorized_sha256']!=expected_readme:errors.append('Reviewer usability delta does not chain to the final release allowance')
         expected_readme=delta['current_readme_sha256']
+    panel_delta=ROOT/'docs/control_panel/readme_delta.json'
+    if panel_delta.exists():
+        delta=json.loads(panel_delta.read_text())
+        if delta['previous_authorized_sha256']!=expected_readme:errors.append('Force control panel README delta does not chain to the usability allowance')
+        expected_readme=delta['current_readme_sha256']
     if actual_readme!=expected_readme:errors.append('README differs from the explicitly authorized documentation delta')
     before=json.loads((HERE/'preservation_before.json').read_text())
     allowed={'analysis\\localized_fem\\solver.py','analysis\\localized_fem\\minimize.py','analysis\\localized_fem\\simulate.py'}
