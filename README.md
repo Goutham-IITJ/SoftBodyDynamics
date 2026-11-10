@@ -1,21 +1,68 @@
 # SoftBodyDynamics
 
-An observation-calibrated, quasi-static 3D tetrahedral FEM model of a sponge under **full-face compression**. Video-derived compression at the first 500/1000 ml cycles fits the material scale **mu = 6999.814990181902 Pa**; force drives the solved mesh, rather than replaying recorded motion.
+An observation-calibrated **3D FEM sponge simulator**. The primary model predicts full-face quasi-static compression; video-derived measurements fit its effective stiffness. The separate localized-loading extension is experimental.
 
-**[Watch the existing 45.2-second demo](demo/outputs/demonstration.mp4)** · [GIF fallback](demo/outputs/demonstration.gif) · [Real-versus-simulation comparison](demo/outputs/comparison_750ml.png) · [Comparison viewer](demo/outputs/index.html)
+**Review without installing:** [Watch the demo GIF](demo/outputs/demonstration.gif) | [View real-versus-simulation comparisons on GitHub](demo/COMPARISON.md)
 
-From the repository root, with dependencies installed and **new output directories**:
+> **Download the 45.2-second video to watch it.** GitHub may say “too large to preview”; this does not mean the video is broken. [Download the MP4](https://github.com/Goutham-IITJ/SoftBodyDynamics/raw/refs/heads/main/demo/outputs/demonstration.mp4), then open the downloaded file. If your player does not support its codec, use the GIF above. No Python is needed to view these results.
+
+## 1. Get the project and install dependencies
+
+Install **Python 3.10** and **Git** first. These examples use Windows PowerShell. If you already cloned the project, skip `git clone` and open a terminal inside your existing `SoftBodyDynamics` folder.
 
 ```powershell
-python -B -m analysis.localized_fem.simulator full-face --force 6.5 --output runs/fullface
-python -B -m analysis.localized_fem.simulator localized --force 0.3 --patch-length-mm 20 --patch-width-mm 30 --center-x-mm 18.25 --center-y-mm 25 --mesh 2 2 1 --output runs/localized
+git clone https://github.com/Goutham-IITJ/SoftBodyDynamics.git
+cd SoftBodyDynamics
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
-The first command runs the **frozen primary simulator** (about 5.10350 mm compression). The second is an inexpensive **experimental traction-patch example**, not validated rigid-card/fingertip contact. Both export reference/solved vertices, elements, applied loads, reactions, convergence diagnostics and a static 3D image. Localized force is in N; patch lengths/coordinates are in mm. Use `--help` for options.
+Using the virtual environment's Python directly avoids PowerShell activation-policy problems. On macOS/Linux, create it with `python3 -m venv .venv`, then use `.venv/bin/python` instead of `.\.venv\Scripts\python.exe` in the install/run commands. Dependencies are NumPy, SciPy, Matplotlib, Pillow and OpenCV. No GPU or external physics engine is required. [Environment and reproduction details](docs/REPRODUCIBILITY.md).
 
-**Limits:** the 500 ml calibration mismatch remains; evaluation is retrospective, not independent prospective validation. Damping/physical recovery time and fingertip force are unidentified. The nominal-force localized prediction failed, and localized mesh dependence remains unresolved.
+## 2. Run the simulator and open the model
 
-![Real specimen versus frozen FEM at 750 ml](demo/outputs/comparison_750ml.png)
+Run these **after setup, from the repository folder**. The launcher runs the existing FEM solver, saves results, prints their location and opens a local browser viewer. Use new output folder names; existing results are never overwritten.
+
+**Primary full-face model** — about 5.10 mm compression at 6.5 N:
+
+```powershell
+.\.venv\Scripts\python.exe -B -m analysis.localized_fem.launch full-face --force 6.5 --sequence --open --output runs/review_fullface
+```
+
+**Experimental localized patch** — a deliberately modest 0.3 N load, so true-scale motion is below 1 mm:
+
+```powershell
+.\.venv\Scripts\python.exe -B -m analysis.localized_fem.launch localized --force 0.3 --patch-length-mm 20 --patch-width-mm 30 --center-x-mm 18.25 --center-y-mm 25 --mesh 2 2 1 --sequence --open --output runs/review_localized
+```
+
+The browser displays **actual solved vertices**, not a replay of the experiment. Drag to rotate, play/step through saved equilibria, and inspect the red force arrow and displacement colors. True scale is the default; optional **5x/10x display magnification is labeled visualization-only** and does not alter the model or numeric results. The force arrow is an input indicator, not a physical bottle/card model. This is a viewer of saved results; change CLI inputs and rerun to simulate a different case.
+
+If no browser window opens, double-click `viewer.html` inside the printed output folder. To view an **existing run without solving again**, for example the original `runs/fullface` or `runs/localized`:
+
+```powershell
+.\.venv\Scripts\python.exe -B -m analysis.localized_fem.view_results runs/fullface --open
+.\.venv\Scripts\python.exe -B -m analysis.localized_fem.view_results runs/localized --open
+```
+
+| File inside your chosen output folder | How to use it |
+|---|---|
+| `viewer.html` | Double-click to open the rotatable 3D result in a browser; no server/CDN needed |
+| `deformed.png` | Final solved 3D image |
+| `sequence/loading_unloading.gif` | Animation when `--sequence` was requested; open in a browser/image viewer |
+| `diagnostics.json` | Force, compression, convergence and support diagnostics |
+| `nodes.csv`, `tetrahedra.csv` | Reference/solved vertices, applied nodal loads and element connectivity |
+
+The older `analysis.localized_fem.simulator` command remains available but **does not open a window automatically**. The new `launch` command adds viewing and clear output messages; it uses the same solver. Run `--help` for options.
+
+## 3. Understand what worked and what did not
+
+| Case | Outcome |
+|---|---|
+| Frozen full-face model | Primary submission; numerically verified and calibrated/evaluated retrospectively. The 500 ml mismatch remains. |
+| Small 0.3 N localized run | **Converged**, with admissible support. The 2/2/1 quick example has about 0.289 mm peak motion; the 4/4/2 example has about 0.464 mm. Both look subtle at true scale, and the difference shows mesh sensitivity. Not a failed solve, but not experimentally validated. |
+| Nominal 10.54575 N half-area run | **Failed at its final load step.** No valid nominal prediction or experimental error score is claimed. |
+
+Localized mesh dependence, unknown fingertip force, lack of independent prospective validation and unidentified damping/physical recovery time remain disclosed. Increasing visual magnification does not resolve those limitations. Playback traverses reversible equilibria; playback time is not physical recovery time.
 
 ## What is verified, fitted, and experimental?
 
@@ -37,27 +84,21 @@ The primary model is **mu = 6999.814990181902 Pa, alpha = 10, beta = 0**, with *
 
 The **500 ml mismatch is unresolved**. Calibration RMSE is 0.800 mm; intermediate-load RMSE is 0.504 mm, versus 0.490 mm for empirical interpolation. Forces assume water density 1 g/ml, unmeasured 75 g bottle tare, g = 9.81 m/s² and stationary full support. Mu is an effective specimen coefficient conditional on these assumptions, not a uniquely identified intrinsic property. See the [calibration report](analysis/calibration/REPORT.md) and [parameter CSV](analysis/calibration/outputs/parameters.csv).
 
-## Run a new full-face force query
-
-Tested in the existing Python 3.10.7 environment. No GPU or external physics engine is required.
+## Verify and reproduce
 
 ```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -B demo/check.py
+.\.venv\Scripts\python.exe -B -m unittest analysis.localized_fem.test_localized analysis.localized_fem.test_support analysis.localized_fem.test_cli analysis.localized_fem.test_view_results -v
+.\.venv\Scripts\python.exe -B -m analysis.localized_fem.check_package
 ```
 
-For macOS/Linux, activate with `source .venv/bin/activate`. The declared dependencies cover the simulator, renderers and tests; historical extraction additionally uses pandas. A clean installation on other platforms has not been verified. See [dependency and reproduction details](docs/REPRODUCIBILITY.md).
+The authorized-delta checker preserves historical manifests while explicitly accounting for requested README revisions. Existing demo/calibration generators write fixed historical output directories; use a separate working copy for regeneration, as described in the reproduction guide. The original demonstration and measurements remain unchanged.
 
-```powershell
-python -B demo/check.py
-python -B -m unittest analysis.localized_fem.test_localized analysis.localized_fem.test_support analysis.localized_fem.test_cli -v
-python -B -m analysis.localized_fem.check_package
-```
+### Run a new full-face force query
 
-The authorized-delta package checker preserves historical manifests while explicitly accounting for the requested README revisions. The older whole-checkpoint checks still flag the README hash; this is not a changed model or measurement. The release audit records that delta separately. Existing demo/calibration generators write fixed historical output directories: **do not run them over the submitted results**. Reproduction guidance explains using a separate working copy.
+Use the primary command in section 2 with a different `--force` and a new output directory. It calls the unchanged frozen Stage 6 API. Its full-face compression search limit remains 13 mm.
 
-The existing [demo GIF](demo/outputs/demonstration.gif) and [HTML comparison](demo/outputs/index.html) need no solver run. Download/clone before opening the HTML locally; GitHub displays its source. The MP4 uses MPEG-4 Part 2, so use the GIF if your browser cannot play it. Playback is a sequence of reversible equilibria, not physical recovery time. No new demo animation was generated for the final release.
+The [GitHub comparison page](demo/COMPARISON.md) requires no local setup. The older `demo/outputs/index.html` is **local HTML, not a hosted website**: after cloning, open it with `Start-Process .\demo\outputs\index.html` on Windows. Clicking its GitHub file page displays source code rather than rendering the presentation.
 
 ## Experimental localized loading
 

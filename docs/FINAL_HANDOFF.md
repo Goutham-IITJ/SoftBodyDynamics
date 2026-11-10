@@ -18,6 +18,8 @@ GitHub displays HTML source rather than deploying the viewer. Clone/download and
 
 ## Run
 
+Reviewer usability update (10 November 2026): follow the [root README setup and launcher instructions](../README.md). The new `analysis.localized_fem.launch` entry point wraps the same solver and opens the saved-model viewer with `--open`. The original `simulator` commands below export files without opening a window. For comparisons on GitHub, use the [rendered comparison page](../demo/COMPARISON.md); the older HTML requires local opening after cloning. Download the MP4 to watch it if GitHub cannot preview it.
+
 From the repository root, using Python 3.10 and dependencies in requirements.txt, with new output directories:
 
 ```powershell

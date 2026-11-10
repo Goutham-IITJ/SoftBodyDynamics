@@ -1,0 +1,86 @@
+"""Offline browser view of saved FEM results. Never solves or changes physics."""
+import argparse
+import json
+from pathlib import Path
+import webbrowser
+import numpy as np
+
+
+def build_view(directory):
+    directory=Path(directory).resolve()
+    if not (directory/'nodes.csv').is_file():
+        raise ValueError('No solved nodes.csv in this folder. A failed solve has no model to display.')
+    nodes=np.loadtxt(directory/'nodes.csv',delimiter=',',skiprows=1,ndmin=2)
+    faces=np.loadtxt(directory/'boundary_triangles.csv',delimiter=',',skiprows=1,dtype=int,ndmin=2)
+    diagnostics=json.loads((directory/'diagnostics.json').read_text(encoding='utf-8'))
+    inputs=json.loads((directory/'inputs.json').read_text(encoding='utf-8'))
+    sequence=directory/'sequence/solved_states.npz'
+    if sequence.exists():
+        with np.load(sequence) as saved:
+            states=saved['positions'].tolist();forces=saved['force_N'].tolist()
+    else:states=[nodes[:,4:7].tolist()];forces=[diagnostics['force_N']]
+    data=dict(reference=nodes[:,1:4].tolist(),faces=faces.tolist(),states=states,forces=forces,
+              diagnostics=diagnostics,inputs=inputs,mode=inputs.get('mode','localized'),
+              centroid=diagnostics.get('centroid_xy_m',[.0365,.025]))
+    encoded=json.dumps(data,allow_nan=False).replace('<','\\u003c')
+    page=TEMPLATE.replace('__SAVED_DATA__',encoded)
+    target=directory/'viewer.html'
+    target.write_bytes(page.encode('utf-8'))
+    return target
+
+
+TEMPLATE='''<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SoftBodyDynamics | Saved FEM result</title>
+<style>
+body{font:16px/1.5 system-ui,sans-serif;background:#edf2f7;color:#182b3d;margin:0}main{max-width:1150px;margin:auto;padding:24px}h1{margin:0;font-size:30px}.muted{color:#516376}.box{background:white;padding:18px;border-radius:10px;margin:14px 0}.controls{display:flex;flex-wrap:wrap;gap:18px;align-items:center}button,select{font:inherit;padding:6px 12px}canvas{width:100%;height:490px;display:block;touch-action:none;background:#fff;border-radius:8px;border:1px solid #c8d5e1}input[type=range]{width:230px}.metrics{display:flex;gap:28px;flex-wrap:wrap}.metrics strong{display:block;font-size:24px}.warn{border-left:5px solid #d18b16}.tag{font-weight:700;color:#89510a}a{color:#075d9b}@media(max-width:650px){canvas{height:350px}main{padding:12px}}
+</style><main>
+<h1>SoftBodyDynamics: saved FEM result</h1><p id="scope" class="muted"></p>
+<div class="box controls"><button id="play">Play equilibria</button><label>State <input id="state" type="range" min="0" step="1" value="0"></label><label>Display displacement <select id="magnification"><option value="1">1x (true scale)</option><option value="5">5x (visualization only)</option><option value="10">10x (visualization only)</option></select></label><label><input id="reference" type="checkbox" checked> Reference outline</label></div>
+<canvas id="mesh" aria-label="Rotatable 3D solved tetrahedral mesh"></canvas>
+<p class="muted">Drag to rotate. Blue backing = rigid support; surface colors show downward displacement (blue low, red high), not stress. Red arrow = applied resultant force. No card or finger contact is drawn.</p>
+<div class="box metrics"><div>Applied force<strong id="force"></strong></div><div>Actual peak downward motion<strong id="peak"></strong></div><div>Display scale<strong id="scale"></strong></div></div>
+<div class="box warn"><b id="status"></b><p id="explanation"></p><p>These are discrete solved quasi-static states. Reverse playback reuses the reversible equilibria; playback speed is not physical recovery time. Display magnification never changes forces, measurements or solved coordinates.</p></div>
+<div class="box"><b>Saved files</b><p><a href="deformed.png">Final 3D image</a> | <a href="diagnostics.json">Convergence/force diagnostics</a> | <a href="nodes.csv">Reference + solved vertices and loads</a> | <a href="tetrahedra.csv">Elements</a><span id="animation"></span></p><p>This is a viewer of exported simulator results. To change force, patch or mesh, rerun the Python CLI into a new output directory. No solver runs in this browser.</p></div>
+</main><script id="saved-data" type="application/json">__SAVED_DATA__</script><script>
+const D=JSON.parse(document.getElementById('saved-data').textContent);
+const C=document.getElementById('mesh'),ctx=C.getContext('2d');
+const slider=document.getElementById('state'),mag=document.getElementById('magnification');
+const order=D.states.map((_,i)=>i).concat(D.states.slice(0,-1).map((_,i)=>D.states.length-2-i));
+slider.max=order.length-1;slider.value=D.states.length-1;
+let yaw=.7,pitch=.52,drag=null,timer=null;
+document.getElementById('scope').textContent=D.mode==='full-face'?'Primary frozen full-face FEM: prescribed horizontal platen, calibrated effective stiffness.':'EXPERIMENTAL rectangular dead traction: free top; '+(D.diagnostics.support||'bilateral fixed-normal support')+'. Not rigid-card contact.';
+document.getElementById('status').textContent=D.mode==='full-face'?'Converged numerical result; retrospective physical evaluation only.':'Converged numerical result. Localized accuracy remains experimental.';
+document.getElementById('explanation').textContent=D.mode==='full-face'?'The frozen baseline is the primary submission. Its 500 ml mismatch, prospective-validation gap and unidentified recovery timing remain.':'A sub-millimetre displacement can be hard to see at true scale. Use the color map or explicitly labeled 5x/10x display scale to inspect it. This does not fix mesh dependence. The separate nominal 10.54575 N half-area attempt failed; this small-load result is not that failed case.';
+if(D.states.length>1)document.getElementById('animation').innerHTML=' | <a href="sequence/loading_unloading.gif">Saved GIF</a>';
+else document.getElementById('play').disabled=true;
+function project(p,w,h){const x=(p[0]-.0365)*1000,y=(p[1]-.025)*1000,z=(p[2]-.015)*1000;const a=Math.cos(yaw)*x-Math.sin(yaw)*y,b=Math.sin(yaw)*x+Math.cos(yaw)*y;return [w/2+a*Math.min(w/110,h/75),h*.57+(Math.sin(pitch)*b-Math.cos(pitch)*z)*Math.min(w/110,h/75),Math.cos(pitch)*b+Math.sin(pitch)*z];}
+function draw(){const w=C.clientWidth,h=C.clientHeight;C.width=w*devicePixelRatio;C.height=h*devicePixelRatio;ctx.setTransform(devicePixelRatio,0,0,devicePixelRatio,0,0);ctx.clearRect(0,0,w,h);
+const k=order[Number(slider.value)],x=D.states[k],m=Number(mag.value),X=D.reference;
+const display=x.map((p,i)=>p.map((v,a)=>X[i][a]+m*(v-X[i][a])));
+let delta=x.map((p,i)=>(X[i][2]-p[2])*1000),peak=Math.max(...delta),colorMax=Math.max(...D.states.flatMap(s=>s.map((p,i)=>(X[i][2]-p[2])*1000)),.00001);
+function polygon(points,fill,stroke){ctx.beginPath();points.forEach((p,i)=>{let q=project(p,w,h);i?ctx.lineTo(q[0],q[1]):ctx.moveTo(q[0],q[1]);});ctx.closePath();if(fill){ctx.fillStyle=fill;ctx.fill();}ctx.strokeStyle=stroke;ctx.lineWidth=.65;ctx.stroke();}
+polygon([[0,0,0],[.073,0,0],[.073,0,.007],[0,0,.007]],'#69a18b','#3f7564');polygon([[.073,0,0],[.073,.05,0],[.073,.05,.007],[.073,0,.007]],'#4c8776','#3f7564');
+let sorted=D.faces.map(f=>({f,depth:f.reduce((s,i)=>s+project(display[i],w,h)[2],0)/3})).sort((a,b)=>b.depth-a.depth);
+for(const {f} of sorted){let d=f.reduce((s,i)=>s+delta[i],0)/3,t=Math.max(0,Math.min(1,d/colorMax));polygon(f.map(i=>display[i]),`hsl(${215-205*t} 65% 64%)`,'#385266');}
+if(document.getElementById('reference').checked){ctx.setLineDash([4,4]);const corners=[[0,0,.027],[.073,0,.027],[.073,.05,.027],[0,.05,.027]];polygon(corners,null,'#253c51');ctx.setLineDash([]);}
+const f=D.forces[k];if(f>0){let a=project([D.centroid[0],D.centroid[1],.044],w,h),b=project([D.centroid[0],D.centroid[1],.029],w,h);ctx.strokeStyle='#c82d32';ctx.fillStyle='#c82d32';ctx.lineWidth=4;ctx.beginPath();ctx.moveTo(a[0],a[1]);ctx.lineTo(b[0],b[1]);ctx.stroke();let angle=Math.atan2(b[1]-a[1],b[0]-a[0]);ctx.beginPath();ctx.moveTo(b[0],b[1]);ctx.lineTo(b[0]-14*Math.cos(angle-.5),b[1]-14*Math.sin(angle-.5));ctx.lineTo(b[0]-14*Math.cos(angle+.5),b[1]-14*Math.sin(angle+.5));ctx.fill();ctx.font='bold 15px system-ui';ctx.fillText(f.toFixed(3)+' N downward',a[0]+10,a[1]);}
+ctx.fillStyle='#243b50';ctx.font='12px system-ui';ctx.fillText('Reference foam: 73 x 50 x 20 mm; backing: 7 mm',12,h-14);
+document.getElementById('force').textContent=f.toFixed(3)+' N';document.getElementById('peak').textContent=peak.toFixed(3)+' mm';document.getElementById('scale').textContent=m===1?'1x true scale':m+'x visual only';}
+C.addEventListener('pointerdown',e=>{drag=[e.clientX,e.clientY];C.setPointerCapture(e.pointerId);});C.addEventListener('pointermove',e=>{if(drag){yaw+=(e.clientX-drag[0])*.008;pitch=Math.max(-1,Math.min(1.3,pitch+(e.clientY-drag[1])*.008));drag=[e.clientX,e.clientY];draw();}});C.addEventListener('pointerup',()=>drag=null);
+slider.oninput=draw;mag.onchange=draw;document.getElementById('reference').onchange=draw;window.onresize=draw;
+document.getElementById('play').onclick=()=>{if(timer){clearInterval(timer);timer=null;document.getElementById('play').textContent='Play equilibria';}else{document.getElementById('play').textContent='Pause';timer=setInterval(()=>{slider.value=(Number(slider.value)+1)%order.length;draw();},450);}};draw();
+</script></html>'''
+
+
+def main():
+    p=argparse.ArgumentParser(description='View saved FEM output in an offline browser. No new solve or physics changes.')
+    p.add_argument('directory',type=Path);p.add_argument('--open',action='store_true',help='Open the generated viewer in your default browser')
+    args=p.parse_args()
+    try:target=build_view(args.directory)
+    except (ValueError,OSError) as exc:p.exit(1,f'Cannot display result: {exc}\n')
+    print(f'Open this file in your browser: {target}')
+    if args.open:webbrowser.open(target.as_uri())
+
+
+if __name__=='__main__':main()

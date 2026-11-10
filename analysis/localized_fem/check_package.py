@@ -31,6 +31,11 @@ def main():
         expected_readme=delta['final_readme_sha256']
         if delta.get('newline_policy')=='normalize CRLF to LF for final README only':
             actual_readme=hashlib.sha256((ROOT/'README.md').read_bytes().replace(b'\r\n',b'\n')).hexdigest()
+    usability_delta=ROOT/'docs/usability/readme_delta.json'
+    if usability_delta.exists():
+        delta=json.loads(usability_delta.read_text())
+        if delta['previous_authorized_sha256']!=expected_readme:errors.append('Reviewer usability delta does not chain to the final release allowance')
+        expected_readme=delta['current_readme_sha256']
     if actual_readme!=expected_readme:errors.append('README differs from the explicitly authorized documentation delta')
     before=json.loads((HERE/'preservation_before.json').read_text())
     allowed={'analysis\\localized_fem\\solver.py','analysis\\localized_fem\\minimize.py','analysis\\localized_fem\\simulate.py'}
