@@ -1,0 +1,19 @@
+{
+  "mode": "frozen full-face platen",
+  "force_N": 6.5,
+  "compression_mm": 5.103504445816268,
+  "free_residual_N": 5.440092820663267e-15,
+  "min_J": 0.7448247777091859,
+  "support_reaction_N": 6.500000000036773,
+  "force_balance_N": 2.142730437526552e-14,
+  "moment_balance_Nm": 7.979727989493313e-16,
+  "runtime_s": 1.6262870000000476,
+  "iterations": 0,
+  "termination": "converged_free_force_residual",
+  "mesh": [
+    2,
+    2,
+    2
+  ],
+  "note": "Platen reactions define applied nodal distribution; this is not prescribed uniform patch traction."
+}

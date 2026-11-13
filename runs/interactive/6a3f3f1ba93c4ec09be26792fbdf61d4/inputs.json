@@ -1,0 +1,12 @@
+{
+  "mode": "full-face",
+  "force": 6.5,
+  "output": "C:\\Users\\Goutham A.S\\Documents\\GitHub\\SoftBodyDynamics\\runs\\interactive\\6a3f3f1ba93c4ec09be26792fbdf61d4",
+  "sequence": true,
+  "material": {
+    "mu_Pa": 6999.814990181902,
+    "alpha": 10,
+    "beta": 0
+  },
+  "capability": "frozen full-face platen"
+}

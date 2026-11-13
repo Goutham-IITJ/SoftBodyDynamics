@@ -1,0 +1,56 @@
+[
+  {
+    "force_N": -0.0,
+    "outer": 0,
+    "active_nodes": 9,
+    "min_gap_m": 0.0,
+    "min_active_reaction_N": 3.274644181705012e-17,
+    "penetrating_nodes": 0,
+    "tensile_nodes": 0
+  },
+  {
+    "force_N": 0.5000000000000001,
+    "outer": 0,
+    "active_nodes": 9,
+    "min_gap_m": 0.0,
+    "min_active_reaction_N": -0.001600742787804026,
+    "penetrating_nodes": 0,
+    "tensile_nodes": 3
+  },
+  {
+    "force_N": 0.5000000000000001,
+    "outer": 1,
+    "active_nodes": 6,
+    "min_gap_m": 0.0,
+    "min_active_reaction_N": 0.019292987248246345,
+    "penetrating_nodes": 0,
+    "tensile_nodes": 0
+  },
+  {
+    "force_N": 1.0000000000000002,
+    "outer": 0,
+    "active_nodes": 6,
+    "min_gap_m": 0.0,
+    "min_active_reaction_N": 0.0379993786983564,
+    "penetrating_nodes": 0,
+    "tensile_nodes": 0
+  },
+  {
+    "force_N": 1.5,
+    "outer": 0,
+    "active_nodes": 6,
+    "min_gap_m": 0.0,
+    "min_active_reaction_N": 0.0556649924513896,
+    "penetrating_nodes": 0,
+    "tensile_nodes": 0
+  },
+  {
+    "force_N": 2.0000000000000004,
+    "outer": 0,
+    "active_nodes": 6,
+    "min_gap_m": 0.0,
+    "min_active_reaction_N": 0.0714305310573311,
+    "penetrating_nodes": 0,
+    "tensile_nodes": 0
+  }
+]

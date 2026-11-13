@@ -1,0 +1,59 @@
+{
+  "note": "Discrete solved equilibria; reverse path reuses the same reversible hyperelastic states. Playback time is arbitrary, no dynamics or identified recovery.",
+  "frames": [
+    {
+      "frame": 0,
+      "solved_state": 0,
+      "force_N": 0.0,
+      "branch": "loading"
+    },
+    {
+      "frame": 1,
+      "solved_state": 1,
+      "force_N": 1.625,
+      "branch": "loading"
+    },
+    {
+      "frame": 2,
+      "solved_state": 2,
+      "force_N": 3.25,
+      "branch": "loading"
+    },
+    {
+      "frame": 3,
+      "solved_state": 3,
+      "force_N": 4.875,
+      "branch": "loading"
+    },
+    {
+      "frame": 4,
+      "solved_state": 4,
+      "force_N": 6.5,
+      "branch": "loading"
+    },
+    {
+      "frame": 5,
+      "solved_state": 3,
+      "force_N": 4.875,
+      "branch": "reversible_unloading"
+    },
+    {
+      "frame": 6,
+      "solved_state": 2,
+      "force_N": 3.25,
+      "branch": "reversible_unloading"
+    },
+    {
+      "frame": 7,
+      "solved_state": 1,
+      "force_N": 1.625,
+      "branch": "reversible_unloading"
+    },
+    {
+      "frame": 8,
+      "solved_state": 0,
+      "force_N": 0.0,
+      "branch": "reversible_unloading"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "mode": "full-face",
+  "force": 6.5,
+  "output": "runs\\fullface",
+  "sequence": true,
+  "material": {
+    "mu_Pa": 6999.814990181902,
+    "alpha": 10,
+    "beta": 0
+  },
+  "capability": "frozen full-face platen"
+}
